@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>.ico-ccphotos-az .cls-1{fill:#e1e1e1;} .ico-ccphotos-az .cls-2{fill:none;}</style>
+  </defs>
+  <title>ico-ccphotos-az</title>
+  <g class="ico-ccphotos-az" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="SOrderAscending">
+        <g id="_Group_" data-name="&lt;Group&gt;">
+          <path class="cls-1" d="M13.23,7.14l-.48,1.48a.11.11,0,0,1-.11.08H11.48c-.07,0-.09,0-.08-.1l2-5.77a1.83,1.83,0,0,0,.1-.61.07.07,0,0,1,.06-.07h1.6s.07,0,.08.06l2.27,6.4s0,.09-.05.09h-1.3a.1.1,0,0,1-.11-.07l-.51-1.49Zm1.94-1.25c-.2-.66-.6-1.87-.79-2.58h0c-.16.67-.52,1.77-.78,2.58Z"/>
+        </g>
+        <g id="_Group_2" data-name="&lt;Group&gt;">
+          <path class="cls-1" d="M11.93,18s-.09,0-.09-.09v-.77a.23.23,0,0,1,0-.13l3.3-4.32H12c-.06,0-.09,0-.08-.08l.16-1.08c0-.06,0-.08.1-.08h4.7c.05,0,.06,0,.06.07v.83a.25.25,0,0,1,0,.16l-3.23,4.24h3.42s.07,0,0,.1l-.18,1.07a.09.09,0,0,1-.1.08Z"/>
+        </g>
+        <path id="_Path_" data-name="&lt;Path&gt;" class="cls-1" d="M8.48,13.15H6.25A.25.25,0,0,1,6,12.9V2.4a.25.25,0,0,0-.25-.25H4.25A.25.25,0,0,0,4,2.4V12.9a.25.25,0,0,1-.25.25H1.52a.25.25,0,0,0-.2.41l3.47,4.35a.25.25,0,0,0,.39,0l3.49-4.35A.25.25,0,0,0,8.48,13.15Z"/>
+        <rect class="cls-2" width="20" height="20"/>
+      </g>
+    </g>
+  </g>
+</svg>

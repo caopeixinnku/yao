@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D-materiaalpipet",
+        "DESCRIPTION": "Laadt het geselecteerde materiaal van een 3D-object"
+    },
+    "3DDM": {
+        "TITLE": "3D-materiaal slepen",
+        "DESCRIPTION": "Sleept materiaal dat is geladen in de tool naar het doel van een 3D-object"
+    },
+    "AKNT": {
+        "TITLE": "Ankerpunt toevoegen",
+        "DESCRIPTION": "Voegt ankerpunten toe aan uw paden"
+    },
+    "ARTT": {
+        "TITLE": "Tekengebied",
+        "DESCRIPTION": "Maakt, verplaatst of vergroot/verkleint meerdere canvassen"
+    },
+    "AHBT": {
+        "TITLE": "Tool Tekeninghistorie",
+        "DESCRIPTION": "Brengt gestileerde streken met pixels uit een eerdere status van de afbeelding aan"
+    },
+    "SERA": {
+        "TITLE": "Achtergrondgummetje",
+        "DESCRIPTION": "Wist de pixels van een kleur waarvan een monster is genomen"
+    },
+    "BLUR": {
+        "TITLE": "Vervagen",
+        "DESCRIPTION": "Vervaagt gebieden in een afbeelding"
+    },
+    "PNTB": {
+        "TITLE": "Penseel",
+        "DESCRIPTION": "Tekent aangepaste penseelstreken"
+    },
+    "BURN": {
+        "TITLE": "Doordrukken",
+        "DESCRIPTION": "Maakt gebieden in een afbeelding donkerder"
+    },
+    "STAM": {
+        "TITLE": "Kloonstempel",
+        "DESCRIPTION": "Tekent met pixels uit een ander deel van de afbeelding"
+    },
+    "CRBT": {
+        "TITLE": "Kleur vervangen",
+        "DESCRIPTION": "Verft de geselecteerde kleur over een bestaande kleur heen"
+    },
+    "COLS": {
+        "TITLE": "Kleurenpipet",
+        "DESCRIPTION": "Toont de waarden voor de kleuren in een afbeelding"
+    },
+    "RCMP": {
+        "TITLE": "Verplaatsen met behoud van inhoud",
+        "DESCRIPTION": "Selecteert en verplaatst een deel van een afbeelding en vult het achtergelaten gebied automatisch"
+    },
+    "COUN": {
+        "TITLE": "Tellen",
+        "DESCRIPTION": "Telt het aantal objecten in een afbeelding"
+    },
+    "CKNT": {
+        "TITLE": "Ankerpunt omzetten",
+        "DESCRIPTION": "Bewerkt vormen en paden door boog- en hoekankerpunten om te zetten"
+    },
+    "CROP": {
+        "TITLE": "Uitsnijden",
+        "DESCRIPTION": "Snijdt of vergroot de randen van een afbeelding"
+    },
+    "CUSH": {
+        "TITLE": "Aangepaste vorm",
+        "DESCRIPTION": "Tekent vormen vanuit een lijst met aangepaste vormen"
+    },
+    "DKNT": {
+        "TITLE": "Ankerpunt verwijderen",
+        "DESCRIPTION": "Verwijdert ankerpunten en verandert de vorm van paden  "
+    },
+    "PTHA": {
+        "TITLE": "Direct selecteren",
+        "DESCRIPTION": "Selecteert de individuele ankerpunten en segmenten in een pad"
+    },
+    "DODG": {
+        "TITLE": "Tegenhouden",
+        "DESCRIPTION": "Maakt gebieden van een afbeelding lichter"
+    },
+    "ELPS": {
+        "TITLE": "Ovaal",
+        "DESCRIPTION": "Tekent ovalen"
+    },
+    "ELMT": {
+        "TITLE": "Ovaal selectiekader",
+        "DESCRIPTION": "Maakt een selectie in de vorm van een ovaal"
+    },
+    "ERAS": {
+        "TITLE": "Gummetje",
+        "DESCRIPTION": "Wijzigt pixels van de achtergrondkleur of maakt ze transparant"
+    },
+    "EYED": {
+        "TITLE": "Pipet",
+        "DESCRIPTION": "Neemt kleurmonsters uit een afbeelding"
+    },
+    "MPEN": {
+        "TITLE": "Pen voor vrije vorm",
+        "DESCRIPTION": "Voegt ankerpunten toe terwijl u paden of vormen tekent"
+    },
+    "BNDT": {
+        "TITLE": "Verloop",
+        "DESCRIPTION": "Laat verschillende kleuren geleidelijk in elkaar overgaan"
+    },
+    "HAND": {
+        "TITLE": "Handje",
+        "DESCRIPTION": "Versleept verschillende delen van een afbeelding"
+    },
+    "STMM": {
+        "TITLE": "Retoucheerpenseel",
+        "DESCRIPTION": "Repareert onvolkomenheden met pixels uit een ander deel van de afbeelding"
+    },
+    "HSTB": {
+        "TITLE": "Historiepenseel",
+        "DESCRIPTION": "Herstelt delen van een afbeelding tot een eerdere staat"
+    },
+    "TXBX": {
+        "TITLE": "Tool Horizontale tekst",
+        "DESCRIPTION": "Voegt horizontale tekst toe"
+    },
+    "TYPS": {
+        "TITLE": "Masker voor horizontale tekst",
+        "DESCRIPTION": "Maakt een selectie in de vorm van horizontale tekst"
+    },
+    "LASO": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Maakt selecties uit de losse pols"
+    },
+    "LINT": {
+        "TITLE": "Lijn",
+        "DESCRIPTION": "Trekt lijnen"
+    },
+    "MERA": {
+        "TITLE": "Tovergummetje",
+        "DESCRIPTION": "Wist vergelijkbare kleurgebieden met één klik"
+    },
+    "WAND": {
+        "TITLE": "Toverstaf",
+        "DESCRIPTION": "Selecteert vergelijkbare kleurgebieden in een afbeelding"
+    },
+    "MLAS": {
+        "TITLE": "Magnetische lasso",
+        "DESCRIPTION": "Maakt een selectie via uitlijning op afbeeldingsranden"
+    },
+    "WETB": {
+        "TITLE": "Mixerpenseel",
+        "DESCRIPTION": "Simuleert echte schildertechnieken, zoals het mengen van kleuren en het variëren van de natheid van de verf"
+    },
+    "LMVR": {
+        "TITLE": "Verplaatsen",
+        "DESCRIPTION": "Verplaatst een selectie of laag"
+    },
+    "TXTA": {
+        "TITLE": "Notitie",
+        "DESCRIPTION": "Maakt notities die u aan een afbeelding of bestand kunt koppelen"
+    },
+    "BUCK": {
+        "TITLE": "Emmertje",
+        "DESCRIPTION": "Vult vergelijkbare aaneengesloten kleurgebieden met de voorgrondkleur"
+    },
+    "PTCH": {
+        "TITLE": "Reparatie",
+        "DESCRIPTION": "Vervangt een geselecteerd gebied met behulp van een patroon of pixels uit een ander deel van de afbeelding"
+    },
+    "PCST": {
+        "TITLE": "Padselectie",
+        "DESCRIPTION": "Selecteert een heel pad"
+    },
+    "STMP": {
+        "TITLE": "Patroonstempel",
+        "DESCRIPTION": "Tekent met een gekozen patroon"
+    },
+    "PENT": {
+        "TITLE": "Pen",
+        "DESCRIPTION": "Maakt en wijzigt paden of vormen met ankerpunten en handgrepen"
+    },
+    "PENC": {
+        "TITLE": "Potlood",
+        "DESCRIPTION": "Tekent penseelstreken met harde randen"
+    },
+    "PCRP": {
+        "TITLE": "Uitsnijden met perspectief",
+        "DESCRIPTION": "Snijdt een afbeelding uit om vervorming die is veroorzaakt door perspectief te corrigeren"
+    },
+    "POLY": {
+        "TITLE": "Veelhoek",
+        "DESCRIPTION": "Tekent veelhoeken"
+    },
+    "PGON": {
+        "TITLE": "Veelhoeklasso",
+        "DESCRIPTION": "Maakt een selectie met rechte lijnen"
+    },
+    "QKSL": {
+        "TITLE": "tool Snelle selectie",
+        "DESCRIPTION": "Maakt een selectie door de randen in een afbeelding te zoeken en te volgen"
+    },
+    "RECT": {
+        "TITLE": "Rechthoek",
+        "DESCRIPTION": "Tekent rechthoeken"
+    },
+    "RGMT": {
+        "TITLE": "Rechthoekig selectiekader",
+        "DESCRIPTION": "Maakt een selectie in de vorm van een rechthoek"
+    },
+    "RDEY": {
+        "TITLE": "Rode ogen verwijderen",
+        "DESCRIPTION": "Verhelpt het rode-ogeneffect dat wordt veroorzaakt door een cameraflitser"
+    },
+    "ROTT": {
+        "TITLE": "Weergave roteren",
+        "DESCRIPTION": "Draait de weergave van een afbeelding"
+    },
+    "RRCT": {
+        "TITLE": "Afgeronde rechthoek",
+        "DESCRIPTION": "Tekent afgeronde rechthoeken"
+    },
+    "MEAT": {
+        "TITLE": "Liniaal",
+        "DESCRIPTION": "Meet afstanden en hoeken in een afbeelding"
+    },
+    "SHAR": {
+        "TITLE": "Verscherpen",
+        "DESCRIPTION": "Maakt de zachte randen van een afbeelding scherper"
+    },
+    "SRMT": {
+        "TITLE": "Selectiekader één rij",
+        "DESCRIPTION": "Maakt een horizontale selectie die één pixel hoog is"
+    },
+    "SCMT": {
+        "TITLE": "Selectiekader één kolom",
+        "DESCRIPTION": "Maakt een verticale selectie die één pixel breed is"
+    },
+    "SLCT": {
+        "TITLE": "Segment",
+        "DESCRIPTION": "Snijdt een afbeelding in kleinere secties die geschikt zijn voor webontwerp"
+    },
+    "SLST": {
+        "TITLE": "Segmentselectie",
+        "DESCRIPTION": "Selecteert, verplaatst en vergroot/verkleint segmenten van een afbeelding"
+    },
+    "SMUD": {
+        "TITLE": "Natte vinger",
+        "DESCRIPTION": "Verzacht kleuren in een afbeelding of geeft deze een vlekeffect"
+    },
+    "SATU": {
+        "TITLE": "Spons",
+        "DESCRIPTION": "Verandert de kleurverzadiging van delen in een afbeelding"
+    },
+    "SPHB": {
+        "TITLE": "tool Snel retoucheerpenseel",
+        "DESCRIPTION": "Verwijdert vlekken en onvolkomenheden"
+    },
+    "TXBV": {
+        "TITLE": "Verticale tekst",
+        "DESCRIPTION": "Voegt verticale tekst toe"
+    },
+    "VTYS": {
+        "TITLE": "Masker voor verticale tekst",
+        "DESCRIPTION": "Maakt een selectie in de vorm van verticale tekst"
+    },
+    "ZOOM": {
+        "TITLE": "Zoomen",
+        "DESCRIPTION": "Vergroot of verkleint de weergave van een afbeelding"
+    },
+    "CPEN": {
+        "TITLE": "Krommingspen",
+        "DESCRIPTION": "Maakt of wijzigt paden of vormen met behulp van punten"
+    },
+    "PMHA": {
+        "TITLE": "Handje",
+        "DESCRIPTION": "Versleept verschillende delen van een afbeelding"
+    },
+    "PMZM": {
+        "TITLE": "Zoomen",
+        "DESCRIPTION": "Vergroot of verkleint de weergave van een afbeelding"
+    },
+    "PMDB": {
+        "TITLE": "Monsterpenseel",
+        "DESCRIPTION": "[10346731] €_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Maakt selecties uit de losse pols"
+    },
+    "TRY_IT": "Leer het volgende",
+    "ADVANCED": "Geavanceerd:"
+}

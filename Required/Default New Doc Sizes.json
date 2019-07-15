@@ -1,0 +1,3208 @@
+
+{
+    "sections": [
+        {
+            "section": "uspaper",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Uspapper/Letter/Name=Letter",
+                    "width": "$$$/private/DefaultNewDocSizes/Uspapper/Letter/Width=8.5",
+                    "height": "$$$/private/DefaultNewDocSizes/Uspapper/Letter/Height=11",
+                    "units": "$$$/private/DefaultNewDocSizes/Uspapper/Letter/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Uspapper/Legal/Name=Legal",
+                    "width": "$$$/private/DefaultNewDocSizes/Uspapper/Legal/Width=8.5",
+                    "height": "$$$/private/DefaultNewDocSizes/Uspapper/Legal/Height=14",
+                    "units": "$$$/private/DefaultNewDocSizes/Uspapper/Legal/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Uspapper/Tabloid/Name=Tabloid",
+                    "width": "$$$/private/DefaultNewDocSizes/Uspapper/Tabloid/Width=11",
+                    "height": "$$$/private/DefaultNewDocSizes/Uspapper/Tabloid/Height=17",
+                    "units": "$$$/private/DefaultNewDocSizes/Uspapper/Tabloid/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                }
+            ]
+        },
+        {
+            "section": "europaper",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/A4/Name=A4",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/A4/Width=210",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/A4/Height=297",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/A4/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/A6/Name=A6",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/A6/Width=105",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/A6/Height=148",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/A6/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/A5/Name=A5",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/A5/Width=148",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/A5/Height=210",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/A5/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/A3/Name=A3",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/A3/Width=297",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/A3/Height=420",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/A3/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/B5/Name=B5",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/B5/Width=176",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/B5/Height=250",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/B5/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/B5JIS/Name=B5 (JIS)",
+                    "enable": "$$$/public/DefaultNewDocSizes/Europaper/B5JIS/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/B5JIS/Width=182",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/B5JIS/Height=257",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/B5JIS/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/B4/Name=B4",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/B4/Width=250",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/B4/Height=353",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/B4/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/B4JIS/Name=B4 (JIS)",
+                    "enable": "$$$/public/DefaultNewDocSizes/Europaper/B4JIS/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/B4JIS/Width=257",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/B4JIS/Height=364",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/B4JIS/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/B3/Name=B3",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/B3/Width=353",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/B3/Height=500",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/B3/Unit=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/B3JIS/Name=B3 (JIS)",
+                    "enable": "$$$/public/DefaultNewDocSizes/Europaper/B3JIS/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/B3JIS/Width=364",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/B3JIS/Height=515",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/B3JIS/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/C4/Name=C4",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/C4/Width=229",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/C4/Height=324",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/C4/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/C5/Name=C5",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/C5/Width=162",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/C5/Height=229",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/C5/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/C6/Name=C6",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/C6/Name/Width=114",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/C6/Height=162",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/C6/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/DL/Name=DL",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/DL/Width=110",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/DL/Height=220",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/DL/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "separator",
+                    "enable": "$$$/public/DefaultNewDocSizes/Europaper/JapanesePostCard/Seperator/Enable=false",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Europaper/JapanesePostCard/Name=Japanese Post Card",
+                    "enable": "$$$/public/DefaultNewDocSizes/Europaper/JapanesePostCard/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Europaper/JapanesePostCard/Width=100",
+                    "height": "$$$/private/DefaultNewDocSizes/Europaper/JapanesePostCard/Height=148",
+                    "units": "$$$/private/DefaultNewDocSizes/Europaper/JapanesePostCard/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                }
+            ]
+        },
+        {
+            "section": "photo",
+            "presets": [
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/LPortrait/Name=L, Portrait",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/LPortrait/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Photo/LPortrait/Width=89",
+                    "height": "$$$/private/DefaultNewDocSizes/Photo/LPortrait/Height=127",
+                    "units": "$$$/private/DefaultNewDocSizes/Photo/LPortrait/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/2LPortrait/Name=2L, Portrait",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/2LPortrait/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Photo/2LPortrait/Width=127",
+                    "height": "$$$/private/DefaultNewDocSizes/Photo/2LPortrait/Height=178",
+                    "units": "$$$/private/DefaultNewDocSizes/Photo/2LPortrait/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriPortrait/Name=Mutsugiri, Portrait",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriPortrait/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Photo/MutsugiriPortrait/Width=203",
+                    "height": "$$$/private/DefaultNewDocSizes/Photo/MutsugiriPortrait/Height=254",
+                    "units": "$$$/private/DefaultNewDocSizes/Photo/MutsugiriPortrait/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriPortrait/Name=Yotsugiri, Portrait",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriPortrait/Enable=false",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriPortrait/Width=254",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriPortrait/Height=305",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriPortrait/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for J",
+                    "name": "separator",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/JPortrait/Seperator/Enable=false",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/LLandscape/Name=L, Landscape",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/LLandscape/Enable=false",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/LLandscape/Width=127",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/LLandscape/Height=89",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/LLandscape/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/2LLandscape/Name=2L, Landscape",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/2LLandscape/Enable=false",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/2LLandscape/Width=178",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/2LLandscape/Height=127",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/2LLandscape/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriLandscape/Name=Mutsugiri, Landscape",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriLandscape/Enable=false",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriLandscape/Width=254",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriLandscape/Height=203",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/MutsugiriLandscape/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+					"comments": "Only for J",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriLandscape/Name=Yotsugiri, Landscape",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriLandscape/Enable=false",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriLandscape/Width=305",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriLandscape/Height=254",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/YotsugiriLandscape/Units=millimetersUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+					"comments": "Only for J",
+                    "name": "separator",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/JLandscape/Seperator/Enable=false",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Landscape2x3/Name=Landscape, 2 x 3",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Landscape2x3/Width=3",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Landscape2x3/Height=2",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Landscape2x3/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Landscape4x6/Name=Landscape, 4 x 6",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Landscape4x6/Width=6",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Landscape4x6/Height=4",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Landscape4x6/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Landscape5x7/Name=Landscape, 5 x 7",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Landscape5x7/Width=7",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Landscape5x7/Height=5",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Landscape5x7/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+					"comments": "Only for CCK",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Landscape6x8/Name=Landscape, 6 x 8",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/Landscape6x8/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Photo/Landscape6x8/Width=8",
+                    "height": "$$$/private/DefaultNewDocSizes/Photo/Landscape6x8/Height=6",
+                    "units": "$$$/private/DefaultNewDocSizes/Photo/Landscape6x8/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Landscape8x10/Name=Landscape, 8 x 10",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Landscape8x10/Width=10",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Landscape8x10/Height=8",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Landscape8x10/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Portrait2x3/Name=Portrait, 2 x 3",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Portrait2x3/Width=2",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Portrait2x3/Height=3",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Portrait2x3/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+					"comments": "Only for Traditional Chinese",
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Portrait3x4/Name=Portrait, 3 x 4",
+                    "enable": "$$$/public/DefaultNewDocSizes/Photo/Portrait3x4/Enable=false",
+                    "width": "$$$/private/DefaultNewDocSizes/Photo/Portrait3x4/Width=3",
+                    "height": "$$$/private/DefaultNewDocSizes/Photo/Portrait3x4/Height=4",
+                    "units": "$$$/private/DefaultNewDocSizes/Photo/Portrait3x4/Units=inchesUnit",
+                    "profile": "default",
+                    "name": "Portrait, 4 x 6",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Portrait4x6/Name=Portrait, 4 x 6",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Portrait4x6/Width=4",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Portrait4x6/Height=6",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Portrait4x6/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Portrait5x7/Name=Portrait, 5 x 7",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Portrait5x7/Width=5",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Portrait5x7/Height=7",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Portrait5x7/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Photo/Portrait8x10/Name=Portrait, 8 x 10",
+                    "width": "$$$/public/DefaultNewDocSizes/Photo/Portrait8x10/Width=8",
+                    "height": "$$$/public/DefaultNewDocSizes/Photo/Portrait8x10/Height=10",
+                    "units": "$$$/public/DefaultNewDocSizes/Photo/Portrait8x10/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": "print",
+                    "scale": 1,
+                    "fill": "white",
+                    "showInFNFT": false
+                }
+            ]
+        },
+        {
+            "section": "web",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/WebMostCommon1366x768/Name=Web Most Common",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/WebMostCommon1366x768/Width=1366",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/WebMostCommon1366x768/Height=768",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/WebMostCommon1366x768/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 768,
+                            "right": 1366
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/WebLarge1920x1080/Name=Web Large",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/WebLarge1920x1080/Width=1920",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/WebLarge1920x1080/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/WebLarge1920x1080/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1080,
+                            "right": 1920
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/Web1440x900/Name=Web Medium",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/Web1440x900/Width=1440",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/Web1440x900/Height=900",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/Web1440x900/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 900,
+                            "right": 1440
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/WebMinimum1024x768/Name=Web Minimum",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/WebMinimum1024x768/Width=1024",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/WebMinimum1024x768/Height=768",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/WebMinimum1024x768/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 768,
+                            "right": 1024
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/Web1280x800/Name=Web Small",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/Web1280x800/Width=1280",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/Web1280x800/Height=800",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/Web1280x800/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 800,
+                            "right": 1280
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Name=MacBook Pro 13 (Retina)",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Width=2560",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Height=1600",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1600,
+                            "right": 2560
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Name=MacBook Pro 15 (Retina)",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Width=2880",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Height=1800",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1800,
+                            "right": 2880
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/iMac27_2560x1440/Name=iMac 27",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/iMac27_2560x1440/Width=2560",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/iMac27_2560x1440/Height=1440",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/iMac27_2560x1440/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1440,
+                            "right": 2560
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Name=Desktop HD Design",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Width=1440",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 1440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "mobile",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Name=iPhone 6",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Width=750",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Height=1334",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1334,
+                            "right": 750
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPhone6Plus_242x2208/Name=iPhone 6 Plus",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6Plus1242x2208/Width=1242",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6Plus1242x2208/Height=2208",
+                    "units": "$$$/privateprivate/DefaultNewDocSizes/Mobile/iPhone6Plus1242x2208/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 2208,
+                            "right": 1242
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Name=iPad Pro",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Width=2048",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Height=2732",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 2732,
+                            "right": 2048
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Name=iPad Retina",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Width=1536",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Height=2048",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 2048,
+                            "right": 1536
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/Android1080p/Name=Android 1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/Android1080p/Width=1080",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/Android1080p/Height=1920",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/Android1080p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1920,
+                            "right": 1920
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro4/Name=Microsoft Surface Pro 4",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro4/Width=2736",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro4/Height=1824",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro4/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1824,
+                            "right": 2736
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Name=Microsoft Surface Pro 3",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Width=2160",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Height=1440",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1440,
+                            "right": 2160
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Name=iPhone 5",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Width=640",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Height=1136",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1136,
+                            "right": 640
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/iPadMini_768x1024/iPadMini_768x1024/Name=iPad Mini",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPadMini_768x1024/Width=768",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPadMini_768x1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPadMini_768x1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 768
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Name=Apple Watch 42mm",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Width=312",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Height=390",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 390,
+                            "right": 312
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Name=Apple Watch 38mm",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Width=272",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Height=340",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 340,
+                            "right": 272
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Name=Mobile Design",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Width=320",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 320
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "video",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/HDTV1080p/Name=HDTV 1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/HDTV1080p/Width=1920",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/HDTV1080p/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/HDTV1080p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/HDV_HDTV720p/Name=HDV/HDTV 720p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/HDV_HDTV720p/Width=1280",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/HDV_HDTV720p/Height=720",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/HDV_HDTV720p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/HDV_1080p/Name=HDV 1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/HDV_1080p/Width=1440",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/HDV_1080p/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/HDV_1080p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.333,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/DVCPROHD720p/Name=DVCPRO HD 720p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/DVCPROHD720p/Width=960",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/DVCPROHD720p/Height=720",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/DVCPROHD720p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.333,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/DVCPROHD1080p/Name=DVCPRO HD 1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/DVCPROHD1080p/Width=1280",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/DVCPROHD1080p/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/DVCPROHD1080p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.5,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/DCI2K1080p/Name=DCI 2K 1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/DCI2K1080p/Width=2048",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/DCI2K1080p/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/DCI2K1080p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/UHDTV_4K2160p/Name=UHDTV/4K 2160p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/UHDTV_4K2160p/Width=3840",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/UHDTV_4K2160p/Height=2160",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/UHDTV_4K2160p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/DCI4K2160p/Name=DCI 4K 2160p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/DCI4K2160p/Width=4096",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/DCI4K2160p/Height=2160",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/DCI4K2160p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.333,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/FUHDTV_8k4320p/Name=FUHDTV/8K 4320p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/FUHDTV_8k4320p/Width=7680",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/FUHDTV_8k4320p/Height=4320",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/FUHDTV_8k4320p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.333,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/DCI8K4320p/Name=DCI 8K 4320p",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/DCI8K4320p/Width=8192",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/DCI8K4320p/Height=4320",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/DCI8K4320p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.5,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/NTSCDV/Name=NTSC DV",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/NTSCDV/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/NTSCDV/Height=480",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/NTSCDV/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 0.9091,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/VideoVideo/NTSCDVWidescreen/Name=NTSC DV Widescreen",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/NTSCDVWidescreen/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/NTSCDVWidescreen/Height=480",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/NTSCDVWidescreen/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.2121,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/NTSCD1/Name=NTSC D1",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/NTSCD1/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/NTSCD1/Height=486",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/NTSCD1/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 0.9091,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/NTSCD1Widescreen/Name=NTSC D1 Widescreen",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/NTSCD1Widescreen/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/NTSCD1Widescreen/Height=486",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/NTSCD1Widescreen/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.2121,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/NTSCD1SquarePixel/Name=NTSC D1 Square Pixel",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/NTSCD1SquarePixel/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/NTSCD1SquarePixel/Height=534",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/NTSCD1SquarePixel/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/NTSCD1WideScreenSquarePixel/Name=NTSC D1 Widescreen Square Pixel",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/NTSCD1WideScreenSquarePixel/Width=872",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/NTSCD1WideScreenSquarePixel/Height=486",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/NTSCD1WideScreenSquarePixel/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/PALD1_DV/Name=PAL D1/DV",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/PALD1_DV/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/PALD1_DV/Height=576",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/PALD1_DV/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.094,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/PALD1_DVWidescreen/Name=PAL D1/DV Widescreen",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVWidescreen/Width=720",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVWidescreen/Height=576",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVWidescreen/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1.4587,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/PALD1_DVSquarePixel/Name=PAL D1/DV Square Pixel",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVSquarePixel/Width=788",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVSquarePixel/Height=576",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVSquarePixel/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/PALD1_DVWidescreenSquarePixel/Name=PAL D1/DV Widescreen Square Pixel",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVWidescreenSquarePixel/Width=1050",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVWidescreenSquarePixel/Height=576",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/PALD1_DVWidescreenSquarePixel/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "guides": [
+                        {
+                            "direction": "h",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "h",
+                            "coordinate": 95
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 5
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 10
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 90
+                        },
+                        {
+                            "direction": "v",
+                            "coordinate": 95
+                        }
+                    ]
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/CineonHalf/Name=Cineon Half",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/CineonHalf/Width=1828",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/CineonHalf/Height=1332",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/CineonHalf/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/CineonFull/Name=Cineon Full",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/CineonFull/Width=3656",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/CineonFull/Height=2664",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/CineonFull/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/Film2K/Name=Film (2K)",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/Film2K/Width=2048",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/Film2K/Height=1556",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/Film2K/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/Film4K/Name=Film (4K)",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/Film4K/Width=4096",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/Film4K/Height=3112",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/Film4K/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Video/Film8K/Name=Film (8K)",
+                    "width": "$$$/private/DefaultNewDocSizes/Video/Film8K/Width=8192",
+                    "height": "$$$/private/DefaultNewDocSizes/Video/Film8K/Height=6224",
+                    "units": "$$$/private/DefaultNewDocSizes/Video/Film8K/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": "screen",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false
+                }
+            ]
+        },
+        {
+            "section": "iconography",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Name=iOS 7 iPad App Icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Width=152",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Height=152",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 152,
+                            "right": 152
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Name=iOS 7 iPhone App icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Width=120",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Height=120",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 120,
+                            "right": 120
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Name=iOS 7 Spotlight",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Width=80",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Height=80",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 80,
+                            "right": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Name=iOS 7 Settings",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Width=58",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Height=58",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 58,
+                            "right": 58
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon1024/Name=Mac Icon 1024",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon1024/Width=1024",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 1024
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon512/Name=Mac Icon 512",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon512/Width=512",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon512/Height=512",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon512/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 512,
+                            "right": 512
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon256/Name=Mac Icon 256",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon256/Width=256",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon256/Height=256",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon256/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 256,
+                            "right": 256
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon128/Name=Mac Icon 128",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon128/Width=128",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon128/Height=128",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon128/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 128,
+                            "right": 128
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon48/Name=Mac Icon 48",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon48/Width=48",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon48/Height=48",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon48/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 48,
+                            "right": 48
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon32/Name=Mac Icon 32",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon32/Width=32",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon32/Height=32",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon32/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 32,
+                            "right": 32
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon16/Name=Mac Icon 16",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon16/Width=16",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon16/Height=16",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon16/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 16,
+                            "right": 16
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Name=Legacy iPad App Icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Width=144",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Height=144",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 144,
+                            "right": 144
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Name=Legacy iPhone App icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Width=114",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Height=114",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 114,
+                            "right": 114
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Name=Legacy iPad Spotlight",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Width=100",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Height=100",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 100,
+                            "right": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "artillustration",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/artillustration/1000PixelGrid/Name=1000 pixel grid",
+                    "width": "$$$/private/DefaultNewDocSizes/artillustration/1000PixelGrid/Width=1000",
+                    "height": "$$$/private/DefaultNewDocSizes/artillustration/1000PixelGrid/Height=1000",
+                    "units": "$$$/private/DefaultNewDocSizes/artillustration/1000PixelGrid/Units=pixelsUnit",
+                    "profile": "default",
+                    "resolution": 300,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/artillustration/2000PixelGrid/Name=2000 pixel grid",
+                    "width": "$$$/private/DefaultNewDocSizes/artillustration/2000PixelGrid/Width=2000",
+                    "height": "$$$/private/DefaultNewDocSizes/artillustration/2000PixelGrid/Height=2000",
+                    "units": "$$$/private/DefaultNewDocSizes/artillustration/2000PixelGrid/Units=pixelsUnit",
+                    "profile": "default",
+                    "resolution": 300,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/artillustration/Poster/Name=Poster",
+                    "width": "$$$/private/DefaultNewDocSizes/artillustration/Poster/Width=18",
+                    "height": "$$$/private/DefaultNewDocSizes/artillustration/Poster/Height=24",
+                    "units": "$$$/private/DefaultNewDocSizes/artillustration/Poster/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": 300,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/artillustration/Postcard/Name=Postcard",
+                    "width": "$$$/private/DefaultNewDocSizes/artillustration/Postcard/Width=4",
+                    "height": "$$$/private/DefaultNewDocSizes/artillustration/Postcard/Height=6",
+                    "units": "$$$/private/DefaultNewDocSizes/artillustration/Postcard/Units=inchesUnit",
+                    "profile": "default",
+                    "resolution": 300,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/artillustration/1080p/Name=1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/artillustration/1080p/Width=1920",
+                    "height": "$$$/private/DefaultNewDocSizes/artillustration/1080p/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/artillustration/1080p/Units=pixelsUnit",
+                    "profile": "default",
+                    "resolution": 300,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/artillustration/720p/Name=720p",
+                    "width": "$$$/private/DefaultNewDocSizes/artillustration/720p/Width=1280",
+                    "height": "$$$/private/DefaultNewDocSizes/artillustration/720p/Height=720",
+                    "units": "$$$/private/DefaultNewDocSizes/artillustration/720p/Units=pixelsUnit",
+                    "profile": "default",
+                    "resolution": 300,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": true
+                }
+            ]
+        },
+        {
+            "section": "artboard",
+            "presets": [
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPhone6Plus_242x2208/Name=iPhone 6 Plus",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6Plus1242x2208/Width=1242",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6Plus1242x2208/Height=2208",
+                    "units": "$$$/privateprivate/DefaultNewDocSizes/Mobile/iPhone6Plus1242x2208/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 2208,
+                            "right": 1242
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Name=iPhone 6",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Width=750",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Height=1334",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPhone6_750x1334/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1334,
+                            "right": 750
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Name=iPhone 5",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Width=640",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Height=1136",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPhone5_640x1136/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1136,
+                            "right": 640
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Name=iPad Pro",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Width=2048",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Height=2732",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPadPro_2048x2732/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 2732,
+                            "right": 2048
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Name=iPad Retina",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Width=1536",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Height=2048",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPadRetina_1536x2048/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 2048,
+                            "right": 1536
+                        }
+                    ]
+                },
+                {
+                   "name": "$$$/public/DefaultNewDocSizes/iPadMini_768x1024/iPadMini_768x1024/Name=iPad Mini",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/iPadMini_768x1024/Width=768",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/iPadMini_768x1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/iPadMini_768x1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 768
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/Android1080p/Name=Android 1080p",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/Android1080p/Width=1080",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/Android1080p/Height=1920",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/Android1080p/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1920,
+                            "right": 1080
+                        }
+                    ]
+                },
+                {
+                   "name": "$$$/public/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Name=Microsoft Surface Pro 3",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Width=2160",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Height=1440",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/MicrosoftSurfacePro3/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1440,
+                            "right": 2160
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Name=Apple Watch 38mm",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Width=272",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Height=340",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch38mm_272x340/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 340,
+                            "right": 272
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Name=Apple Watch 42mm",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Width=312",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Height=390",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/AppleWatch42mm_312x390/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 390,
+                            "right": 312
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Name=Mobile Design",
+                    "width": "$$$/private/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Width=320",
+                    "height": "$$$/private/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Mobile/MobileDesign_320x1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 320
+                        }
+                    ]
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": -1,
+                            "right": -1
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/WebMostCommon1366x768/Name=Web Most Common",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/WebMostCommon1366x768/Width=1366",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/WebMostCommon1366x768/Height=768",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/WebMostCommon1366x768/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 768,
+                            "right": 1366
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/WebMinimum1024x768/Name=Web Minimum",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/WebMinimum1024x768/Width=1024",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/WebMinimum1024x768/Height=768",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/WebMinimum1024x768/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 768,
+                            "right": 1024
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/Web1280x800/Name=Web Small",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/Web1280x800/Width=1280",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/Web1280x800/Height=800",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/Web1280x800/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 800,
+                            "right": 1280
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/Web1440x900/Name=Web Medium",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/Web1440x900/Width=1440",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/Web1440x900/Height=900",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/Web1440x900/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 900,
+                            "right": 1440
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/Web1920x1080/Name=Web Large",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/Web1920x1080/Width=1920",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/Web1920x1080/Height=1080",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/Web1920x1080/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1080,
+                            "right": 1920
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Name=MacBook Pro 13 (Retina)",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Width=2560",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Height=1600",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/MBP13Retina2560x1600/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1600,
+                            "right": 2560
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Name=MacBook Pro 15 (Retina)",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Width=2880",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Height=1800",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/MBP15Retina2880x1800/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1800,
+                            "right": 2880
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/iMac27_2560x1440/Name=iMac 27",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/iMac27_2560x1440/Width=2560",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/iMac27_2560x1440/Height=1440",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/iMac27_2560x1440/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1440,
+                            "right": 2560
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Name=Desktop HD Design",
+                    "width": "$$$/private/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Width=1440",
+                    "height": "$$$/private/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Web/DesktopHDDesign1440x1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 1440
+                        }
+                    ]
+                },
+                {
+                    "name": "separator",
+                    "width": -1,
+                    "height": -1,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": -1,
+                            "right": -1
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Name=iOS 7 iPad App Icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Width=152",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Height=152",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPadAppIcon_152x152/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 152,
+                            "right": 152
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Name=iOS 7 iPhone App icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Width=120",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Height=120",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7iPhoneAppIcon_120x120/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 120,
+                            "right": 120
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Name=iOS 7 Spotlight",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Width=80",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Height=80",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Spotlight_80x80/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 80,
+                            "right": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Name=iOS 7 Settings",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Width=58",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Height=58",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/iOS7Settings_58x58/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 58,
+                            "right": 58
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon1024/Name=Mac Icon 1024",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon1024/Width=1024",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon1024/Height=1024",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon1024/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 1024,
+                            "right": 1024
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon512/Name=Mac Icon 512",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon512/Width=512",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon512/Height=512",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon512/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 512,
+                            "right": 512
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon256/Name=Mac Icon 256",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon256/Width=256",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon256/Height=256",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon256/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 256,
+                            "right": 256
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon128/Name=Mac Icon 128",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon128/Width=128",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon128/Height=128",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon128/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 128,
+                            "right": 128
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon48/Name=Mac Icon 48",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon48/Width=48",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon48/Height=48",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon48/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 48,
+                            "right": 48
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon32/Name=Mac Icon 32",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon32/Width=32",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon32/Height=32",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon32/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 32,
+                            "right": 32
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/MacIcon16/Name=Mac Icon 16",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon16/Width=16",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon16/Height=16",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/MacIcon16/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 16,
+                            "right": 16
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Name=Legacy iPad App Icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Width=144",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Height=144",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadAppIcon_144x144/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 144,
+                            "right": 144
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Name=Legacy iPhone App icon",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Width=114",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Height=114",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPhoneAppIcon_114x114/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 114,
+                            "right": 114
+                        }
+                    ]
+                },
+                {
+                    "name": "$$$/public/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Name=Legacy iPad Spotlight",
+                    "width": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Width=100",
+                    "height": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Height=100",
+                    "units": "$$$/private/DefaultNewDocSizes/Iconography/LegacyiPadSpotlight_100x100/Units=pixelsUnit",
+                    "profile": "none",
+                    "resolution": 72,
+                    "resolutionUnits": "inchesUnit",
+                    "depth": 8,
+                    "scale": 1,
+                    "mode": "RGB",
+                    "fill": "white",
+                    "showInFNFT": false,
+                    "legacyAddSizeToName" : true,
+                    "artboards": [
+                        {
+                            "top": 0,
+                            "left": 0,
+                            "bottom": 100,
+                            "right": 100
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

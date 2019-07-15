@@ -1,0 +1,26 @@
+layout presetsFolderName
+    {
+    view TPresetsFolderNameDialog(name: '$$$/Dialog/PresetsGroupName=Group Name',
+                           targetIdentifier: 'name',
+                           placement: place_row,
+                           margin: 15,
+                           isResizable: false)
+        {
+		TEditText(identifier: 'name',
+				  name: '$$$/Dialog/PresetsFolderName/Name=Name:',
+				  width: 16 * 20,
+				  maxChars: 240);
+
+        column(child_horizontal: align_fill)
+            {
+            TButton(name: "$$$/ControlsStrings/OK=OK",
+                    identifier: @ok,
+                    dismiss: true,
+                    default: true);
+
+            TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+                    identifier: @cancel,
+                    dismiss: true);
+            }
+        }
+    }

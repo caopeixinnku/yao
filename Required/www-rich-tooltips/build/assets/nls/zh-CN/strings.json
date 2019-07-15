@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D 材质吸管工具",
+        "DESCRIPTION": "从 3D 对象加载选定的材质"
+    },
+    "3DDM": {
+        "TITLE": "3D 材质拖放工具",
+        "DESCRIPTION": "将工具中加载的材质拖放到 3D 对象的目标区域中"
+    },
+    "AKNT": {
+        "TITLE": "添加锚点工具",
+        "DESCRIPTION": "将锚点添加到您的路径"
+    },
+    "ARTT": {
+        "TITLE": "画板工具",
+        "DESCRIPTION": "创建、移动多个画布或调整其大小"
+    },
+    "AHBT": {
+        "TITLE": "历史记录艺术画笔工具",
+        "DESCRIPTION": "通过来自图像早期状态的像素绘制装饰描边"
+    },
+    "SERA": {
+        "TITLE": "背景橡皮擦工具",
+        "DESCRIPTION": "抹除取样颜色的像素"
+    },
+    "BLUR": {
+        "TITLE": "模糊工具",
+        "DESCRIPTION": "模糊图像中的区域"
+    },
+    "PNTB": {
+        "TITLE": "画笔工具",
+        "DESCRIPTION": "绘制自定义画笔描边"
+    },
+    "BURN": {
+        "TITLE": "加深工具",
+        "DESCRIPTION": "调暗图像中的区域"
+    },
+    "STAM": {
+        "TITLE": "仿制图章工具",
+        "DESCRIPTION": "使用来自图像其他部分的像素绘画"
+    },
+    "CRBT": {
+        "TITLE": "颜色替换工具",
+        "DESCRIPTION": "将选定颜色绘制在现有颜色之上"
+    },
+    "COLS": {
+        "TITLE": "颜色取样器工具",
+        "DESCRIPTION": "显示图像中的颜色值"
+    },
+    "RCMP": {
+        "TITLE": "内容感知移动工具",
+        "DESCRIPTION": "选择和移动图像的一部分，并自动填充移走后留下的区域"
+    },
+    "COUN": {
+        "TITLE": "计数工具",
+        "DESCRIPTION": "计算图像中的对象数量"
+    },
+    "CKNT": {
+        "TITLE": "转换点工具",
+        "DESCRIPTION": "通过转换平滑和拐角锚点，编辑形状和路径"
+    },
+    "CROP": {
+        "TITLE": "裁剪工具",
+        "DESCRIPTION": "裁切或扩展图像的边缘"
+    },
+    "CUSH": {
+        "TITLE": "自定形状工具",
+        "DESCRIPTION": "通过自定义形状列表绘制形状"
+    },
+    "DKNT": {
+        "TITLE": "删除锚点工具",
+        "DESCRIPTION": "删除锚点并调整路径形状"
+    },
+    "PTHA": {
+        "TITLE": "直接选择工具",
+        "DESCRIPTION": "选择路径的各个点和段"
+    },
+    "DODG": {
+        "TITLE": "减淡工具",
+        "DESCRIPTION": "调亮图像中的区域"
+    },
+    "ELPS": {
+        "TITLE": "椭圆工具",
+        "DESCRIPTION": "绘制椭圆"
+    },
+    "ELMT": {
+        "TITLE": "椭圆选框工具",
+        "DESCRIPTION": "创建椭圆形状的选区"
+    },
+    "ERAS": {
+        "TITLE": "橡皮擦工具",
+        "DESCRIPTION": "将像素更改为背景颜色，或者使它们透明"
+    },
+    "EYED": {
+        "TITLE": "吸管工具",
+        "DESCRIPTION": "从图像中取样颜色"
+    },
+    "MPEN": {
+        "TITLE": "自由钢笔工具",
+        "DESCRIPTION": "在绘制路径或形状时添加锚点"
+    },
+    "BNDT": {
+        "TITLE": "渐变工具",
+        "DESCRIPTION": "创建颜色之间的渐变混合"
+    },
+    "HAND": {
+        "TITLE": "抓手工具",
+        "DESCRIPTION": "在图像的不同部分间平移"
+    },
+    "STMM": {
+        "TITLE": "修复画笔工具",
+        "DESCRIPTION": "使用来自图像其他部分的像素修复瑕疵"
+    },
+    "HSTB": {
+        "TITLE": "历史记录画笔工具",
+        "DESCRIPTION": "将图像的某些部分恢复到以前的状态"
+    },
+    "TXBX": {
+        "TITLE": "横排文字工具",
+        "DESCRIPTION": "添加横排文字"
+    },
+    "TYPS": {
+        "TITLE": "横排文字蒙版工具",
+        "DESCRIPTION": "创建横排文字形状的选区"
+    },
+    "LASO": {
+        "TITLE": "套索工具",
+        "DESCRIPTION": "创建手绘选区"
+    },
+    "LINT": {
+        "TITLE": "直线工具",
+        "DESCRIPTION": "绘制直线"
+    },
+    "MERA": {
+        "TITLE": "魔术橡皮擦工具",
+        "DESCRIPTION": "只需一次单击即可抹除色彩类似的区域"
+    },
+    "WAND": {
+        "TITLE": "魔棒工具",
+        "DESCRIPTION": "选择色彩类似的图像区域"
+    },
+    "MLAS": {
+        "TITLE": "磁性套索工具",
+        "DESCRIPTION": "通过对齐到图像边缘创建选区"
+    },
+    "WETB": {
+        "TITLE": "混合器画笔工具",
+        "DESCRIPTION": "模拟真实的绘画技巧，例如混合颜色和变化涂料湿度"
+    },
+    "LMVR": {
+        "TITLE": "移动工具",
+        "DESCRIPTION": "移动选区或图层"
+    },
+    "TXTA": {
+        "TITLE": "注释工具",
+        "DESCRIPTION": "创建可附加到图像或文件的文本注释"
+    },
+    "BUCK": {
+        "TITLE": "油漆桶工具",
+        "DESCRIPTION": "使用前景颜色填充色彩类似的连续区域"
+    },
+    "PTCH": {
+        "TITLE": "修补工具",
+        "DESCRIPTION": "使用来自图像其他部分的图案或像素替换选定区域"
+    },
+    "PCST": {
+        "TITLE": "路径选择工具",
+        "DESCRIPTION": "选择整个路径"
+    },
+    "STMP": {
+        "TITLE": "图案图章工具",
+        "DESCRIPTION": "使用选定图案绘画"
+    },
+    "PENT": {
+        "TITLE": "钢笔工具",
+        "DESCRIPTION": "通过锚点与手柄创建和更改路径或形状"
+    },
+    "PENC": {
+        "TITLE": "铅笔工具",
+        "DESCRIPTION": "绘制硬边缘画笔描边"
+    },
+    "PCRP": {
+        "TITLE": "透视裁剪工具",
+        "DESCRIPTION": "裁剪图像以校正透视导致的扭曲"
+    },
+    "POLY": {
+        "TITLE": "多边形工具",
+        "DESCRIPTION": "绘制多边形"
+    },
+    "PGON": {
+        "TITLE": "多边形套索工具",
+        "DESCRIPTION": "创建直边选区"
+    },
+    "QKSL": {
+        "TITLE": "快速选择工具",
+        "DESCRIPTION": "通过查找和追踪图像中的边缘来创建选区"
+    },
+    "RECT": {
+        "TITLE": "矩形工具",
+        "DESCRIPTION": "绘制矩形"
+    },
+    "RGMT": {
+        "TITLE": "矩形选框工具",
+        "DESCRIPTION": "创建矩形形状的选区"
+    },
+    "RDEY": {
+        "TITLE": "红眼工具",
+        "DESCRIPTION": "修复由相机闪光灯引起的红眼效果"
+    },
+    "ROTT": {
+        "TITLE": "旋转视图工具",
+        "DESCRIPTION": "旋转图像的视图"
+    },
+    "RRCT": {
+        "TITLE": "圆角矩形工具",
+        "DESCRIPTION": "绘制圆角矩形"
+    },
+    "MEAT": {
+        "TITLE": "标尺工具",
+        "DESCRIPTION": "测量图像中的距离和角度"
+    },
+    "SHAR": {
+        "TITLE": "锐化工具",
+        "DESCRIPTION": "锐化图像中的柔边"
+    },
+    "SRMT": {
+        "TITLE": "单行选框工具",
+        "DESCRIPTION": "创建 1 像素高的水平选区"
+    },
+    "SCMT": {
+        "TITLE": "单列选框工具",
+        "DESCRIPTION": "创建 1 像素宽的垂直选区"
+    },
+    "SLCT": {
+        "TITLE": "切片工具",
+        "DESCRIPTION": "将图像剪切为适合网页设计的较小选区"
+    },
+    "SLST": {
+        "TITLE": "切片选择工具",
+        "DESCRIPTION": "选择、移动图像的切片或调整其大小"
+    },
+    "SMUD": {
+        "TITLE": "涂抹工具",
+        "DESCRIPTION": "软化或涂抹图像中的颜色"
+    },
+    "SATU": {
+        "TITLE": "海绵工具",
+        "DESCRIPTION": "更改图像中区域的颜色饱和度"
+    },
+    "SPHB": {
+        "TITLE": "污点修复画笔工具",
+        "DESCRIPTION": "移去标记和污点"
+    },
+    "TXBV": {
+        "TITLE": "竖排文字工具",
+        "DESCRIPTION": "添加竖排文字"
+    },
+    "VTYS": {
+        "TITLE": "竖排文字蒙版工具",
+        "DESCRIPTION": "创建竖排文字形状的选区"
+    },
+    "ZOOM": {
+        "TITLE": "缩放工具",
+        "DESCRIPTION": "放大或缩小图像的视图"
+    },
+    "CPEN": {
+        "TITLE": "弯度钢笔工具",
+        "DESCRIPTION": "使用点来绘制或更改路径或形状"
+    },
+    "PMHA": {
+        "TITLE": "抓手工具",
+        "DESCRIPTION": "在图像的不同部分间平移"
+    },
+    "PMZM": {
+        "TITLE": "缩放工具",
+        "DESCRIPTION": "放大或缩小图像的视图"
+    },
+    "PMDB": {
+        "TITLE": "取样画笔工具",
+        "DESCRIPTION": "[10346731] 文_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "套索工具",
+        "DESCRIPTION": "创建手绘选区"
+    },
+    "TRY_IT": "了解如何使用",
+    "ADVANCED": "高级:"
+}

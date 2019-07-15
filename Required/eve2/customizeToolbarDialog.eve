@@ -1,0 +1,153 @@
+layout customizeToolbarDialog
+    {
+    constant:
+        kCruftLabel                 : "$$$/Dialog/CustomizeToolbar/CruftLabel=Show:";
+        kDialogTitle                : '$$$/Dialog/CustomizeToolbar/Title=Customize Toolbar';
+        kDisableDemotedKBSCs        : "$$$/Dialog/CustomizeToolbar/DisableDemotedKBSCs=Disable Shortcuts for Hidden Toolbar Extras";
+        kDisableDemotedKBSCsTooltip : "$$$/Dialog/CustomizeToolbar/DisableDemotedKBSCsTooltip=Keyboard shortcuts will not respond for hidden toolbar extras.";
+        kClearTools                 : "$$$/Dialog/CustomizeToolbar/EmptyToolbar=Clear Tools";
+        kLoadPreset                 : "$$$/Dialog/CustomizeToolbar/LoadPreset=Load Preset...";
+        kPreamble                   : '$$$/Dialog/CustomizeToolbar/Preamble=Drag and drop tools or their groupings in the toolbar list view. Move excess, unused, or low priority tools into the extra list. When enabled, extra tools will appear in their own slot at the bottom of the toolbar.';
+        kOverflowHeader             : '$$$/Dialog/CustomizeToolbar/OverflowHeader=Extra Tools';
+        kOptionsCluster             : '$$$/Dialog/CustomizeToolbar/OptionsCluster=Options';
+        kRestoreDefaults            : "$$$/Dialog/CustomizeToolbar/RestoreDefaults=Restore Defaults";
+        kSavePreset                 : "$$$/Dialog/CustomizeToolbar/SavePreset=Save Preset...";
+        kShowFGBG                   : "$$$/Dialog/CustomizeToolbar/ShowFGBGColors=FG/BG Colors";
+        kShowFGBGToolTip            : "$$$/Dialog/CustomizeToolbar/ShowFGBGColorsTooltip=Show Foreground/Background Colors";
+        kShowOverflowSlotTooltip    : "$$$/Dialog/CustomizeToolbar/ShowOverflowSlotTooltip=Toggle showing extra tools in the last toolbar slot";
+        kShowQuickMaskMode          : "$$$/Dialog/CustomizeToolbar/ShowQuickMaskMode=Quick Mask Mode";
+        kShowQuickMaskModeToolTip   : "$$$/Dialog/CustomizeToolbar/ShowQuickMaskModeTooltip=Show Quick Mask Mode";
+        kShowScreenMode             : "$$$/Dialog/CustomizeToolbar/ShowScreenMode=Screen Mode";
+        kShowScreenModeToolTip      : "$$$/Dialog/CustomizeToolbar/ShowScreenModeTooltip=Show Screen Mode";
+        kSmallerToolbar             : "$$$/Dialog/CustomizeToolbar/DebugSmallerToolbar=Smaller Toolbar";
+        kToolbarHeader              : '$$$/Dialog/CustomizeToolbar/ToolbarHeader=Toolbar';
+        kCancel                     : "$$$/ControlsStrings/Cancel=Cancel";
+        kDone                       : "$$$/ControlsStrings/Done=Done";
+
+    interface:
+        listWidth                   : 300;
+        listHeight                  : 500;
+        showOverflowSlot            : true;
+        unlink disableDemotedKBSCs  : true <== showOverflowSlot ? disableDemotedKBSCs : true;
+
+    view TCustomizeToolbarDialog(name               : kDialogTitle,
+                                 placement          : place_row,
+                                 margin             : 15,
+                                 isResizable        : true,
+                                 dboxProcIdentifier : -1,
+                                 qDebugDraw         : false)
+        {
+        column(horizontal : align_fill,
+               vertical   : align_fill,
+               spacing    : gLargeSpace)
+            {
+            TStaticText(name       : kPreamble,
+                        horizontal : align_fill,
+                        width      : 20,
+                        lines      : 1,
+                        autoWrap   : true);
+
+            row (horizontal: align_fill, vertical: align_fill)
+                {
+                column(horizontal: align_fill, vertical : align_fill, spacing: gGap)
+                    {
+                    TStaticText(name       : kToolbarHeader,
+                                wincontrol : false);
+
+                    TScroller(identifier     : @toolbarScroller, 
+                              horizontal     : align_fill,
+                              vertical       : align_fill,
+                              verticalScroll : true)
+                        {
+                        TToolbarListView(identifier : @toolbarCustomizeListView,
+                                         horizontal : align_fill,
+                                         vertical   : align_fill,
+                                         width      : listWidth,
+                                         height     : listHeight);
+                        }
+
+                    }
+
+                column(horizontal : align_fill, vertical : align_fill, spacing: gGap)
+                    {
+                    TStaticText(name       : kOverflowHeader,
+                                wincontrol : false);
+
+                    TScroller(identifier     : @overflowScroller, 
+                              horizontal     : align_fill,
+                              vertical       : align_fill,
+                              verticalScroll : true)
+                        {
+                        TToolbarListView(identifier : @toolbarOverflowListView,
+                                         horizontal : align_fill,
+                                         vertical   : align_fill,
+                                         width      : listWidth,
+                                         height     : listHeight);
+                        }
+                    }
+                }
+
+            row(horizontal: align_fill, child_vertical: align_center)
+                {
+                TStaticText(name : kCruftLabel);
+
+                TPunchButton(iconRootName : 'ToolbarOverflow',
+                             identifier   : @showOverflowSlot,
+                             tooltip      : kShowOverflowSlotTooltip,
+                             bind         : @showOverflowSlot,
+                             width        : 29,
+                             height       : 30);
+
+                TPunchButton(iconRootName : 'FBReset',
+                             identifier   : @showFGBGColors,
+                             tooltip      : kShowFGBGToolTip,
+                             width        : 29,
+                             height       : 30);
+
+                TPunchButton(iconRootName : 'StandardMask',
+                             identifier   : @showQuickMaskMode,
+                             tooltip      : kShowQuickMaskModeToolTip,
+                             width        : 29,
+                             height       : 30);
+
+                TPunchButton(iconRootName : 'ScreenStd',
+                             identifier   : @showScreenMode,
+                             tooltip      : kShowScreenModeToolTip,
+                             width        : 29,
+                             height       : 30);
+
+                TNarrowGroupSeparator(width    : 1,
+                                      vertical : align_fill);
+
+                TCheckBox(name    : kDisableDemotedKBSCs,
+                          tooltip : kDisableDemotedKBSCsTooltip,
+                          bind    : @disableDemotedKBSCs);
+                }
+            }
+
+        column(spacing: [ gSpace, gLargeSpace, gSpace, gLargeSpace, gSpace ],
+               child_horizontal: align_fill)
+            {
+            TButton(name: kDone,
+                    identifier: @ok,
+                    dismiss: true,
+                    default: true);
+
+            TButton(name: kCancel,
+                    identifier: @cancel,
+                    dismiss: true);
+
+            TButton(name: kRestoreDefaults,
+                    identifier: @restoreDefaults);
+
+            TButton(name: kClearTools,
+                    identifier: @clearTools);
+
+            TButton(name: kSavePreset,
+                    identifier: @savePreset);
+
+            TButton(name: kLoadPreset,
+                    identifier: @loadPreset);
+            }
+        }
+    }

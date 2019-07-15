@@ -1,0 +1,28 @@
+layout testbed
+    {
+    interface:
+        showOptional: true;
+
+    view TPSDialog(name:       '$$$/private/testbed/title=testbed',
+                   margin:     15,
+				   isResizable: true,
+				   dboxProcIdentifier: -1,
+                   qDebugDraw: true)
+        {
+        TButton(identifier: @ok, dismiss: true, default: true, name: '$$$/private/testbed/close=X');
+
+        TOptional(bind: @showOptional, vertical: align_fill, horizontal: align_fill)
+            {
+            TFixedGrid(identifier: @fixedGrid, horizontal: align_fill);
+            }
+
+        TOptional(bind: @showOptional, vertical: align_fill, horizontal: align_fill)
+            {
+            TStaticText(name: '$$$/private/testbed/static=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                        horizontal: align_fill,
+                        width: 20,
+                        lines: 1,
+                        autoWrap: true);
+            }
+        }
+    }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+
+    var animationName = '';
+
+    var resetHandler = function (err, eventID, action) {
+
+      if (eventID === undefined)
+        return;
+
+      if (action.undo) {
+        toast.style.backgroundImage = 'url(svg/undo.svg)';
+      } else {
+        toast.style.backgroundImage = 'url(svg/redo.svg)';
+      }    
+
+      if (action.update) {
+        eventName = 'resetter';
+      } else {
+        eventName = 'fader';
+      }
+
+      if (action.permitted) {
+        permissionName = 'permitted';
+      } else {
+        permissionName = 'prohibited';
+      }
+
+      toast.style.backgroundColor = 'rgba(27,139,233, 0.0)';
+      toast.style.opacity = '0.0';
+      toast.style.webkitAnimationName = eventName + '-' + permissionName;
+
+      // (re)trigger animation
+      toast.parentNode.replaceChild(toast.cloneNode(true), toast);
+    }
+    
+    _spaces.setNotifier(_spaces.notifierGroup.DIRECT, {}, resetHandler);
+
+    setTimeout(function()
+    {
+        _spaces.window.setVisibility(true, {}, function(err) {});
+    }, 50);
+    
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="toastClass" id="toast">
+  </div>
+</body>
+<script>
+  toast.style.webkitAnimationDuration = '1s';
+</script>
+
+</html>

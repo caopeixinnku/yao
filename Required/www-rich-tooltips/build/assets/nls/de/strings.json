@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D-Material-Pipette",
+        "DESCRIPTION": "Lädt das ausgewählte Material aus einem 3D-Objekt"
+    },
+    "3DDM": {
+        "TITLE": "3D-Materialfüllung",
+        "DESCRIPTION": "Entlädt in das Werkzeug geladene Material im Zielbereich eines 3D-Objekts ab"
+    },
+    "AKNT": {
+        "TITLE": "Ankerpunkt-hinzufügen-Werkzeug",
+        "DESCRIPTION": "Fügt Ihren Pfaden Ankerpunkte hinzu"
+    },
+    "ARTT": {
+        "TITLE": "Zeichenflächen-Werkzeug",
+        "DESCRIPTION": "Erstellt, verschiebt oder skaliert die Größe von Leinwänden"
+    },
+    "AHBT": {
+        "TITLE": "Kunstprotokoll-Pinsel",
+        "DESCRIPTION": "Zeichnet stilisierte Striche mit Pixeln aus dem Bild einer früheren Phase"
+    },
+    "SERA": {
+        "TITLE": "Hintergrund-Radiergummi-Werkzeug",
+        "DESCRIPTION": "Löscht die Pixel einer aufgenommenen Farbe"
+    },
+    "BLUR": {
+        "TITLE": "Weichzeichner-Werkzeug",
+        "DESCRIPTION": "Verwischt Bereiche in einem Bild"
+    },
+    "PNTB": {
+        "TITLE": "Pinselwerkzeug",
+        "DESCRIPTION": "Zeichnet benutzerdefinierte Malfilter"
+    },
+    "BURN": {
+        "TITLE": "Nachbelichter-Werkzeug",
+        "DESCRIPTION": "Dunkelt Bereiche in einem Bild ab"
+    },
+    "STAM": {
+        "TITLE": "Kopierstempel",
+        "DESCRIPTION": "Zeichnet mit Pixeln aus einem anderen Bildbereich"
+    },
+    "CRBT": {
+        "TITLE": "Farbe-ersetzen-Werkzeug",
+        "DESCRIPTION": "Lagert die ausgewählte Farbe über eine bestehende Farbe"
+    },
+    "COLS": {
+        "TITLE": "Farbaufnahme-Werkzeug",
+        "DESCRIPTION": "Zeigt die Werte von Farben in einem Bild an"
+    },
+    "RCMP": {
+        "TITLE": "Inhaltsbasiert verschieben-Werkzeug",
+        "DESCRIPTION": "Wählt einen Teil eines Bildes aus und verschiebt ihn und füllt den zurückgelassenen leeren Bereich automatisch aus"
+    },
+    "COUN": {
+        "TITLE": "Zählungswerkzeug",
+        "DESCRIPTION": "Zählt die Anzahl von Objekten in einem Bild"
+    },
+    "CKNT": {
+        "TITLE": "Punkt-umwandeln-Werkzeug",
+        "DESCRIPTION": "Bearbeitet Formen und Pfade, indem weiche und eckige Ankerpunkte konvertiert werden"
+    },
+    "CROP": {
+        "TITLE": "Freistellungswerkzeug",
+        "DESCRIPTION": "Schneidet oder erweitert die Kanten eines Bildes"
+    },
+    "CUSH": {
+        "TITLE": "Eigene-Form-Werkzeug",
+        "DESCRIPTION": "Zeichnet Formen aus einer Liste mit eigenen Formen"
+    },
+    "DKNT": {
+        "TITLE": "Ankerpunkt-löschen-Werkzeug",
+        "DESCRIPTION": "Löscht Ankerpunkte und ändert die Form von Pfaden  "
+    },
+    "PTHA": {
+        "TITLE": "Direktauswahl-Werkzeug",
+        "DESCRIPTION": "Wählt die einzelnen Punkte und Segmente eines Pfads aus"
+    },
+    "DODG": {
+        "TITLE": "Abwedler-Werkzeug",
+        "DESCRIPTION": "Hellt Bildbereiche auf"
+    },
+    "ELPS": {
+        "TITLE": "Ellipse-Werkzeug",
+        "DESCRIPTION": "Ellipsen zeichnen"
+    },
+    "ELMT": {
+        "TITLE": "Auswahlellipse-Werkzeug",
+        "DESCRIPTION": "Wählt die Form einer Ellipse aus"
+    },
+    "ERAS": {
+        "TITLE": "Radiergummi-Werkzeug",
+        "DESCRIPTION": "Ändert Pixel in die Hintergrundfarbe oder macht sie transparent"
+    },
+    "EYED": {
+        "TITLE": "Pipette-Werkzeug",
+        "DESCRIPTION": "Nimmt Farben aus einem Bild auf"
+    },
+    "MPEN": {
+        "TITLE": "Freiform-Zeichenstift-Werkzeug",
+        "DESCRIPTION": "Fügt beim Zeichnen von Pfaden oder Formen Ankerpunkte hinzu "
+    },
+    "BNDT": {
+        "TITLE": "Verlaufswerkzeug",
+        "DESCRIPTION": "Erstellt eine graduelle Mischung von Farben"
+    },
+    "HAND": {
+        "TITLE": "Hand-Werkzeug",
+        "DESCRIPTION": "Schwenkt über verschiedene Bildbereiche"
+    },
+    "STMM": {
+        "TITLE": "Reparatur-Pinsel",
+        "DESCRIPTION": "Behebt Mängel mit Pixeln aus einem anderen Bildbereich"
+    },
+    "HSTB": {
+        "TITLE": "Protokoll-Pinsel",
+        "DESCRIPTION": "Stellt Bildbereiche aus einer früheren Phase wieder her"
+    },
+    "TXBX": {
+        "TITLE": "Horizontales Text-Werkzeug",
+        "DESCRIPTION": "Fügt horizontalen Text hinzu"
+    },
+    "TYPS": {
+        "TITLE": "Horizontales Text-Maskierungswerkzeug",
+        "DESCRIPTION": "Erstellt eine horizontale Formauswahl"
+    },
+    "LASO": {
+        "TITLE": "Lasso-Werkzeug",
+        "DESCRIPTION": "Erstellt freihändige Bereichsauswahlen"
+    },
+    "LINT": {
+        "TITLE": "Linienzeichner",
+        "DESCRIPTION": "Zeichnet Linien"
+    },
+    "MERA": {
+        "TITLE": "Magischer Radiergummi",
+        "DESCRIPTION": "Löscht ähnlich gefärbte Bereiche mit einem Klick"
+    },
+    "WAND": {
+        "TITLE": "Zauberstab-Werkzeug",
+        "DESCRIPTION": "Wählt ähnlich gefärbte Bildbereiche aus"
+    },
+    "MLAS": {
+        "TITLE": "Magnetisches-Lasso-Werkzeug",
+        "DESCRIPTION": "Trifft eine Auswahl durch Einknicken der Bildkanten"
+    },
+    "WETB": {
+        "TITLE": "Mischpinsel",
+        "DESCRIPTION": "Simuliert echte Zeichentechniken wie das Mischen von Farben und unterschiedliche Farbnässen"
+    },
+    "LMVR": {
+        "TITLE": "Verschieben-Werkzeug",
+        "DESCRIPTION": "Verschiebt eine Auswahl oder Ebene"
+    },
+    "TXTA": {
+        "TITLE": "Anmerkungen-Werkzeug",
+        "DESCRIPTION": "Erstellt Textnotizen, die Sie einem Bild oder einer Datei anhängen können"
+    },
+    "BUCK": {
+        "TITLE": "Füllwerkzeug",
+        "DESCRIPTION": "Füllt ähnlich farbige, benachbarte Bereiche mit der Vordergrundfarbe"
+    },
+    "PTCH": {
+        "TITLE": "Ausbessern-Werkzeug",
+        "DESCRIPTION": "Ersetzt einen Auswahlbereich durch ein Muster oder Pixel aus einem anderen Bereich des Bildes"
+    },
+    "PCST": {
+        "TITLE": "Pfadauswahl-Werkzeug",
+        "DESCRIPTION": "Wählt einen gesamten Pfad aus"
+    },
+    "STMP": {
+        "TITLE": "Musterstempel",
+        "DESCRIPTION": "Zeichnet mit einem ausgewählten Muster"
+    },
+    "PENT": {
+        "TITLE": "Zeichenstift-Werkzeug",
+        "DESCRIPTION": "Zeichnet und ändert Pfade oder Formen mit Ankerpunkten und Griffen"
+    },
+    "PENC": {
+        "TITLE": "Buntstift-Werkzeug",
+        "DESCRIPTION": "Zeichnet Malfilter mit scharfen Kanten"
+    },
+    "PCRP": {
+        "TITLE": "Perspektivisches Freistellungswerkzeug",
+        "DESCRIPTION": "Stellt ein Bild frei, um perspektivische Verzerrungen zu korrigieren"
+    },
+    "POLY": {
+        "TITLE": "Polygon-Werkzeug",
+        "DESCRIPTION": "Zeichnet Polygone"
+    },
+    "PGON": {
+        "TITLE": "Polygon-Lasso-Werkzeug",
+        "DESCRIPTION": "Erstellt Auswahlen mit geraden Kanten"
+    },
+    "QKSL": {
+        "TITLE": "Schnellauswahl-Werkzeug",
+        "DESCRIPTION": "Trifft eine Auswahl, indem es die Kanten eines Bildes sucht und verfolgt"
+    },
+    "RECT": {
+        "TITLE": "Rechteck-Werkzeug",
+        "DESCRIPTION": "Zeichnet Rechtecke"
+    },
+    "RGMT": {
+        "TITLE": "Auswahlrechteck-Werkzeug",
+        "DESCRIPTION": "Trifft eine Auswahl in Form eines Rechtecks"
+    },
+    "RDEY": {
+        "TITLE": "Rote-Augen-Werkzeug",
+        "DESCRIPTION": "Korrigiert durch den Kameraflash entstandene rote Augen"
+    },
+    "ROTT": {
+        "TITLE": "Ansichtdrehung-Werkzeug",
+        "DESCRIPTION": "Dreht die Ansicht eines Bildes"
+    },
+    "RRCT": {
+        "TITLE": "Abgerundetes-Rechteck-Werkzeug",
+        "DESCRIPTION": "Zeichnet Rechtecke mit abgerundeten Kanten"
+    },
+    "MEAT": {
+        "TITLE": "Linealwerkzeug",
+        "DESCRIPTION": "Misst Abstände und Winkel in einem Bild"
+    },
+    "SHAR": {
+        "TITLE": "Scharfzeichner-Werkzeug",
+        "DESCRIPTION": "Setzt Scharfzeichnungsfilter an weichen Kanten in einem Bild"
+    },
+    "SRMT": {
+        "TITLE": "Auswahlwerkzeug: Einzelne Zeile",
+        "DESCRIPTION": "Trifft eine horizontale Auswahl, die ein Pixel hoch ist"
+    },
+    "SCMT": {
+        "TITLE": "Auswahlwerkzeug: Einzelne Spalte",
+        "DESCRIPTION": "Trifft eine vertikale Auswahl, die ein Pixel breit ist"
+    },
+    "SLCT": {
+        "TITLE": "Slice-Werkzeug",
+        "DESCRIPTION": "Schneidet ein Bild in kleinere, Webdesign-taugliche Abschnitte"
+    },
+    "SLST": {
+        "TITLE": "Slice-Auswahlwerkzeug",
+        "DESCRIPTION": "Wählt Slices eines Bildes aus, verschiebt und skaliert sie"
+    },
+    "SMUD": {
+        "TITLE": "Wischfinger-Werkzeug",
+        "DESCRIPTION": "Weichzeichnet oder verwischt Farben in einem Bild"
+    },
+    "SATU": {
+        "TITLE": "Schwamm-Werkzeug",
+        "DESCRIPTION": "Ändert die Farbsättigung von Bildbereichen"
+    },
+    "SPHB": {
+        "TITLE": "Bereichsreparatur-Pinsel",
+        "DESCRIPTION": "Entfernt Marken und Flecken"
+    },
+    "TXBV": {
+        "TITLE": "Vertikaler Text-Werkzeug",
+        "DESCRIPTION": "Fügt vertikalen Text hinzu"
+    },
+    "VTYS": {
+        "TITLE": "Vertikaler Text-Maskierungswerkzeug",
+        "DESCRIPTION": "Erstellt eine vertikale Formauswahl"
+    },
+    "ZOOM": {
+        "TITLE": "Zoom-Werkzeug",
+        "DESCRIPTION": "Vergrößert oder verkleinert eine Bildansicht"
+    },
+    "CPEN": {
+        "TITLE": "Rundungszeichenstift-Werkzeug",
+        "DESCRIPTION": "Erstellt oder ändert Pfade oder Formen mithilfe von Punkten"
+    },
+    "PMHA": {
+        "TITLE": "Hand-Werkzeug",
+        "DESCRIPTION": "Schwenkt über verschiedene Bildbereiche"
+    },
+    "PMZM": {
+        "TITLE": "Zoom-Werkzeug",
+        "DESCRIPTION": "Vergrößert oder verkleinert eine Bildansicht"
+    },
+    "PMDB": {
+        "TITLE": "Auswahlpinsel-Werkzeug",
+        "DESCRIPTION": "[10346731] ü_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lasso-Werkzeug",
+        "DESCRIPTION": "Erstellt freihändige Bereichsauswahlen"
+    },
+    "TRY_IT": "So funktioniert’s",
+    "ADVANCED": "Erweitert:"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 28">
+  <defs>
+    <style>.ico-ccphotos-flag-pick .cls-1{fill:#555;} .ico-ccphotos-flag-pick .cls-2{fill:none;}</style>
+  </defs>
+  <title>ico-ccphotos-flag-pick</title>
+  <g class="ico-ccphotos-flag-pick" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="FFlagPick">
+        <path class="cls-1" d="M16.28,7.07H6V7A1,1,0,0,0,4,7V20a1,1,0,1,0,2,0V16.87H16.28a.69.69,0,0,0,.72-.66V7.73A.69.69,0,0,0,16.28,7.07Zm-1.51,3-4.15,5.05a.91.91,0,0,1-.66.34h0a.9.9,0,0,1-.64-.27l-2-2a1,1,0,0,1,0-1.38.89.89,0,0,1,1.31,0l1.29,1.27,3.52-4.27a.89.89,0,0,1,1.3-.1A1,1,0,0,1,14.77,10.11Z"/>
+        <rect class="cls-2" width="21" height="28"/>
+      </g>
+    </g>
+  </g>
+</svg>

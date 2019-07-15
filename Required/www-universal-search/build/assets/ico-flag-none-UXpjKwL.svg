@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 28">
+  <defs>
+    <style>.ico-ccphotos-flag-none .cls-1{fill:#555;} .ico-ccphotos-flag-none .cls-2{fill:none;}</style>
+  </defs>
+  <title>ico-ccphotos-flag-none</title>
+  <g class="ico-ccphotos-flag-none" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="FFlagNone">
+        <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M16.28,7.07H6V7A1,1,0,0,0,4,7V20a1,1,0,0,0,2,0V16.86H16.28A.69.69,0,0,0,17,16.2V7.73A.69.69,0,0,0,16.28,7.07ZM15,14.85H6V9.08h9Z"/>
+        <rect class="cls-2" width="21" height="28"/>
+      </g>
+    </g>
+  </g>
+</svg>

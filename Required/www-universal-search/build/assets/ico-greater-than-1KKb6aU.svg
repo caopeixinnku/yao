@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style>.ico-ccphotos-greater-than .cls-1{fill:#1c1c1c;} .ico-ccphotos-greater-than .cls-11{fill:#bbb;}</style>
+  </defs>
+  <title>ico-ccphotos-greater-than</title>
+  <g class="id" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="FGreaterThan">
+        <circle id="_Path_" data-name="&lt;Path&gt;" class="cls-11" cx="11" cy="11" r="11"/>
+        <path class="cls-1" d="M7.56,14.12h7a.5.5,0,0,1,.5.5v1a.5.5,0,0,1-.5.5h-7a.5.5,0,0,1-.5-.5v-1A.5.5,0,0,1,7.56,14.12Z"/>
+        <path class="cls-1" d="M7.2,6.5v-1c0-.27.22-.39.48-.28l6.76,2.88a.78.78,0,0,1,.25.19.28.28,0,0,1,.23.3V9.8a.28.28,0,0,1-.23.3.78.78,0,0,1-.25.19L7.68,13.17c-.27.11-.48,0-.48-.28v-1a.83.83,0,0,1,.48-.69l4.75-2-4.75-2A.83.83,0,0,1,7.2,6.5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D 재질 스포이드 도구",
+        "DESCRIPTION": "3D 개체에서 선택한 재질 로드"
+    },
+    "3DDM": {
+        "TITLE": "3D 재질 놓기 도구",
+        "DESCRIPTION": "도구에 로드된 재질을 3D 개체의 대상 영역에 놓기"
+    },
+    "AKNT": {
+        "TITLE": "기준점 추가 도구",
+        "DESCRIPTION": "패스에 기준점 추가"
+    },
+    "ARTT": {
+        "TITLE": "대지 도구",
+        "DESCRIPTION": "여러 캔버스 만들기, 이동 또는 크기 조정"
+    },
+    "AHBT": {
+        "TITLE": "미술 작업 내역 브러시 도구",
+        "DESCRIPTION": "이전 이미지 상태의 픽셀로 양식화된 획 페인트하기"
+    },
+    "SERA": {
+        "TITLE": "배경 지우개 도구",
+        "DESCRIPTION": "샘플링된 색상의 픽셀 지우기"
+    },
+    "BLUR": {
+        "TITLE": "흐림 효과 도구",
+        "DESCRIPTION": "이미지의 흐림 효과 영역"
+    },
+    "PNTB": {
+        "TITLE": "브러시 도구",
+        "DESCRIPTION": "사용자 정의 브러시 획 페인트하기"
+    },
+    "BURN": {
+        "TITLE": "번 도구",
+        "DESCRIPTION": "이미지의 영역을 어둡게 하기"
+    },
+    "STAM": {
+        "TITLE": "복제 도장 도구",
+        "DESCRIPTION": "이미지의 다른 부분에 있는 픽셀로 페인트하기"
+    },
+    "CRBT": {
+        "TITLE": "색상 대체 도구",
+        "DESCRIPTION": "기존 색상 위에 선택한 색상 페인트하기"
+    },
+    "COLS": {
+        "TITLE": "색상 샘플러 도구",
+        "DESCRIPTION": "이미지의 색상 값 표시"
+    },
+    "RCMP": {
+        "TITLE": "내용 인식 이동 도구",
+        "DESCRIPTION": "이미지의 일부를 선택 및 이동하고, 나머지 영역을 자동으로 채우기"
+    },
+    "COUN": {
+        "TITLE": "카운트 도구",
+        "DESCRIPTION": "이미지의 개체 수 카운트"
+    },
+    "CKNT": {
+        "TITLE": "기준점 변환 도구",
+        "DESCRIPTION": "매끄러운 기준점과 모퉁이 기준점을 변환하여 모양과 패스 편집"
+    },
+    "CROP": {
+        "TITLE": "자르기 도구",
+        "DESCRIPTION": "이미지 가장자리 재단 또는 확대"
+    },
+    "CUSH": {
+        "TITLE": "사용자 정의 모양 도구",
+        "DESCRIPTION": "사용자 정의 모양 목록에 있는 모양 그리기"
+    },
+    "DKNT": {
+        "TITLE": "기준점 삭제 도구",
+        "DESCRIPTION": "기준점 삭제 및 패스 모양 변경 "
+    },
+    "PTHA": {
+        "TITLE": "직접 선택 도구",
+        "DESCRIPTION": "패스의 개별 점과 세그먼트 선택"
+    },
+    "DODG": {
+        "TITLE": "닷지 도구",
+        "DESCRIPTION": "이미지의 영역 밝게 하기"
+    },
+    "ELPS": {
+        "TITLE": "타원 도구",
+        "DESCRIPTION": "타원 그리기"
+    },
+    "ELMT": {
+        "TITLE": "원형 선택 윤곽 도구",
+        "DESCRIPTION": "타원 모양으로 선택"
+    },
+    "ERAS": {
+        "TITLE": "지우개 도구",
+        "DESCRIPTION": "픽셀을 배경색으로 변경하거나 투명하게 만들기"
+    },
+    "EYED": {
+        "TITLE": "스포이드 도구",
+        "DESCRIPTION": "이미지의 샘플 색상"
+    },
+    "MPEN": {
+        "TITLE": "자유 형태 펜 도구",
+        "DESCRIPTION": "패스나 모양을 그릴 때 기준점 추가"
+    },
+    "BNDT": {
+        "TITLE": "그레이디언트 도구",
+        "DESCRIPTION": "색상 간의 점진적인 혼합 만들기"
+    },
+    "HAND": {
+        "TITLE": "손 도구",
+        "DESCRIPTION": "이미지의 다른 부분 위로 이동"
+    },
+    "STMM": {
+        "TITLE": "복구 브러시 도구",
+        "DESCRIPTION": "이미지의 다른 부분에 있는 픽셀을 사용하여 결함 수정"
+    },
+    "HSTB": {
+        "TITLE": "작업 내역 브러시 도구",
+        "DESCRIPTION": "이미지의 일부를 이전 상태로 복원"
+    },
+    "TXBX": {
+        "TITLE": "수평 문자 도구",
+        "DESCRIPTION": "수평 문자 추가"
+    },
+    "TYPS": {
+        "TITLE": "가로 문자 마스크 도구",
+        "DESCRIPTION": "수평 문자 모양으로 선택 영역 만들기"
+    },
+    "LASO": {
+        "TITLE": "올가미 도구",
+        "DESCRIPTION": "자유형 선택"
+    },
+    "LINT": {
+        "TITLE": "선 도구",
+        "DESCRIPTION": "선 그리기"
+    },
+    "MERA": {
+        "TITLE": "자동 지우개 도구",
+        "DESCRIPTION": "한 번만 클릭하여 색상이 비슷한 영역 지우기"
+    },
+    "WAND": {
+        "TITLE": "자동 선택 도구",
+        "DESCRIPTION": "비슷한 색상의 이미지 영역 선택"
+    },
+    "MLAS": {
+        "TITLE": "자석 올가미 도구",
+        "DESCRIPTION": "이미지 가장자리로 스냅하여 선택하기"
+    },
+    "WETB": {
+        "TITLE": "혼합 브러시 도구",
+        "DESCRIPTION": "혼합 색상 및 다양한 페인트 젖음과 같은 실제 페인팅 기술 시뮬레이션"
+    },
+    "LMVR": {
+        "TITLE": "이동 도구",
+        "DESCRIPTION": "선택 영역 또는 레이어 이동"
+    },
+    "TXTA": {
+        "TITLE": "메모 도구",
+        "DESCRIPTION": "이미지나 파일에 첨부할 수 있는 텍스트 메모 만들기"
+    },
+    "BUCK": {
+        "TITLE": "페인트 통 도구",
+        "DESCRIPTION": "색상이 비슷한 인접한 영역을 전경색으로 채우기"
+    },
+    "PTCH": {
+        "TITLE": "패치 도구",
+        "DESCRIPTION": "이미지의 다른 부분에 있는 패턴이나 픽셀을 사용하여 선택한 영역 바꾸기"
+    },
+    "PCST": {
+        "TITLE": "패스 선택 도구",
+        "DESCRIPTION": "전체 패스 선택"
+    },
+    "STMP": {
+        "TITLE": "패턴 도장 도구",
+        "DESCRIPTION": "선택한 패턴을 사용하여 페인트하기"
+    },
+    "PENT": {
+        "TITLE": "펜 도구",
+        "DESCRIPTION": "기준점 및 핸들을 사용하여 패스 또는 모양 만들기 및 변경"
+    },
+    "PENC": {
+        "TITLE": "연필 도구",
+        "DESCRIPTION": "가장자리가 선명한 브러시 획 페인트하기"
+    },
+    "PCRP": {
+        "TITLE": "원근 자르기 도구",
+        "DESCRIPTION": "원근으로 인한 왜곡을 보정하기 위해 이미지 자르기"
+    },
+    "POLY": {
+        "TITLE": "다각형 도구",
+        "DESCRIPTION": "다각형 그리기"
+    },
+    "PGON": {
+        "TITLE": "다각형 올가미 도구",
+        "DESCRIPTION": "가장자리가 곧은 선택 영역 만들기"
+    },
+    "QKSL": {
+        "TITLE": "빠른 선택 도구",
+        "DESCRIPTION": "이미지의 가장자리를 찾은 후 가장자리를 따라 이동하여 선택"
+    },
+    "RECT": {
+        "TITLE": "사각형 도구",
+        "DESCRIPTION": "사각형 그리기"
+    },
+    "RGMT": {
+        "TITLE": "사각형 선택 윤곽 도구",
+        "DESCRIPTION": "사각형 모양으로 선택"
+    },
+    "RDEY": {
+        "TITLE": "적목 현상 도구",
+        "DESCRIPTION": "카메라 플래시로 인한 적목 현상 수정"
+    },
+    "ROTT": {
+        "TITLE": "회전 보기 도구",
+        "DESCRIPTION": "이미지 보기 회전"
+    },
+    "RRCT": {
+        "TITLE": "모서리가 둥근 사각형 도구",
+        "DESCRIPTION": "모서리가 둥근 사각형 그리기"
+    },
+    "MEAT": {
+        "TITLE": "눈금자 도구",
+        "DESCRIPTION": "이미지의 거리와 각도 측정"
+    },
+    "SHAR": {
+        "TITLE": "선명 효과 도구",
+        "DESCRIPTION": "이미지의 부드러운 가장자리를 선명하게 하기"
+    },
+    "SRMT": {
+        "TITLE": "단일 행 선택 윤곽 도구",
+        "DESCRIPTION": "단일 픽셀 높이의 가로 선택 영역 만들기"
+    },
+    "SCMT": {
+        "TITLE": "단일 열 선택 윤곽 도구",
+        "DESCRIPTION": "단일 픽셀 너비의 수직 선택 영역 만들기"
+    },
+    "SLCT": {
+        "TITLE": "분할 영역 도구",
+        "DESCRIPTION": "웹 디자인에 맞는 작은 섹션으로 이미지 자르기"
+    },
+    "SLST": {
+        "TITLE": "분할 영역 선택 도구",
+        "DESCRIPTION": "이미지의 분할 영역 선택, 이동 및 크기 조정"
+    },
+    "SMUD": {
+        "TITLE": "손가락 도구",
+        "DESCRIPTION": "이미지의 색상을 부드럽게 하거나 문지르기 효과 만들기"
+    },
+    "SATU": {
+        "TITLE": "스폰지 도구",
+        "DESCRIPTION": "이미지 영역의 색상 채도 변경"
+    },
+    "SPHB": {
+        "TITLE": "스팟 복구 브러시 도구",
+        "DESCRIPTION": "표시 및 흠집 제거"
+    },
+    "TXBV": {
+        "TITLE": "세로 문자 도구",
+        "DESCRIPTION": "세로 문자 추가"
+    },
+    "VTYS": {
+        "TITLE": "세로 문자 마스크 도구",
+        "DESCRIPTION": "세로 문자 모양으로 선택 영역 만들기"
+    },
+    "ZOOM": {
+        "TITLE": "돋보기 도구",
+        "DESCRIPTION": "이미지 보기 확대 또는 축소"
+    },
+    "CPEN": {
+        "TITLE": "곡률 펜 도구",
+        "DESCRIPTION": "포인트를 사용하여 경로 또는 모양 생성 또는 변경"
+    },
+    "PMHA": {
+        "TITLE": "손 도구",
+        "DESCRIPTION": "이미지의 다른 부분 위로 이동"
+    },
+    "PMZM": {
+        "TITLE": "돋보기 도구",
+        "DESCRIPTION": "이미지 보기 확대 또는 축소"
+    },
+    "PMDB": {
+        "TITLE": "샘플링 브러시 도구",
+        "DESCRIPTION": "승_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "올가미 도구",
+        "DESCRIPTION": "자유형 선택"
+    },
+    "TRY_IT": "방법",
+    "ADVANCED": "고급:"
+}

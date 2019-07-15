@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 32">
+  <defs>
+    <style>.ico-ccphotos-sort .cls-1{fill:#7b7b7b;} .ico-ccphotos-sort .cls-11{fill:none;}</style>
+  </defs>
+  <title>ico-ccphotos-sort</title>
+  <g class="ico-ccphotos-sort" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Sort">
+        <g id="Sort-2" data-name="Sort">
+          <rect class="cls-11" width="34" height="32"/>
+        </g>
+        <path class="cls-1" d="M26.43,11H7.57A.57.57,0,0,1,7,10.43V9.57A.57.57,0,0,1,7.57,9H26.43a.57.57,0,0,1,.57.57v.86A.57.57,0,0,1,26.43,11Z"/>
+        <path class="cls-1" d="M21.43,17H7.57A.57.57,0,0,1,7,16.43v-.86A.57.57,0,0,1,7.57,15H21.43a.57.57,0,0,1,.57.57v.86A.57.57,0,0,1,21.43,17Z"/>
+        <path class="cls-1" d="M17.43,23H7.57A.57.57,0,0,1,7,22.43v-.86A.57.57,0,0,1,7.57,21h9.86a.57.57,0,0,1,.57.57v.86A.57.57,0,0,1,17.43,23Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

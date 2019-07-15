@@ -1,0 +1,39 @@
+<signatures>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Manifest" URI="#PackageContents">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>XRyoA+IkQnXoQGa6TjWmsdNLcY9hl2H97Esa8Jp01RE=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue Id="PackageSignatureValue">aWvw++yMV70kVbgBWJFfuIEjq5VfKYFo/NUYtlB1OxJHVsivAdbdKB7f8p0K1H8j
+fLvRhpH5To0fdHhjNnZVAsM+m6mQLtsUUx3TnWl97iMZrN+pQ7vcdFfKCaaDqFjm
+EY1mO13k0D8PHHczZ/cRDWn7dCkvq/TlpFdUNzedeEw=</SignatureValue>
+
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIB7TCCAVYCCQDter/2tG3fSDANBgkqhkiG9w0BAQUFADA7MQswCQYDVQQGEwJV
+UzELMAkGA1UECBMCQ0ExDjAMBgNVBAoTBUFkb2JlMQ8wDQYDVQQDEwZoZXJtZXMw
+HhcNMTcxMTI4MTc0OTA1WhcNMjkwMjE0MTc0OTA1WjA7MQswCQYDVQQGEwJVUzEL
+MAkGA1UECBMCQ0ExDjAMBgNVBAoTBUFkb2JlMQ8wDQYDVQQDEwZoZXJtZXMwgZ8w
+DQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMe0jMOTFGBcTTKxgjiLwhdOMB2441I9
+0o86K4uu3XDDYyUNR9MFkaO6Vt1y7hqTPnDLGCalzgeMwqVfzk/i315zO1i82QpN
+Kr9a6b1vDAxoFCOiywczz0tmW94MFG00QisXAxG5oUvg+u8mdqi+ETmkLgePsL7T
+0PyYjhSAIhhFAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAgdGnun+3JZq4e+9dbtbB
+o7RX9SK3pk+FLE1zATVrXcBUtRuJPMTXKsRtqCjU873JJNheZQgXVwOWKYoeZAZx
+OsPh8PROJ8G9CzdqdGWvHw6Vys36q/5MUK3OoLb4zxOMeNbyyyufwNUybkfc1c5F
+qVE8QsiAeBUQMvehO1pcHyw=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object>
+<Manifest Id="PackageContents">
+<Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>b07Onu9cTlGK1WpvgtFOlfk+Tl0HscuNIt6GZtesPX8=</DigestValue></Reference><Reference URI="index.html"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>IgPXjms5xdsJ8c/p6eG1qrN3KHRHAy+CmGwiJyzQMVo=</DigestValue></Reference><Reference URI="hermes.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>N8yTMotq9scG4P704uzbsgPjG12uDqEFAtqnjrEdClo=</DigestValue></Reference><Reference URI="CSXS/manifest.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>RBKIPNUegqKamvEyD3ZXPJZJmCbY9ByIgOfuSYvCFyg=</DigestValue></Reference></Manifest>
+</Object>
+</Signature>
+</signatures>

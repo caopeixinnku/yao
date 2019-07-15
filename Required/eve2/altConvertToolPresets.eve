@@ -1,0 +1,65 @@
+layout altConvertToolPresets
+    {
+	interface:
+        doNotShowAgain	: false;  
+		macintosh		: true;
+		windows			: false <== !macintosh;
+	
+    view TAltConvertToolPresetsDialog(name: '$$$/Dialog/AltConvertToolPresetsDialog/Title=Load Tool Presets',
+                           placement: place_column,
+                           margin: 15,
+                           isResizable: false)
+        {												
+		TStaticText(horizontal : align_fill,
+					autoWrap   : true,
+					name       : "$$$/Dialog/AltConvertToolPresetsDialog/Prompt=Import compatible tool presets as brush presets?^r^rWe recommend importing compatible tool presets as brush presets. Brush presets^rnow contain all the functionality of tool presets, but with additional benefits such as^rstroke previews and the ability to organize into folders."			
+					);
+						
+
+		TStaticText(identifier: @learnMoreLink,
+					horizontal : align_left,
+					name: '$$$/Dialog/AltConvertToolPresetsDialog/BrushPresetsLearnMore=Learn more about Brush Presets', 
+					wincontrol: false);													   
+
+		column(margin : [12, 0, 40, 0])
+			{
+			TCheckBox(bind       : @doNotShowAgain,
+					  horizontal : align_left,
+					  name       : "$$$/ControlsStrings/DontShowAgain=Don^}t show again");									
+			}		
+						
+		TOptional(bind: @macintosh, placement: place_row, horizontal: align_right)
+			{
+			TButton(name: "$$$/Dialog/AltConvertToolPresetsDialog/LoadAsTools=Load as Tools",
+					identifier: @asTools,
+					dismiss: true);	
+			
+			TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+					identifier: @cancel,
+					dismiss: true);		
+
+			
+			TButton(name: "$$$/Dialog/AltConvertToolPresetsDialog/ImportAsBrushes=Import as Brushes",
+					identifier: @ok,
+					dismiss: true,
+					default: true);
+			}	
+		
+		/* Flip button order for Windows */	
+		TOptional(bind: @windows, placement: place_row, horizontal: align_right)
+			{
+			TButton(name: "$$$/Dialog/AltConvertToolPresetsDialog/ImportAsBrushes=Import as Brushes",
+					identifier: @ok,
+					dismiss: true,
+					default: true);
+			
+			TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+					identifier: @cancel,
+					dismiss: true);		
+			
+			TButton(name: "$$$/Dialog/AltConvertToolPresetsDialog/LoadAsTools=Load as Tools",
+					identifier: @asTools,
+					dismiss: true);	
+			}								
+        }
+    }

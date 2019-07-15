@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 32">
+  <defs>
+    <style>.ico-ccphotos-album .cls-1{fill:#7b7b7b;} .ico-ccphotos-album .cls-2{fill:none;}</style>
+  </defs>
+  <title>Asset 1</title>
+  <g class="ico-ccphotos-album" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="SBLibrary">
+        <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-2" width="34" height="32"/>
+        <g id="_Group_" data-name="&lt;Group&gt;">
+          <path id="Fill-250" class="cls-1" d="M14.5,14.39h6v2h-6ZM9.5,23a1.4,1.4,0,0,0,1.4,1.4H24.1a1.3,1.3,0,0,0,1.4-1.27V12.39H9.5V23ZM25.9,8.39H9.1c-.33,0-.6.39-.6.73v2.27h18V9.12c0-.33-.27-.73-.6-.73Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

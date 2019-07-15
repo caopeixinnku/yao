@@ -1,0 +1,11 @@
+{
+    "left" : 0,
+    "top" : 0,
+    "width" : 500,
+    "height" : 500,
+    "overlay_type" : "window",
+    "use_transparency" : true,
+    "clear_surface_on_show" : true,
+    "hide_on_external_mouse_down" : true,
+    "start_url" : "./build/index.html"
+}

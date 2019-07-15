@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=1024, initial-scale=0.3, maximum-scale=1">
+
+    <title>Learn Panel 1.0.0</title>
+
+    
+
+    
+    <link href="main.css" rel="stylesheet">
+    
+
+</head>
+<body id="body">
+<script>
+let initialColor,
+    // eslint-disable-next-line no-undef
+    colorStop = _spaces.ps.initialUIBrightness.kuiBrightnessLevel._value;
+switch (colorStop) {
+case "kPanelBrightnessLightGray":
+    initialColor = "#B8B8B8";
+    break;
+case "kPanelBrightnessOriginal":
+    initialColor = "#F0F0F0";
+    break;
+case "kPanelBrightnessMediumGray":
+    initialColor = "#535353";
+    break;
+case "kPanelBrightnessDarkGray":
+    initialColor = "#323232";
+    break;
+default:
+    initialColor = "#535353";
+    break;
+}
+window.document.getElementById("body").style.background = initialColor;
+</script>
+    
+    <script src="spaces.js"></script>
+    
+    <script src="nls.js"></script>
+    
+    <script src="external.js"></script>
+    
+    <script src="main.js"></script>
+    
+</body>
+
+</html>

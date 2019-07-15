@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="6.0" ExtensionBundleId="com.adobe.ccx.fnft" ExtensionBundleVersion="2.1.0.33"
+		ExtensionBundleName="CCX Start Cmd-N" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SHA="da23af5">
+	<ExtensionList>
+		<Extension Id="com.adobe.ccx.fnft" Version="2.1.0.33" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="IDSN" Version="[13.0,99.9]" />
+			<Host Name="ILST" Version="[22.0,99.9]" />
+			<Host Name="PHXS" Version="[19.0,99.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="6.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.adobe.ccx.fnft">
+			<DispatchInfo >
+				<HostList>
+					<Host Name="PHXS" />
+					<Host Name="ILST" />
+					<Host Name="IDSN" />
+				</HostList>
+				<Resources>
+                    <MainPath>./fnft.html</MainPath>
+                    <CEFCommandLine>
+						<Parameter>--nodejs-disabled</Parameter>
+						<Parameter>--high-dpi-support=1</Parameter>
+						<Parameter>--disable-pinch</Parameter>
+                    </CEFCommandLine>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>ModalDialog</Type>
+					<Menu>%CCX_FNFT_DIALOG_NAME</Menu>
+					<Geometry>
+						<Size>
+							<Height>615</Height>
+							<Width>1070</Width>
+						</Size>
+						<MaxSize>
+							<Height>1230</Height>
+							<Width>2140</Width>
+						</MaxSize>
+						<MinSize>
+							<Height>470</Height>
+							<Width>850</Width>
+						</MinSize>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+			<DispatchInfo Host="ILST">
+				<Resources>
+					<ScriptPath>./jsx/xsdom-host-ILST.js</ScriptPath>
+				</Resources>
+			</DispatchInfo>
+			<DispatchInfo Host="PHXS">
+				<Resources>
+					<ScriptPath>./jsx/xsdom-host-PHXS.js</ScriptPath>
+				</Resources>
+			</DispatchInfo>
+			<DispatchInfo Host="IDSN">
+				<Resources>
+					<ScriptPath>./jsx/xsdom-host-IDSN.js</ScriptPath>
+				</Resources>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

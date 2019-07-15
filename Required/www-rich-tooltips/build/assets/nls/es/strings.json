@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Herramienta Cuentagotas de material 3D",
+        "DESCRIPTION": "Carga el material seleccionado de un objeto 3D"
+    },
+    "3DDM": {
+        "TITLE": "Herramienta Colocar material 3D",
+        "DESCRIPTION": "Coloca el material cargado en la herramienta en el área de destino de un objeto 3D"
+    },
+    "AKNT": {
+        "TITLE": "Herramienta Añadir punto de anclaje",
+        "DESCRIPTION": "Añade puntos de ancla a sus trazados"
+    },
+    "ARTT": {
+        "TITLE": "Herramienta Mesa de trabajo",
+        "DESCRIPTION": "Crea, mueve o cambia el tamaño de varios lienzos"
+    },
+    "AHBT": {
+        "TITLE": "Herramienta Pincel histórico",
+        "DESCRIPTION": "Pinta trazos estilizados con píxeles de un estado anterior de la imagen"
+    },
+    "SERA": {
+        "TITLE": "Herramienta Borrador de fondos",
+        "DESCRIPTION": "Borra los píxeles de un color muestreado"
+    },
+    "BLUR": {
+        "TITLE": "Herramienta Desenfocar",
+        "DESCRIPTION": "Desenfoca áreas de una imagen"
+    },
+    "PNTB": {
+        "TITLE": "Herramienta Pincel",
+        "DESCRIPTION": "Pinta trazos de pincel personalizados"
+    },
+    "BURN": {
+        "TITLE": "Herramienta Subexponer",
+        "DESCRIPTION": "Oscurece áreas de una imagen"
+    },
+    "STAM": {
+        "TITLE": "Herramienta Tampón de clonar",
+        "DESCRIPTION": "Pinta con píxeles de otra zona de la imagen"
+    },
+    "CRBT": {
+        "TITLE": "Herramienta Sustitución de color",
+        "DESCRIPTION": "Pinta el color seleccionado sobre un color existente"
+    },
+    "COLS": {
+        "TITLE": "Herramienta Muestra de color",
+        "DESCRIPTION": "Muestra valores de los colores de una imagen"
+    },
+    "RCMP": {
+        "TITLE": "Herramienta Movimiento con detección de contenido",
+        "DESCRIPTION": "Selecciona y mueve parte de una imagen, y rellena automáticamente el área que hay detrás"
+    },
+    "COUN": {
+        "TITLE": "Herramienta Recuento ",
+        "DESCRIPTION": "Cuenta el número de objetos de una imagen"
+    },
+    "CKNT": {
+        "TITLE": "Herramienta Convertir punto",
+        "DESCRIPTION": "Edita formas y trazados mediante la conversión de puntos de ancla suaves y de esquina"
+    },
+    "CROP": {
+        "TITLE": "Herramienta Recortar",
+        "DESCRIPTION": "Recorta o expande los bordes de la imagen"
+    },
+    "CUSH": {
+        "TITLE": "Herramienta Forma personalizada",
+        "DESCRIPTION": "Dibuja formas de una lista de formas personalizadas"
+    },
+    "DKNT": {
+        "TITLE": "Herramienta Eliminar punto de anclaje",
+        "DESCRIPTION": "Elimina puntos de ancla y cambia de forma trazados  "
+    },
+    "PTHA": {
+        "TITLE": "Herramienta Selección directa",
+        "DESCRIPTION": "Selecciona los segmentos y puntos individuales de un trazado"
+    },
+    "DODG": {
+        "TITLE": "Herramienta Sobreexponer",
+        "DESCRIPTION": "Aclara áreas de una imagen"
+    },
+    "ELPS": {
+        "TITLE": "Herramienta Elipse",
+        "DESCRIPTION": "Dibuja elipses"
+    },
+    "ELMT": {
+        "TITLE": "Herramienta Marco elíptico",
+        "DESCRIPTION": "Realiza una selección en la forma de una elipse"
+    },
+    "ERAS": {
+        "TITLE": "Herramienta Borrador",
+        "DESCRIPTION": "Colorea píxeles con el color de fondo o los hace transparentes"
+    },
+    "EYED": {
+        "TITLE": "Herramienta Cuentagotas",
+        "DESCRIPTION": "Muestra los colores de una imagen"
+    },
+    "MPEN": {
+        "TITLE": "Herramienta Pluma de forma libre",
+        "DESCRIPTION": "Añade puntos de ancla mientras dibuja trazados o formas"
+    },
+    "BNDT": {
+        "TITLE": "Herramienta Degradado",
+        "DESCRIPTION": "Crea una fusión gradual entre colores"
+    },
+    "HAND": {
+        "TITLE": "Herramienta Mano",
+        "DESCRIPTION": "Barre diferentes partes de una imagen"
+    },
+    "STMM": {
+        "TITLE": "Herramienta Pincel corrector",
+        "DESCRIPTION": "Repara imperfecciones con píxeles de otra zona de la imagen"
+    },
+    "HSTB": {
+        "TITLE": "Herramienta Pincel de historia",
+        "DESCRIPTION": "Restaura las partes de una imagen a un estado anterior"
+    },
+    "TXBX": {
+        "TITLE": "Herramienta Texto horizontal",
+        "DESCRIPTION": "Añade texto horizontal"
+    },
+    "TYPS": {
+        "TITLE": "Herramienta Máscara de texto horizontal",
+        "DESCRIPTION": "Crea una selección con forma de texto horizontal"
+    },
+    "LASO": {
+        "TITLE": "Herramienta Lazo",
+        "DESCRIPTION": "Realiza selecciones a mano alzada"
+    },
+    "LINT": {
+        "TITLE": "Herramienta Línea",
+        "DESCRIPTION": "Dibuja líneas"
+    },
+    "MERA": {
+        "TITLE": "Herramienta Borrador mágico",
+        "DESCRIPTION": "Borra áreas de colores similares con un solo clic"
+    },
+    "WAND": {
+        "TITLE": "Herramienta Varita mágica",
+        "DESCRIPTION": "Selecciona áreas de la imagen de colores similares"
+    },
+    "MLAS": {
+        "TITLE": "Herramienta Lazo magnético",
+        "DESCRIPTION": "Realiza una selección ajustándose a los bordes de la imagen"
+    },
+    "WETB": {
+        "TITLE": "Herramienta Pincel Mezclador",
+        "DESCRIPTION": "Simula técnicas de pintura reales, como la fusión de colores y la variación de la humedad de la pintura"
+    },
+    "LMVR": {
+        "TITLE": "Herramienta Mover",
+        "DESCRIPTION": "Mueve una selección o una capa"
+    },
+    "TXTA": {
+        "TITLE": "Herramienta Nota",
+        "DESCRIPTION": "Crea notas de texto que puede adjuntar a una imagen o archivo"
+    },
+    "BUCK": {
+        "TITLE": "Herramienta Bote de pintura",
+        "DESCRIPTION": "Rellena áreas contiguas de colores similares con el color frontal"
+    },
+    "PTCH": {
+        "TITLE": "Herramienta Parche",
+        "DESCRIPTION": "Reemplaza un área seleccionada con un motivo o píxeles de otra zona de la imagen"
+    },
+    "PCST": {
+        "TITLE": "Herramienta Selección de trazado",
+        "DESCRIPTION": "Selecciona un trazado completo"
+    },
+    "STMP": {
+        "TITLE": "Herramienta Tampón de motivo",
+        "DESCRIPTION": "Pinta con un motivo seleccionado"
+    },
+    "PENT": {
+        "TITLE": "Herramienta Pluma",
+        "DESCRIPTION": "Crea y modifica trazados o formas con puntos de ancla y manejadores"
+    },
+    "PENC": {
+        "TITLE": "Herramienta Lápiz",
+        "DESCRIPTION": "Pinta trazos de pincel con bordes definidos"
+    },
+    "PCRP": {
+        "TITLE": "Herramienta Recorte con perspectiva",
+        "DESCRIPTION": "Recorta una imagen para corregir las distorsiones generadas por la perspectiva"
+    },
+    "POLY": {
+        "TITLE": "Herramienta Polígono",
+        "DESCRIPTION": "Dibuja polígonos"
+    },
+    "PGON": {
+        "TITLE": "Herramienta Lazo poligonal",
+        "DESCRIPTION": "Crea selecciones de borde rectilíneo"
+    },
+    "QKSL": {
+        "TITLE": "Herramienta Selección rápida",
+        "DESCRIPTION": "Realiza una selección identificando y siguiendo los bordes de la imagen"
+    },
+    "RECT": {
+        "TITLE": "Herramienta Rectángulo",
+        "DESCRIPTION": "Dibuja rectángulos"
+    },
+    "RGMT": {
+        "TITLE": "Herramienta Marco rectangular",
+        "DESCRIPTION": "Realiza una selección en la forma de un rectángulo"
+    },
+    "RDEY": {
+        "TITLE": "Herramienta Pincel de ojos rojos",
+        "DESCRIPTION": "Corrige el efecto de ojos rojos causado por el flash de la cámara"
+    },
+    "ROTT": {
+        "TITLE": "Herramienta Rotar vista",
+        "DESCRIPTION": "Rota la vista de una imagen"
+    },
+    "RRCT": {
+        "TITLE": "Herramienta Rectángulo redondeado",
+        "DESCRIPTION": "Dibuja rectángulos con bordes redondeados"
+    },
+    "MEAT": {
+        "TITLE": "Herramienta Regla",
+        "DESCRIPTION": "Mide las distancias y los ángulos de una imagen"
+    },
+    "SHAR": {
+        "TITLE": "Herramienta Enfocar",
+        "DESCRIPTION": "Enfoca los bordes suaves de una imagen"
+    },
+    "SRMT": {
+        "TITLE": "Marco fila única",
+        "DESCRIPTION": "Realiza una selección horizontal con un alto de un solo píxel"
+    },
+    "SCMT": {
+        "TITLE": "Herramienta Marco columna única",
+        "DESCRIPTION": "Realiza una selección vertical con un ancho de un solo píxel"
+    },
+    "SLCT": {
+        "TITLE": "Herramienta Sector",
+        "DESCRIPTION": "Divide una imagen en secciones más pequeñas adecuadas para el diseño web"
+    },
+    "SLST": {
+        "TITLE": "Herramienta Seleccionar sector",
+        "DESCRIPTION": "Selecciona, mueve y cambia el tamaño de los sectores de la imagen"
+    },
+    "SMUD": {
+        "TITLE": "Herramienta Dedo",
+        "DESCRIPTION": "Suaviza o mancha los colores de la imagen"
+    },
+    "SATU": {
+        "TITLE": "Herramienta Esponja",
+        "DESCRIPTION": "Cambia la saturación de color de las áreas de una imagen"
+    },
+    "SPHB": {
+        "TITLE": "Herramienta Pincel corrector puntual",
+        "DESCRIPTION": "Elimina marcas e imperfecciones"
+    },
+    "TXBV": {
+        "TITLE": "Herramienta Texto vertical",
+        "DESCRIPTION": "Añade texto vertical"
+    },
+    "VTYS": {
+        "TITLE": "Herramienta Máscara de texto vertical",
+        "DESCRIPTION": "Crea una selección con forma de texto vertical"
+    },
+    "ZOOM": {
+        "TITLE": "Herramienta Zoom",
+        "DESCRIPTION": "Aumenta o reduce la vista de una imagen"
+    },
+    "CPEN": {
+        "TITLE": "Herramienta Pluma de curvatura",
+        "DESCRIPTION": "Realiza o cambia trazados o formas con puntos"
+    },
+    "PMHA": {
+        "TITLE": "Herramienta Mano",
+        "DESCRIPTION": "Barre diferentes partes de una imagen"
+    },
+    "PMZM": {
+        "TITLE": "Herramienta Zoom",
+        "DESCRIPTION": "Aumenta o reduce la vista de una imagen"
+    },
+    "PMDB": {
+        "TITLE": "Herramienta Pincel de muestra",
+        "DESCRIPTION": "[10346731] ñ_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Herramienta Lazo",
+        "DESCRIPTION": "Realiza selecciones a mano alzada"
+    },
+    "TRY_IT": "Descubrir cómo",
+    "ADVANCED": "Avanzado:"
+}

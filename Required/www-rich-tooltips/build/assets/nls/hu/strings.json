@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D anyagpipetta eszköz",
+        "DESCRIPTION": "Betölti a kijelölt anyagot a 3D objektumról"
+    },
+    "3DDM": {
+        "TITLE": "Térbeli anyagelhelyező eszköz",
+        "DESCRIPTION": "Az eszközbe betöltött anyagot a 3D objektum célterületére ejti"
+    },
+    "AKNT": {
+        "TITLE": "Szerkesztőpont hozzáadása eszköz",
+        "DESCRIPTION": "Szerkesztőpontokat ad görbéihez"
+    },
+    "ARTT": {
+        "TITLE": "Rajztábla eszköz",
+        "DESCRIPTION": "Több vásznat hoz létre, helyez át és méretez át"
+    },
+    "AHBT": {
+        "TITLE": "Művészi előzmény ecset eszköz",
+        "DESCRIPTION": "Stilizált ecsetvonásokat fest a korábbi állapotú kép képpontjaival"
+    },
+    "SERA": {
+        "TITLE": "Háttér radír eszköz",
+        "DESCRIPTION": "Törli a mintavételezett szín képpontjait"
+    },
+    "BLUR": {
+        "TITLE": "Életlenítés eszköz",
+        "DESCRIPTION": "Életleníti a kép területeit"
+    },
+    "PNTB": {
+        "TITLE": "Ecset eszköz",
+        "DESCRIPTION": "Egyéni ecsetvonásokat fest"
+    },
+    "BURN": {
+        "TITLE": "Színégetés eszköz",
+        "DESCRIPTION": "Sötétíti a kép területeit"
+    },
+    "STAM": {
+        "TITLE": "Klónozó bélyegző eszköz",
+        "DESCRIPTION": "A kép másik részének képpontjaival fest"
+    },
+    "CRBT": {
+        "TITLE": "Színcsere eszköz",
+        "DESCRIPTION": "A kijelölt színt a meglévőre festi"
+    },
+    "COLS": {
+        "TITLE": "Színminta-vételező eszköz",
+        "DESCRIPTION": "Megjeleníti a kép színértékeit"
+    },
+    "RCMP": {
+        "TITLE": "Tartalomérzékeny mozgató eszköz",
+        "DESCRIPTION": "Kijelöl és áthelyez egy képrészletet, és automatikusan kitölti a mögötte lévő területet"
+    },
+    "COUN": {
+        "TITLE": "Számláló eszköz",
+        "DESCRIPTION": "Képen lévő objektumok számának számlálása"
+    },
+    "CKNT": {
+        "TITLE": "Pont transzformáció eszköz",
+        "DESCRIPTION": "Alakzatokat és görbéket szerkeszt az egyszerű és sarok szerkesztőpontok transzformálásával"
+    },
+    "CROP": {
+        "TITLE": "Vágás eszköz",
+        "DESCRIPTION": "Kép szegélyét körülvágja vagy kiterjeszti"
+    },
+    "CUSH": {
+        "TITLE": "Egyedi alakzat eszköz",
+        "DESCRIPTION": "Egyéni alakzatlistából választott alakzatokat rajzol"
+    },
+    "DKNT": {
+        "TITLE": "Szerkesztőpont törlése eszköz",
+        "DESCRIPTION": "Törli a szerkesztőpontokat, és átformálja a görbéket  "
+    },
+    "PTHA": {
+        "TITLE": "Közvetlen kijelölés eszköz",
+        "DESCRIPTION": "Kijelöli egy görbe egyedi pontjait és szegmenseit"
+    },
+    "DODG": {
+        "TITLE": "Fakító eszköz",
+        "DESCRIPTION": "Kivilágosítja egy kép területeit"
+    },
+    "ELPS": {
+        "TITLE": "Ellipszis eszköz",
+        "DESCRIPTION": "Ellipsziseket rajzol"
+    },
+    "ELMT": {
+        "TITLE": "Ellipszis kijelölő eszköz",
+        "DESCRIPTION": "Kijelölést végez egy ellipszis alakzattal"
+    },
+    "ERAS": {
+        "TITLE": "Radír eszköz",
+        "DESCRIPTION": "A háttérszínre változtatja a képpontokat vagy átlátszóvá teszi őket"
+    },
+    "EYED": {
+        "TITLE": "Pipetta eszköz",
+        "DESCRIPTION": "Színmintát vesz egy képből"
+    },
+    "MPEN": {
+        "TITLE": "Szabadkézi toll eszköz",
+        "DESCRIPTION": "Szerkesztőpontokat ad hozzá görbék vagy alakzatok rajzolása közben"
+    },
+    "BNDT": {
+        "TITLE": "Színátmenet eszköz",
+        "DESCRIPTION": "Fokozatos keverést hoz létre színek között"
+    },
+    "HAND": {
+        "TITLE": "Kéz eszköz",
+        "DESCRIPTION": "Egy kép különböző területei fölött pásztáz"
+    },
+    "STMM": {
+        "TITLE": "Javítóecset eszköz",
+        "DESCRIPTION": "A tökéletlenségeket a kép másik részének képpontjaival javítja"
+    },
+    "HSTB": {
+        "TITLE": "Előzményecset eszköz",
+        "DESCRIPTION": "Visszaállítja egy kép részeit korábbi állapotukba"
+    },
+    "TXBX": {
+        "TITLE": "Vízszintes szövegírás eszköz",
+        "DESCRIPTION": "Vízszintes szöveget ad hozzá"
+    },
+    "TYPS": {
+        "TITLE": "Vízszintes szövegmaszk eszköz",
+        "DESCRIPTION": "Kijelölést végez vízszintes szövegalakzatban"
+    },
+    "LASO": {
+        "TITLE": "Lasszó eszköz",
+        "DESCRIPTION": "Szabad kijelölést végez"
+    },
+    "LINT": {
+        "TITLE": "Vonal eszköz",
+        "DESCRIPTION": "Vonalakat rajzol"
+    },
+    "MERA": {
+        "TITLE": "Bűvös radír eszköz",
+        "DESCRIPTION": "Egyetlen kattintással töröl hasonló színű területeket"
+    },
+    "WAND": {
+        "TITLE": "Varázspálca eszköz",
+        "DESCRIPTION": "Hasonló színezésű képterületeket jelöl ki"
+    },
+    "MLAS": {
+        "TITLE": "Mágneses lasszó eszköz",
+        "DESCRIPTION": "Kijelölést végez képszegélyekhez pattintással"
+    },
+    "WETB": {
+        "TITLE": "Keverőecset eszköz",
+        "DESCRIPTION": "Valós festési technikákat, például színkeverés vagy változó festéknedvesség utánoz"
+    },
+    "LMVR": {
+        "TITLE": "Mozgató eszköz",
+        "DESCRIPTION": "Áthelyez egy kijelölést vagy réteget"
+    },
+    "TXTA": {
+        "TITLE": "Jegyzet eszköz",
+        "DESCRIPTION": "Képhez vagy fájlhoz csatolható szöveges megjegyzést készít"
+    },
+    "BUCK": {
+        "TITLE": "Festékesvödör eszköz",
+        "DESCRIPTION": "A hasonló színezésű folytonos területeket kitölti az előtér színével"
+    },
+    "PTCH": {
+        "TITLE": "Folt eszköz",
+        "DESCRIPTION": "Kicseréli a kijelölt területet a kép más részének mintázatának vagy képpontjainak használatával"
+    },
+    "PCST": {
+        "TITLE": "Görbeválasztó eszköz",
+        "DESCRIPTION": "Kijelöl egy teljes görbét"
+    },
+    "STMP": {
+        "TITLE": "Mintázat bélyegző eszköz",
+        "DESCRIPTION": "Kiválasztott mintázattal fest"
+    },
+    "PENT": {
+        "TITLE": "Toll eszköz",
+        "DESCRIPTION": "Görbéket vagy alakzatokat készít vagy módosít szerkesztőpontokkal vagy fogantyúkkal"
+    },
+    "PENC": {
+        "TITLE": "Ceruza eszköz",
+        "DESCRIPTION": "Éles szegélyű ecsetvonásokat fest"
+    },
+    "PCRP": {
+        "TITLE": "Perspektivikus vágás eszköz",
+        "DESCRIPTION": "Levág egy képet a perspektivikus torzítás korrekciója érdekében"
+    },
+    "POLY": {
+        "TITLE": "Sokszög eszköz",
+        "DESCRIPTION": "Sokszögeket rajzol"
+    },
+    "PGON": {
+        "TITLE": "Sokszög lasszó eszköz",
+        "DESCRIPTION": "Éles szegélyű kijelöléseket végez"
+    },
+    "QKSL": {
+        "TITLE": "Gyors kijelölés eszköz",
+        "DESCRIPTION": "Egy kép szegélyeinek megkeresésével és követésével végez kijelölést"
+    },
+    "RECT": {
+        "TITLE": "Téglalap eszköz",
+        "DESCRIPTION": "Téglalapokat rajzol"
+    },
+    "RGMT": {
+        "TITLE": "Téglalap-kijelölő eszköz",
+        "DESCRIPTION": "Kijelölést végez egy téglalap alakzattal"
+    },
+    "RDEY": {
+        "TITLE": "Vörösszem-eltávolító eszköz",
+        "DESCRIPTION": "Korrigálja a fényképezőgép vakuja által okozott vörösszem effektust"
+    },
+    "ROTT": {
+        "TITLE": "Nézet elforgatása eszköz",
+        "DESCRIPTION": "Elforgatja egy kép nézetét"
+    },
+    "RRCT": {
+        "TITLE": "Lekerekített téglalap eszköz",
+        "DESCRIPTION": "Lekerekített szegélyű téglalapokat rajzol"
+    },
+    "MEAT": {
+        "TITLE": "Vonalzó eszköz",
+        "DESCRIPTION": "Távolságot és szöget mér egy képben"
+    },
+    "SHAR": {
+        "TITLE": "Élesítés eszköz",
+        "DESCRIPTION": "Élesíti egy kép lágy szegélyeit"
+    },
+    "SRMT": {
+        "TITLE": "Egysoros kijelölő eszköz",
+        "DESCRIPTION": "Egyetlen képpont magasságú vízszintes kijelölést végez"
+    },
+    "SCMT": {
+        "TITLE": "Egyoszlopos kijelölő eszköz",
+        "DESCRIPTION": "Egyetlen képpont szélességű függőleges kijelölést végez"
+    },
+    "SLCT": {
+        "TITLE": "Szelet eszköz",
+        "DESCRIPTION": "Egy képet webes tervezésre alkalmas kisebb részekre vág"
+    },
+    "SLST": {
+        "TITLE": "Szeletkijelölő eszköz",
+        "DESCRIPTION": "Kijelöli, mozgatja és átméretezi egy kép szeleteit"
+    },
+    "SMUD": {
+        "TITLE": "Maszatoló eszköz",
+        "DESCRIPTION": "Lágyítja vagy maszatolja egy kép színeit"
+    },
+    "SATU": {
+        "TITLE": "Szivacs eszköz",
+        "DESCRIPTION": "Módosítja egy kép területeinek színtelítettségét"
+    },
+    "SPHB": {
+        "TITLE": "Helyi javító ecset eszköz",
+        "DESCRIPTION": "Eltávolítja a jeleket és folthibákat"
+    },
+    "TXBV": {
+        "TITLE": "Függőleges szöveg eszköz",
+        "DESCRIPTION": "Függőleges szöveget ad hozzá"
+    },
+    "VTYS": {
+        "TITLE": "Függőleges szövegmaszk eszköz",
+        "DESCRIPTION": "Kijelölést végez függőleges szövegalakzatban"
+    },
+    "ZOOM": {
+        "TITLE": "Nagyítás eszköz",
+        "DESCRIPTION": "Képnézetet nagyít vagy kicsinyít"
+    },
+    "CPEN": {
+        "TITLE": "Görbületrajzoló toll eszköz",
+        "DESCRIPTION": "Pontokkal hoz létre vagy módosít görbevonalakat vagy alakzatokat"
+    },
+    "PMHA": {
+        "TITLE": "Kéz eszköz",
+        "DESCRIPTION": "Egy kép különböző területei fölött pásztáz"
+    },
+    "PMZM": {
+        "TITLE": "Nagyító eszköz",
+        "DESCRIPTION": "Képnézetet nagyít vagy kicsinyít"
+    },
+    "PMDB": {
+        "TITLE": "Mintázó ecset eszköz",
+        "DESCRIPTION": "[10346731] Ő_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lasszó eszköz",
+        "DESCRIPTION": "Szabad kijelölést végez"
+    },
+    "TRY_IT": "Lássuk, hogyan",
+    "ADVANCED": "Speciális:"
+}

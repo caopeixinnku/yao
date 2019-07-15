@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D 材質滴管工具",
+        "DESCRIPTION": "從 3D 物件載入選取的材質"
+    },
+    "3DDM": {
+        "TITLE": "3D 材質拖移工具",
+        "DESCRIPTION": "將載入工具中的材質拖移至 3D 物件的目標區域內"
+    },
+    "AKNT": {
+        "TITLE": "新增錨點工具",
+        "DESCRIPTION": "在您的路徑新增錨點"
+    },
+    "ARTT": {
+        "TITLE": "工作區域工具",
+        "DESCRIPTION": "建立、移動或重新調整多張版面尺寸"
+    },
+    "AHBT": {
+        "TITLE": "藝術步驟記錄筆刷工具",
+        "DESCRIPTION": "從影像的早期狀態以像素繪製風格化的筆觸"
+    },
+    "SERA": {
+        "TITLE": "背景橡皮擦工具",
+        "DESCRIPTION": "擦除取樣色彩的像素"
+    },
+    "BLUR": {
+        "TITLE": "模糊工具",
+        "DESCRIPTION": "模糊影像中的區域"
+    },
+    "PNTB": {
+        "TITLE": "筆刷工具",
+        "DESCRIPTION": "繪製自訂筆刷筆觸"
+    },
+    "BURN": {
+        "TITLE": "加深工具",
+        "DESCRIPTION": "使影像上的區域變暗"
+    },
+    "STAM": {
+        "TITLE": "仿製印章工具",
+        "DESCRIPTION": "使用來自影像另一部分的像素繪製"
+    },
+    "CRBT": {
+        "TITLE": "顏色取代工具",
+        "DESCRIPTION": "用選取的色彩繪製在現有的色彩上"
+    },
+    "COLS": {
+        "TITLE": "顏色取樣器工具",
+        "DESCRIPTION": "顯示影像的色彩數值"
+    },
+    "RCMP": {
+        "TITLE": "內容感知移動工具",
+        "DESCRIPTION": "選取和移动影像的一部分，並自動填滿移走後的剩餘區域"
+    },
+    "COUN": {
+        "TITLE": "計算工具",
+        "DESCRIPTION": "計算影像中物件的數量"
+    },
+    "CKNT": {
+        "TITLE": "轉換錨點工具",
+        "DESCRIPTION": "透過轉換平滑和轉折錨點，編輯形狀和路徑"
+    },
+    "CROP": {
+        "TITLE": "裁切工具",
+        "DESCRIPTION": "剪裁或擴張影像邊緣"
+    },
+    "CUSH": {
+        "TITLE": "自訂形狀工具",
+        "DESCRIPTION": "透過自訂形狀清單繪製形狀"
+    },
+    "DKNT": {
+        "TITLE": "刪除錨點工具",
+        "DESCRIPTION": "刪除錨點並重設路徑"
+    },
+    "PTHA": {
+        "TITLE": "直接選取工具",
+        "DESCRIPTION": "選取路徑上的個別錨點和區段"
+    },
+    "DODG": {
+        "TITLE": "加亮工具",
+        "DESCRIPTION": "使影像上的區域變亮"
+    },
+    "ELPS": {
+        "TITLE": "橢圓工具",
+        "DESCRIPTION": "繪畫橢圓"
+    },
+    "ELMT": {
+        "TITLE": "橢圓選取畫面工具",
+        "DESCRIPTION": "建立橢圓形狀選取範圍"
+    },
+    "ERAS": {
+        "TITLE": "橡皮擦工具",
+        "DESCRIPTION": "將像素變更為背景色或使像素呈現透明狀態"
+    },
+    "EYED": {
+        "TITLE": "滴管工具",
+        "DESCRIPTION": "從影像中挑選樣本色彩"
+    },
+    "MPEN": {
+        "TITLE": "創意筆工具",
+        "DESCRIPTION": "在繪製路徑或形狀時新增錨點"
+    },
+    "BNDT": {
+        "TITLE": "漸層工具",
+        "DESCRIPTION": "建立色彩之間的逐漸混合"
+    },
+    "HAND": {
+        "TITLE": "手形工具",
+        "DESCRIPTION": "在影像的不同部分上平移"
+    },
+    "STMM": {
+        "TITLE": "修復筆刷工具",
+        "DESCRIPTION": "使用來自影像另一部分的像素修復瑕疵"
+    },
+    "HSTB": {
+        "TITLE": "步驟記錄筆刷工具",
+        "DESCRIPTION": "將部分影像復原至較早的狀態"
+    },
+    "TXBX": {
+        "TITLE": "水平文字工具",
+        "DESCRIPTION": "新增水平文字"
+    },
+    "TYPS": {
+        "TITLE": "水平文字遮色片工具",
+        "DESCRIPTION": "建立水平文字形狀的選取範圍"
+    },
+    "LASO": {
+        "TITLE": "套索工具",
+        "DESCRIPTION": "建立手繪選取範圍"
+    },
+    "LINT": {
+        "TITLE": "直線工具",
+        "DESCRIPTION": "繪製線段"
+    },
+    "MERA": {
+        "TITLE": "魔術橡皮擦工具",
+        "DESCRIPTION": "只要按一下就能擦除類似的著色區域"
+    },
+    "WAND": {
+        "TITLE": "魔術棒工具",
+        "DESCRIPTION": "選取類似色彩的影像區域"
+    },
+    "MLAS": {
+        "TITLE": "磁性套索工具",
+        "DESCRIPTION": "靠齊影像邊緣以建立選取範圍"
+    },
+    "WETB": {
+        "TITLE": "混合器筆刷工具",
+        "DESCRIPTION": "模擬實際繪圖技術，例如混合色彩和變化顏料溼度"
+    },
+    "LMVR": {
+        "TITLE": "移動工具",
+        "DESCRIPTION": "移動選取範圍或圖層"
+    },
+    "TXTA": {
+        "TITLE": "註解工具",
+        "DESCRIPTION": "建立可以附加至影像或檔案的文字註解"
+    },
+    "BUCK": {
+        "TITLE": "油漆桶工具",
+        "DESCRIPTION": "用前景色填滿鄰近的著色區域"
+    },
+    "PTCH": {
+        "TITLE": "修補工具",
+        "DESCRIPTION": "使用來自影像另一部分的圖樣或像素，取代選取的區域"
+    },
+    "PCST": {
+        "TITLE": "路徑選取工具",
+        "DESCRIPTION": "選取完整路徑"
+    },
+    "STMP": {
+        "TITLE": "圖樣印章工具",
+        "DESCRIPTION": "使用選擇的圖樣繪製"
+    },
+    "PENT": {
+        "TITLE": "筆型工具",
+        "DESCRIPTION": "建立或變更具有錨點和控點的路徑或形狀"
+    },
+    "PENC": {
+        "TITLE": "鉛筆工具",
+        "DESCRIPTION": "繪製硬邊的筆刷筆觸"
+    },
+    "PCRP": {
+        "TITLE": "透視裁切工具",
+        "DESCRIPTION": "裁切影像以修正因透視所導致的扭曲"
+    },
+    "POLY": {
+        "TITLE": "多邊形工具",
+        "DESCRIPTION": "繪製多邊形"
+    },
+    "PGON": {
+        "TITLE": "多邊形套索工具",
+        "DESCRIPTION": "建立直線邊緣選取範圍"
+    },
+    "QKSL": {
+        "TITLE": "快速選取工具",
+        "DESCRIPTION": "找出並沿著影像邊界，建立選取範圍"
+    },
+    "RECT": {
+        "TITLE": "矩形工具",
+        "DESCRIPTION": "繪製矩形"
+    },
+    "RGMT": {
+        "TITLE": "矩形選取畫面工具",
+        "DESCRIPTION": "建立矩形選取範圍"
+    },
+    "RDEY": {
+        "TITLE": "紅眼工具",
+        "DESCRIPTION": "修正相機閃光燈所導致的紅眼效果"
+    },
+    "ROTT": {
+        "TITLE": "旋轉檢視工具",
+        "DESCRIPTION": "旋轉影像的檢視畫面"
+    },
+    "RRCT": {
+        "TITLE": "圓角矩形工具",
+        "DESCRIPTION": "繪製圓邊矩形"
+    },
+    "MEAT": {
+        "TITLE": "尺標工具",
+        "DESCRIPTION": "度量影像的距離和角度"
+    },
+    "SHAR": {
+        "TITLE": "銳利化工具",
+        "DESCRIPTION": "將影像中的柔邊銳利化"
+    },
+    "SRMT": {
+        "TITLE": "水平單線選取畫面工具",
+        "DESCRIPTION": "建立單一像素高度的水平選取範圍"
+    },
+    "SCMT": {
+        "TITLE": "垂直單線選取畫面工具",
+        "DESCRIPTION": "建立單一像素寬度的垂直選取範圍"
+    },
+    "SLCT": {
+        "TITLE": "切片工具",
+        "DESCRIPTION": "將影像剪成適合網頁設計的小型區段"
+    },
+    "SLST": {
+        "TITLE": "切片選取工具",
+        "DESCRIPTION": "選取、移動和重新調整影像切片的尺寸"
+    },
+    "SMUD": {
+        "TITLE": "指尖工具",
+        "DESCRIPTION": "柔化或塗抹影像的色彩"
+    },
+    "SATU": {
+        "TITLE": "海綿工具",
+        "DESCRIPTION": "變更影像區域中的色彩飽和度"
+    },
+    "SPHB": {
+        "TITLE": "污點修復筆刷工具",
+        "DESCRIPTION": "移除標記和污漬"
+    },
+    "TXBV": {
+        "TITLE": "垂直文字工具",
+        "DESCRIPTION": "新增垂直文字"
+    },
+    "VTYS": {
+        "TITLE": "垂直文字遮色片工具",
+        "DESCRIPTION": "建立垂直文字形狀的選取範圍"
+    },
+    "ZOOM": {
+        "TITLE": "縮放顯示工具",
+        "DESCRIPTION": "放大或縮小影像的檢視"
+    },
+    "CPEN": {
+        "TITLE": "曲線筆工具",
+        "DESCRIPTION": "使用點來製作或變更路徑或形狀"
+    },
+    "PMHA": {
+        "TITLE": "手形工具",
+        "DESCRIPTION": "在影像的不同部分上平移"
+    },
+    "PMZM": {
+        "TITLE": "縮放顯示工具",
+        "DESCRIPTION": "放大或縮小影像的檢視"
+    },
+    "PMDB": {
+        "TITLE": "取樣筆刷工具",
+        "DESCRIPTION": "[10346731] 枯_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "套索工具",
+        "DESCRIPTION": "建立手繪選取範圍"
+    },
+    "TRY_IT": "了解如何",
+    "ADVANCED": "進階:"
+}

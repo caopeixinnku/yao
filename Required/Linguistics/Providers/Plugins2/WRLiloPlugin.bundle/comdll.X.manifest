@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" 
+  manifestVersion="1.0">
+
+<assemblyIdentity
+   type="win32"
+   name="comdll.X"
+   version="1.3.5.1" />
+
+<file name="WRLiloPlugin.dll">
+
+<comClass
+    clsid="{76F84477-D7FD-46CE-8914-16C7B08FDD35}"
+    threadingModel = "Apartment" />
+</file>
+
+</assembly>
+

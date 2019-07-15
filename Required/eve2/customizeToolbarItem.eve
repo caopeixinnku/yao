@@ -1,0 +1,40 @@
+layout customizeToolbarItem
+    {
+    interface:
+        isGroupCell   : false;
+        toolIconName  : 'Caution';
+        zToolName     : '$$$/Dialog/CustomizeToolbar/Item/ToolTitlePlaceholder=Bad Tool';
+        zToolShortcut : '$$$/Dialog/CustomizeToolbar/Item/ToolShortcutPlaceholder=?';
+
+    view TCustomizeToolbarItem(noGrowVertical   : true,
+                               noGrowHorizontal : true,
+                               child_horizontal : align_fill,
+                               child_vertical   : align_fill,
+                               qDebugDraw       : false)
+        {
+        TOptional(bind: @isGroupCell, height: 20)
+            { }
+
+        TOptional(bind           : @isGroupCell,
+                  value          : false,
+                  placement      : place_row,
+                  margin         : 5,
+                  child_vertical : align_center,
+                  tooltip        : zToolName)
+            {
+            TIconImageView(iconRootName : toolIconName);
+
+            TStaticText(name       : zToolName,
+                        identifier : @toolName,
+                        wincontrol : false);
+
+            TStaticText(name       : zToolShortcut,
+                        wincontrol : false,
+                        characters : 1,
+                        lines      : 1,
+                        horizontal : align_right,
+                        identifier : @keyboardShortcut,
+                        tooltip    : "$$$/Dialog/CustomizeToolbar/Item/KBSCEdit=Click to change the keyboard shortcut");
+            }
+        }
+    }

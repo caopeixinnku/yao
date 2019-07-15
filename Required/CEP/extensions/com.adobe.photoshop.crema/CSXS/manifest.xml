@@ -1,0 +1,84 @@
+<ExtensionManifest ExtensionBundleId="com.adobe.webpa.PSExport" ExtensionBundleVersion="1.0" Version="5.0">
+    <ExtensionList>
+        <Extension Id="com.adobe.WEBPA.crema.saveforweb" Version="3.1.2" />
+        <Extension Id="com.adobe.WEBPA.crema.saveforwebdocument" Version="3.1.2" />
+    </ExtensionList>
+    <ExecutionEnvironment>
+        <HostList>
+            <Host Name="PHXS" Version="17" />
+            <Host Name="PHSP" Version="17" />
+        </HostList>
+        <LocaleList>
+            <Locale Code="All" />
+        </LocaleList>
+        <RequiredRuntimeList>
+            <RequiredRuntime Name="CSXS" Version="5.0" />
+        </RequiredRuntimeList>
+    </ExecutionEnvironment>
+    <DispatchInfoList>
+        
+        <Extension Id="com.adobe.WEBPA.crema.saveforweb">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./PSPanel/dialog.html</MainPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+                <UI>
+                    <Type>ModalDialog</Type>
+                    <Menu>%EXTEN_MENU_TITLE</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>700</Height>
+                            <Width>1100</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>10000</Height>
+                            <Width>10000</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>450</Height>
+                            <Width>900</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+         
+          <Extension Id="com.adobe.WEBPA.crema.saveforwebdocument">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./PSPanel/dialog.html</MainPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+                <UI>
+                    <Type>ModalDialog</Type>
+                    <Menu>%EXTEN_MENU_TITLE</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>700</Height>
+                            <Width>1100</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>10000</Height>
+                            <Width>10000</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>450</Height>
+                            <Width>900</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+    </DispatchInfoList>
+</ExtensionManifest>

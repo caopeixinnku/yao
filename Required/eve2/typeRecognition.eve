@@ -1,0 +1,183 @@
+layout typeRecognition
+    {
+	constant:
+	  zTypeRecogDesp	: '$$$/Dialog/TypeRecognition/Description=Results for similar fonts:';
+	  zTypeRecogWarn1	: '$$$/Dialog/TypeRecognition/Warning1=Refine the selection to improve results';
+	  zTypeRecogWarn2	: '$$$/Dialog/TypeRecognition/Warning2=Text is too small. For best results, reference larger text';
+	  zTypeRecogWarn3	: '$$$/Dialog/TypeRecognition/Warning3=Refine the selection to improve results';
+	  zShowTKfonts		: '$$$/Dialog/TypeRecognition/ShowTK=Show fonts available to sync from Typekit';
+	interface:
+	  showWarning		: 0;
+	  showOnboard		: false;
+/*
+	  showTKfonts		: true;
+*/
+
+
+
+
+    view TTypeRecognitionDialog(name: '$$$/Dialog/TypeRecognition/Title=Match Font',
+								placement: place_column,
+								margin: 15,
+								isResizable: false,
+								dboxProcIdentifier : -1)
+        {
+        column(
+			horizontal : align_fill,
+			vertical: align_fill)
+            {
+
+			TOptional(bind             : @showWarning,
+                    child_horizontal : align_left,
+                    vertical   : align_top,
+                    value: 0,
+                    horizontal: align_left,
+                    placement  : place_row)
+              {
+				TStaticText(name: zTypeRecogDesp);
+              }
+
+			TOptional(bind             : @showWarning,
+                    child_horizontal : align_left,
+                    vertical   : align_top,
+                    value: 1,
+                    horizontal: align_fill,
+                    placement  : place_row)
+              {
+				TStaticText(name: zTypeRecogDesp);
+				TIconImageView(iconRootName : "InfoWarning",vertical: align_bottom,horizontal: align_right);
+				TStaticText(name: zTypeRecogWarn1, horizontal: align_right);
+              }
+
+			TOptional(bind             : @showWarning,
+                    child_horizontal : align_left,
+                    vertical   : align_top,
+                    value: 2,
+                    horizontal: align_fill,
+                    placement  : place_row)
+              {
+				TStaticText(name: zTypeRecogDesp);
+				TIconImageView(iconRootName : "InfoWarning",vertical: align_bottom,horizontal: align_right);
+				TStaticText(name: zTypeRecogWarn2, horizontal: align_right);
+              }
+
+			TOptional(bind             : @showWarning,
+                    child_horizontal : align_left,
+                    vertical   : align_top,
+                    value: 3,
+                    horizontal: align_fill,
+                    placement  : place_row)
+              {
+				TStaticText(name: zTypeRecogDesp);
+				TIconImageView(iconRootName : "InfoWarning",vertical: align_bottom,horizontal: align_right);
+				TStaticText(name: zTypeRecogWarn3, horizontal: align_right);
+              }
+
+			row(horizontal: align_fill)
+				{
+/*
+				TStaticText(name: '$$$/Dialog/TypeRecognition/Result= Results:',
+							vertical       : align_center);
+				TButton(identifier: @recognizeType,
+					horizontal: align_right,
+					name: '$$$/Dialog/TypeRecognition/RecognizeType=Refresh Search');
+*/
+				}
+
+			TOptional(bind             : @showOnboard,
+				value: false,
+				child_horizontal : align_fill,
+				vertical   : align_fill,
+				horizontal: align_fill,
+				placement  : place_row)
+				{
+				TScroller(identifier     : @scroller,
+					horizontal     : align_fill,
+					vertical       : align_fill,
+					verticalScroll : true,
+					placement      : place_row)
+					{
+					TTypeRecognitionFontListView(identifier : @fontList,
+											horizontal : align_fill,
+											vertical   : align_fill,
+											width      : 500,
+											height     : 350);
+					}
+				}
+
+
+			TOptional(bind             : @showOnboard,
+				value: true,
+				spacing          : 0,
+				child_horizontal : align_fill,
+				vertical         : align_fill,
+				horizontal: align_fill,
+				placement  : place_column)
+				{
+				TTypeRecognitionOnBoardView(identifier : @onboardView,
+					horizontal : align_fill,
+					vertical   : align_fill,
+					width      : 500,
+					height     : 280);
+ 
+				TView(identifier : @onboardBottomView,
+					horizontal : align_fill,
+					vertical   : align_fill,
+					width      : 500,
+					height     : 70)
+						{
+						TButton(identifier: @matchFont,
+							horizontal: align_center,
+							name: '$$$/Dialog/TypeRecognition/MatchFont=Match Font',
+							dialogButtonFixedLightStop: true);
+						}
+				}
+
+
+
+/*
+				TOptional(bind             : @showOnboard,
+					child_horizontal : align_fill,
+					vertical   : align_fill,
+					value: true,
+					horizontal: align_fill,
+					placement  : place_column)
+				{
+					TTypeRecognitionOnBoardView(identifier : @onboardView,
+					horizontal : align_fill,
+					vertical   : align_fill,
+					width      : 500,
+					height     : 350)
+						{
+						TButton(identifier: @matchFont,
+						horizontal: align_center,
+						vertical: 400,
+						name: '$$$/Dialog/TypeRecognition/MatchFont=Match Font');
+						}
+
+				}
+*/
+
+
+            }
+
+        row(horizontal: align_fill)
+            {
+/* binding NO
+            TCheckBox(name: zShowTKfonts, identifier: @showTK, bind: @showTKfonts, horizontal: align_left);
+*/
+            TCheckBox(name: zShowTKfonts, identifier: @showTK, horizontal: align_left);
+
+            TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+                    identifier: @cancel,
+                    dismiss: true,
+					horizontal: align_right);
+
+            TButton(name: "$$$/ControlsStrings/OK=OK",
+                    identifier: @ok,
+                    dismiss: true,
+                    default: true,
+					horizontal: align_right);
+            }
+        }
+    }

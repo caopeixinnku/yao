@@ -1,0 +1,12 @@
+{
+    "left" : 0,
+    "top" : 0,
+    "width" : 278,
+    "height" : 310,
+    "overlay_type" : "window",
+    "visible" : false,
+    "use_transparency" : true,
+    "start_url" : "./build/index.html",
+    "window_level" : "utilityUI",
+    "hide_on_external_mouse_down":  true
+}

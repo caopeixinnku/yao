@@ -1,0 +1,10 @@
+{
+    "top" : 25,
+    "width" : 700,
+    "height" : 700,
+    "overlay_type" : "window",
+    "window_level" : "contextualUI",
+    "use_transparency" : true,
+    "start_url" : "./build/index.html",
+    "clear_surface_on_show" : true
+}

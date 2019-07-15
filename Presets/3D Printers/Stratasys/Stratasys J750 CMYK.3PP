@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Printer>
+	<Version value='1' />
+	<PrintLocation value='Local' />
+	<PrintVolume X='495' Y='394' Z='197' />
+	<PrinterResolution X='13' Y='13' Z='13' />       
+	<VoxelSizeX value = '0.0423333' />
+	<VoxelSizeY value = '0.0846666' />
+	<VoxelColorInteriorBandSize value = '8' />
+	<VoxelColorVerticalBandSize value = '8'  />
+	<PrinterHeads value='1' />
+	<PreferredFileFormat value='wrl' />
+	<PrinterSupportsUSB flag='0' />
+	<NeedsZip flag='0' />
+	<FullColor flag='1' />
+   	<Quality value='high'>
+		<LayerThickness value='0.03' />
+		<MeshRepairResolution value='8' />
+	</Quality>
+</Printer>
+<Materials>
+	<Material name='PolyJet Rigid Opaque'>
+		<NeedsRaft flag='0' />
+		<NeedsSupports flag='0' />
+		<NeedsEscapeHoles flag='0' />
+		<MinimumWallThickness value='0' />
+		<Diffuse R='1.0' G='1.0' B='1.0' />
+		<Specular R='0.0' G='0.0' B='0.0' />
+		<Illumination R='0' G='0' B='0' />
+		<Ambient R='0' G='0' B='0' />
+		<Shine value='0.0' />
+		<Reflection value='0.0' />
+		<Roughness value='0.0' />
+		<Bump value='0.0' />
+		<Opacity value='1' />
+		<Refraction value='1' />
+	</Material>
+</Materials>

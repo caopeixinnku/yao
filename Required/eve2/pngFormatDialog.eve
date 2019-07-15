@@ -1,0 +1,80 @@
+layout PNGFormatDialog
+    {
+    constant:
+        zDialogTitle : '$$$/Dialog/PNGFormatDialog/Title=PNG Format Options';
+
+        zMethodClusterTitle    : '$$$/Dialog/PNGFormatDialog/Method/MethodTitle=File Size';
+        zMethodQuick           : '$$$/Dialog/PNGFormatDialog/Method/Larger=Large file size (Fastest saving)';
+        zMethodQuickTooltip    : '$$$/Dialog/PNGFormatDialog/Method/Larger/Tooltip=Use reasonable parameters to save the PNG';
+        zMethodModerate        : '$$$/Dialog/PNGFormatDialog/Method/Medium=Medium file size (Medium saving)';
+        zMethodModerateTooltip : '$$$/Dialog/PNGFormatDialog/Method/Medium/Tooltip=Save the smallest PNG from ten possibilities';
+        zMethodThorough        : '$$$/Dialog/PNGFormatDialog/Method/Smallest=Smallest file size (Slowest saving)';
+        zMethodThoroughTooltip : '$$$/Dialog/PNGFormatDialog/Method/Smallest/Tooltip=Save the smallest PNG from over a hundred possibilities';
+
+        zInterlacing           : '$$$/Dialog/PNGFormatDialog/Interlacing/Label=Interlacing';
+        zInterlacingTooltip    : '$$$/Dialog/PNGFormatDialog/Interlacing/Tooltip=Interlacing generally produces larger PNG files';
+
+    interface:
+        method             : @quick;
+        unlink interlacing : @none <== method == @quick ? interlacing : @none;
+
+    view TPNGFormatDialog(name               : zDialogTitle,
+                          placement          : place_row,
+                          margin             : 15,
+                          isResizable        : false,
+                          dboxProcIdentifier : -1)
+        {
+        column(horizontal : align_fill,
+               vertical   : align_fill)
+            {
+            TCluster(name       : zMethodClusterTitle,
+                     spacing    : gSmallGap,
+                     horizontal : align_fill,
+                     vertical   : align_fill)
+                {
+                TRadio(name       : zMethodQuick,
+                       tooltip    : zMethodQuickTooltip,
+                       horizontal : align_fill,
+                       bind       : @method,
+                       trueValue  : @quick);
+
+                TCheckBox(name       : zInterlacing,
+                          tooltip    : zInterlacingTooltip,
+                          horizontal : align_fill,
+                          bind       : @interlacing,
+                          trueValue  : @adam7,
+                          falseValue : @none,
+                          indent     : 15);
+
+                TRadio(name       : zMethodModerate,
+                       tooltip    : zMethodModerateTooltip,
+                       horizontal : align_fill,
+                       bind       : @method,
+                       trueValue  : @moderate);
+                TRadio(name       : zMethodThorough,
+                       tooltip    : zMethodThoroughTooltip,
+                       horizontal : align_fill,
+                       bind       : @method,
+                       trueValue  : @thorough);
+                }
+
+            }
+
+        column(horizontal : align_fill,
+               vertical   : align_fill)
+            {
+            TButton (name       : "$$$/ControlsStrings/OK=OK",
+                     identifier : @ok,
+                     horizontal : align_right,
+                     default    : true,
+                     dismiss    : true,
+                     width      : 100);
+
+            TButton (name       : "$$$/ControlsStrings/Cancel=Cancel",
+                     dismiss    : true,
+                     horizontal : align_right,
+                     identifier : @cancel,
+                     width      : 100);
+            }
+        }
+    }

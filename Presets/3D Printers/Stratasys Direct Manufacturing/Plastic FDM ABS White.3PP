@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Printer>
+	<Version value='1' />
+	<PrintLocation value='Stratasys Direct Manufacturing' /> 
+	<UploadURL value='http://pages.stratasysdirect.com/adobe.html' />
+	<PrintVolume X='254' Y='254' Z='254' />
+	<PrinterResolution X='10' Y='10' Z='10' />
+	<MeshRepairResolution value='7' />
+	<PrinterHeads value='1' />
+	<PrinterSupportsUSB flag='0' />
+	<PreferredFileFormat value='stl' />
+	<NeedsZip flag='0' />
+	<Quality value='high'>
+		<MeshRepairResolution value='8' /> 
+	</Quality>
+</Printer>
+<Materials>
+	<Material name='Plastic - FDM ABS White'>
+		<NeedsRaft flag='0' />
+		<NeedsSupports flag='0' />
+		<NeedsEscapeHoles flag='0' />
+		<MinimumWallThickness value='0' />
+		<MinimumWallThicknessFeatureSize value='0' />
+		<PricePerCubicCM value='1.75' />
+		<PricePerCubicCMBBox value='0.018' />
+		<Handling value='45' />
+		<Diffuse R='0.9600' G='0.9568' B='0.9216' />
+		<Specular R='0.5961' G='0.5675' B='0.4535' />
+		<Illumination R='0' G='0' B='0' />
+		<Ambient R='0.1200' G='0.1183' B='0.1152' />
+		<Shine value='0.24' />
+		<Reflection value='0.06' />
+		<Roughness value='0.80' />
+		<Bump value='0' />
+		<Opacity value='1' />
+		<Refraction value='1.021' />
+	</Material>
+</Materials>

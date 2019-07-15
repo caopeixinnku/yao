@@ -1,0 +1,78 @@
+layout toolsPalette
+    {
+    constant:
+        kGroupMargin            : 1;
+        kColumnSpacing          : -1;
+        kToolSpacing            : -1;
+        kToolSlotOutset         : 1;
+        kFBMarginWidth          : 2;
+        kMajorGroupSpacing      : 1;
+        kMajorGroupMarginHeight : 3;
+        vStdToolHeight          : 26;
+        vStdToolWidth           : 33;
+        zMaskModeToolTip        : '$$$/ToolsPalette/Tooltip/MaskModeCluster=Quick Mask Modes (Q)';
+        zScreenModeToolTip		: '$$$/ToolsPalette/Tooltip/ScreenModeCluster=Screen Modes (F)';
+		zPlaygroundToolTip		: '$$$/ToolsPalette/Tooltip/PlaygroundCluster=Switch to Design Space';
+
+    interface:
+        /* These are set by InstallToolbar */
+        showFGBG : true;
+        showQuickMaskMode : true;
+        showScreenMode : true;
+
+        fgbgMode : @small;
+        showFGBGSmall <== showFGBG && fgbgMode == @small;
+        showFGBGLarge <== showFGBG && fgbgMode != @small;
+        showModeCluster <== showQuickMaskMode || showScreenMode;
+
+    view TToolsPalette(
+        placement   : place_column,
+        margin      : 2,
+        qDebugDraw  : false,
+        spacing     : gGap)
+        {
+        TFixedGrid(identifier: @toolSlotGrid, horizontal: align_fill);
+
+        TOptional(bind: @showFGBGSmall)
+            {
+            TFBBackground(
+                identifier  : 'back',
+                frame       : gIconButtonOtherButtonFrame,
+                width       : 32,
+                height      : 48);
+            }
+
+        TOptional(bind: @showFGBGLarge)
+            {
+            TFBBackgroundLarge(
+                identifier  : 'bckL',
+                frame       : gIconButtonOtherButtonFrame,
+                width       : 70,
+                height      : 48);
+            }
+
+        TOptional(
+            bind: @showModeCluster,
+            spacing: 0,
+            identifier: @modeUberCluster)
+            {
+            TOptional(bind: @showQuickMaskMode)
+                {
+                TMaskModeCluster(
+                    identifier  : 'msk!',
+                    tooltip     : zMaskModeToolTip,
+                    height      : vStdToolHeight,
+                    width       : vStdToolWidth);
+                }
+
+            TOptional(bind: @showScreenMode)
+                {
+                TScreenModeCluster(
+                    identifier  : 'scrn',
+                    tooltip     : zScreenModeToolTip,
+                    height      : vStdToolHeight,
+                    width       : vStdToolWidth);
+                }
+            }
+        }
+    }

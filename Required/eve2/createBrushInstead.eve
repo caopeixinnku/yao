@@ -1,0 +1,66 @@
+layout createBrushInstead
+    {      	
+	interface:
+        doNotShowAgain	: false; 
+		macintosh		: true;
+		windows			: false <== !macintosh;
+		
+    view TCreateBrushInsteadDialog(name: "$$$/Photoshop/ApplicationName/=Adobe Photoshop",
+                           placement: place_column,
+                           margin: 15,
+                           isResizable: false)
+        {					
+		TStaticText(horizontal : align_fill,
+					autoWrap   : true,
+					name       : "$$$/Dialog/CreateBrushInsteadDialog/Prompt=Would you like to create a brush preset instead?^r^rWe recommend doing so, because brush presets now contain all the functionality of tool presets,^rbut with additional benefits such as stroke previews and the ability to organize into folders."			
+			);								
+		
+		
+		TStaticText(identifier: @learnMoreLink,
+					horizontal : align_left,
+					name: '$$$/Dialog/ConvertToolPresetsDialog/BrushPresetsLearnMore=Learn more about Brush Presets', 
+					wincontrol: false);
+				
+		column(margin : [12, 0, 40, 0])
+			{
+			TCheckBox(bind       : @doNotShowAgain,
+					  horizontal : align_left,
+					  name       : "$$$/ControlsStrings/DontShowAgain=Don^}t show again");									
+			}						
+
+																		
+		TOptional(bind: @macintosh, placement: place_row, horizontal: align_right)
+			{	  
+			TButton(name: "$$$/ControlsStrings/No=No",
+					identifier: @no,
+					dismiss: true);
+			
+			TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+					identifier: @cancel,
+					dismiss: true);	
+					
+			TButton(name: "$$$/ControlsStrings/Yes=Yes",
+					identifier: @ok,
+					dismiss: true,
+					default: true);	
+			}
+				
+		/* Flip button order for Windows */											
+		TOptional(bind: @windows, placement: place_row, horizontal: align_right)
+			{	  
+			TButton(name: "$$$/ControlsStrings/Yes=Yes",
+					identifier: @ok,
+					dismiss: true,
+					default: true);	
+			
+			TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+					identifier: @cancel,
+					dismiss: true);	
+					
+			TButton(name: "$$$/ControlsStrings/No=No",
+					identifier: @no,
+					dismiss: true);
+					
+			}															
+        }
+    }

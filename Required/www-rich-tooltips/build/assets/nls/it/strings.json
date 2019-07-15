@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Strumento Contagocce materiale 3D",
+        "DESCRIPTION": "Consente di caricare il materiale selezionato da un oggetto 3D"
+    },
+    "3DDM": {
+        "TITLE": "Strumento Rilascio materiale 3D",
+        "DESCRIPTION": "Consente di rilasciare il materiale trascinato con lo strumento sull'area di destinazione di un oggetto 3D."
+    },
+    "AKNT": {
+        "TITLE": "Strumento Aggiungi punto di ancoraggio",
+        "DESCRIPTION": "Aggiunge punti di ancoraggio ai tracciati"
+    },
+    "ARTT": {
+        "TITLE": "Strumento Tavola disegno",
+        "DESCRIPTION": "Crea, sposta o ridimensiona più quadri"
+    },
+    "AHBT": {
+        "TITLE": "Strumento pennello artistico storia",
+        "DESCRIPTION": "Applica tratti stilizzati utilizzando pixel di uno stato precedente dell'immagine"
+    },
+    "SERA": {
+        "TITLE": "Strumento Gomma per sfondo",
+        "DESCRIPTION": "Cancella i pixel di un colore campionato"
+    },
+    "BLUR": {
+        "TITLE": "Strumento Sfoca",
+        "DESCRIPTION": "Sfoca alcune aree di un'immagine"
+    },
+    "PNTB": {
+        "TITLE": "Strumento Pennello",
+        "DESCRIPTION": "Disegna tratti di pennello personalizzati"
+    },
+    "BURN": {
+        "TITLE": "Strumento Scurisci",
+        "DESCRIPTION": "Scurisce alcune aree di un'immagine"
+    },
+    "STAM": {
+        "TITLE": "Strumento Timbro clone",
+        "DESCRIPTION": "Disegna utilizzando i pixel di un’altra parte dell’immagine"
+    },
+    "CRBT": {
+        "TITLE": "Strumento Sostituzione colore",
+        "DESCRIPTION": "Applica il colore selezionato a un colore esistente"
+    },
+    "COLS": {
+        "TITLE": "Strumento Campionatore colore",
+        "DESCRIPTION": "Visualizza i valori relativi ai colori di un'immagine"
+    },
+    "RCMP": {
+        "TITLE": "Strumento Sposta in base al contenuto",
+        "DESCRIPTION": "Seleziona e sposta una parte di un’immagine e riempie automaticamente l’area vuota"
+    },
+    "COUN": {
+        "TITLE": "Strumento Conteggio",
+        "DESCRIPTION": "Conta il numero di oggetti in un'immagine"
+    },
+    "CKNT": {
+        "TITLE": "Strumento Cambia punto di ancoraggio",
+        "DESCRIPTION": "Modifica forme e tracciati convertendo i punti di ancoraggio arrotondati e ad angolo"
+    },
+    "CROP": {
+        "TITLE": "Strumento Taglierina",
+        "DESCRIPTION": "Ritaglia o espande i bordi di un'immagine"
+    },
+    "CUSH": {
+        "TITLE": "Strumento Forma personale",
+        "DESCRIPTION": "Disegna forme selezionate da un elenco di forme personalizzate"
+    },
+    "DKNT": {
+        "TITLE": "Strumento Elimina punto di ancoraggio",
+        "DESCRIPTION": "Elimina i punti di ancoraggio e ridimensiona i tracciati  "
+    },
+    "PTHA": {
+        "TITLE": "Strumento Selezione diretta",
+        "DESCRIPTION": "Seleziona i singoli punti e segmenti di un tracciato"
+    },
+    "DODG": {
+        "TITLE": "Strumento Scherma",
+        "DESCRIPTION": "Schiarisce alcune aree di un'immagine"
+    },
+    "ELPS": {
+        "TITLE": "Strumento Ellisse",
+        "DESCRIPTION": "Disegna ellissi"
+    },
+    "ELMT": {
+        "TITLE": "Strumento Selezione ellittica",
+        "DESCRIPTION": "Effettua una selezione a forma di ellisse"
+    },
+    "ERAS": {
+        "TITLE": "Strumento Gomma",
+        "DESCRIPTION": "Applica ai pixel il colore di sfondo o li rende trasparenti"
+    },
+    "EYED": {
+        "TITLE": "Strumento Contagocce",
+        "DESCRIPTION": "Campiona i colori di un'immagine"
+    },
+    "MPEN": {
+        "TITLE": "Strumento Penna mano libera",
+        "DESCRIPTION": "Aggiunge punti di ancoraggio mentre si disegnano tracciati o forme"
+    },
+    "BNDT": {
+        "TITLE": "Strumento Sfumatura",
+        "DESCRIPTION": "Crea una fusione graduale tra colori"
+    },
+    "HAND": {
+        "TITLE": "Strumento Mano",
+        "DESCRIPTION": "Consente di scorrere le varie parti di un'immagine"
+    },
+    "STMM": {
+        "TITLE": "Strumento Pennello correttivo",
+        "DESCRIPTION": "Corregge le imperfezioni utilizzando i pixel di un’altra parte dell’immagine"
+    },
+    "HSTB": {
+        "TITLE": "Strumento Pennello storia",
+        "DESCRIPTION": "Ripristina alcune parti di un'immagine a uno stato precedente"
+    },
+    "TXBX": {
+        "TITLE": "Strumento Testo orizzontale",
+        "DESCRIPTION": "Consente di aggiungere del testo orizzontale"
+    },
+    "TYPS": {
+        "TITLE": "Strumento Maschera testo orizzontale",
+        "DESCRIPTION": "Consente di creare una selezione a forma di testo orizzontale"
+    },
+    "LASO": {
+        "TITLE": "Strumento Lazo",
+        "DESCRIPTION": "Consente di effettuare selezioni a mano libera"
+    },
+    "LINT": {
+        "TITLE": "Strumento Linea",
+        "DESCRIPTION": "Disegna linee"
+    },
+    "MERA": {
+        "TITLE": "Strumento Gomma magica",
+        "DESCRIPTION": "Cancella le aree con colori simili con un solo clic"
+    },
+    "WAND": {
+        "TITLE": "Strumento Bacchetta magica",
+        "DESCRIPTION": "Seleziona le aree dell’immagine con colori simili"
+    },
+    "MLAS": {
+        "TITLE": "Strumento Lazo magnetico",
+        "DESCRIPTION": "Effettua una selezione allineandola ai bordi dell’immagine"
+    },
+    "WETB": {
+        "TITLE": "Strumento Pennello miscela colori",
+        "DESCRIPTION": "Simula tecniche pittoriche reali, come la fusione di colori e la variazione del grado di umidità della pittura"
+    },
+    "LMVR": {
+        "TITLE": "Strumento Sposta",
+        "DESCRIPTION": "Sposta una selezione o un livello"
+    },
+    "TXTA": {
+        "TITLE": "Strumento Nota",
+        "DESCRIPTION": "Consente di creare note di testo da allegare a un’immagine o un file"
+    },
+    "BUCK": {
+        "TITLE": "Strumento Secchiello",
+        "DESCRIPTION": "Riempie le aree contigue dal colore simile con il colore di primo piano"
+    },
+    "PTCH": {
+        "TITLE": "Strumento Toppa",
+        "DESCRIPTION": "Sostituisce un’area selezionata usando un pattern o pixel di un’altra parte dell’immagine"
+    },
+    "PCST": {
+        "TITLE": "Strumento Selezione tracciato",
+        "DESCRIPTION": "Seleziona un intero tracciato"
+    },
+    "STMP": {
+        "TITLE": "Strumento Timbro con pattern",
+        "DESCRIPTION": "Disegna utilizzando un pattern prescelto"
+    },
+    "PENT": {
+        "TITLE": "Strumento Penna",
+        "DESCRIPTION": "Consente di creare e modificare tracciati o forme con punti di ancoraggio e maniglie"
+    },
+    "PENC": {
+        "TITLE": "Strumento Matita",
+        "DESCRIPTION": "Disegna tratti di pennello netti"
+    },
+    "PCRP": {
+        "TITLE": "Strumento Ritaglio prospettiva",
+        "DESCRIPTION": "Ritaglia un’immagine per correggere le distorsioni causate dalla prospettiva"
+    },
+    "POLY": {
+        "TITLE": "Strumento Poligono",
+        "DESCRIPTION": "Disegna poligoni"
+    },
+    "PGON": {
+        "TITLE": "Strumento Lazo poligonale",
+        "DESCRIPTION": "Consente di creare selezioni composte da segmenti retti"
+    },
+    "QKSL": {
+        "TITLE": "Strumento Selezione rapida",
+        "DESCRIPTION": "Effettua una selezione individuando e seguendo i bordi di un’immagine"
+    },
+    "RECT": {
+        "TITLE": "Strumento Rettangolo",
+        "DESCRIPTION": "Disegna rettangoli"
+    },
+    "RGMT": {
+        "TITLE": "Strumento Selezione rettangolare",
+        "DESCRIPTION": "Effettua una selezione a forma di rettangolo"
+    },
+    "RDEY": {
+        "TITLE": "Strumento Occhi rossi",
+        "DESCRIPTION": "Corregge l’effetto occhi rossi causato dal flash di una fotocamera"
+    },
+    "ROTT": {
+        "TITLE": "Strumento Ruota vista",
+        "DESCRIPTION": "Ruota la vista di un’immagine"
+    },
+    "RRCT": {
+        "TITLE": "Strumento Rettangolo arrotondato",
+        "DESCRIPTION": "Disegna rettangoli dalla forma arrotondata"
+    },
+    "MEAT": {
+        "TITLE": "Strumento Righello",
+        "DESCRIPTION": "Misura distanze e angoli di un’immagine"
+    },
+    "SHAR": {
+        "TITLE": "Strumento Nitidezza",
+        "DESCRIPTION": "Consente di aumentare la nitidezza dei bordi di un’immagine"
+    },
+    "SRMT": {
+        "TITLE": "Strumento Selezione singola riga",
+        "DESCRIPTION": "Effettua una selezione orizzontale dell’altezza di un pixel"
+    },
+    "SCMT": {
+        "TITLE": "Strumento Selezione singola colonna",
+        "DESCRIPTION": "Effettua una selezione verticale della larghezza di un pixel"
+    },
+    "SLCT": {
+        "TITLE": "Strumento Sezione",
+        "DESCRIPTION": "Ritaglia un’immagine in sezioni più piccole, adatte per la progettazione Web"
+    },
+    "SLST": {
+        "TITLE": "Strumento Selezione sezioni",
+        "DESCRIPTION": "Seleziona, sposta e ridimensiona le sezioni di un’immagine"
+    },
+    "SMUD": {
+        "TITLE": "Strumento Sfumino",
+        "DESCRIPTION": "Attenua e sfuma i colori di un’immagine"
+    },
+    "SATU": {
+        "TITLE": "Strumento Spugna",
+        "DESCRIPTION": "Cambia la saturazione del colore di alcune aree di un’immagine"
+    },
+    "SPHB": {
+        "TITLE": "Strumento Pennello correttivo al volo",
+        "DESCRIPTION": "Elimina macchie e imperfezioni"
+    },
+    "TXBV": {
+        "TITLE": "Strumento Testo verticale",
+        "DESCRIPTION": "Consente di aggiungere del testo verticale"
+    },
+    "VTYS": {
+        "TITLE": "Strumento Maschera testo verticale",
+        "DESCRIPTION": "Consente di creare una selezione a forma di testo verticale"
+    },
+    "ZOOM": {
+        "TITLE": "Strumento Zoom",
+        "DESCRIPTION": "Ingrandisce o riduce la vista di un’immagine"
+    },
+    "CPEN": {
+        "TITLE": "Strumento Penna curvatura",
+        "DESCRIPTION": "Crea o modifica tracciati o forme usando i punti"
+    },
+    "PMHA": {
+        "TITLE": "Strumento mano",
+        "DESCRIPTION": "Consente di scorrere le varie parti di un'immagine"
+    },
+    "PMZM": {
+        "TITLE": "Strumento zoom",
+        "DESCRIPTION": "Ingrandisce o riduce la vista di un’immagine"
+    },
+    "PMDB": {
+        "TITLE": "Campionamento strumento pennello",
+        "DESCRIPTION": "ù_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Strumento Lazo",
+        "DESCRIPTION": "Consente di effettuare selezioni a mano libera"
+    },
+    "TRY_IT": "Scoprite come",
+    "ADVANCED": "Avanzato:"
+}

@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D-pipetteværktøj til materiale",
+        "DESCRIPTION": "Indlæser det markerede materiale fra et 3D-objekt"
+    },
+    "3DDM": {
+        "TITLE": "3D-værktøj til at slippe materiale",
+        "DESCRIPTION": "Slipper materiale indlæst i værktøjet på destinationsområdet i et 3D-objekt"
+    },
+    "AKNT": {
+        "TITLE": "Tilføj ankerpunkt-værktøj",
+        "DESCRIPTION": "Føjer ankerpunkter til dine kurver"
+    },
+    "ARTT": {
+        "TITLE": "Tegnebrætsværktøj",
+        "DESCRIPTION": "Opretter, flytter eller ændrer størrelser på flere lærreder"
+    },
+    "AHBT": {
+        "TITLE": "Kunstpenselværktøj",
+        "DESCRIPTION": "Maler stiliserede strøg med pixels fra en tidligere tilstand af billedet."
+    },
+    "SERA": {
+        "TITLE": "Baggrundsviskelæderværktøj",
+        "DESCRIPTION": "Sletter pixels fra en farveprøve"
+    },
+    "BLUR": {
+        "TITLE": "Sløringsværktøj",
+        "DESCRIPTION": "Slører områder i et billede"
+    },
+    "PNTB": {
+        "TITLE": "Penselværktøj",
+        "DESCRIPTION": "Maler brugerdefinerede penselstrøg"
+    },
+    "BURN": {
+        "TITLE": "Brændingsværktøj",
+        "DESCRIPTION": "Gør områder mørkere i et billede"
+    },
+    "STAM": {
+        "TITLE": "Stempelkloningsværktøj",
+        "DESCRIPTION": "Maler med pixels fra en anden del af billedet"
+    },
+    "CRBT": {
+        "TITLE": "Farveerstatningsværktøj",
+        "DESCRIPTION": "Maler den markerede farve over en anden farve"
+    },
+    "COLS": {
+        "TITLE": "Farveeksempelværktøj",
+        "DESCRIPTION": "Viser værdier for farver i et billede"
+    },
+    "RCMP": {
+        "TITLE": "Indholdsafhængig flytning-værktøj",
+        "DESCRIPTION": "Markerer og flytter en del af et billede og udfylder automatisk det tilbageværende område"
+    },
+    "COUN": {
+        "TITLE": "Optællingsværktøj",
+        "DESCRIPTION": "Tæller antallet af objekter i et billede"
+    },
+    "CKNT": {
+        "TITLE": "Konverter punktværktøj",
+        "DESCRIPTION": "Redigerer former og kurver ved at konvertere udglattede og hjørneankerpunkter"
+    },
+    "CROP": {
+        "TITLE": "Beskæringsværktøj",
+        "DESCRIPTION": "Beskærer eller udvider kanterne på et billede"
+    },
+    "CUSH": {
+        "TITLE": "Værktøj til brugerdefineret form",
+        "DESCRIPTION": "Tegner former fra en lister over brugerdefinerede former"
+    },
+    "DKNT": {
+        "TITLE": "Værktøjet Fjern ankerpunkt",
+        "DESCRIPTION": "Sletter ankerpunkter og genskaber kurver  "
+    },
+    "PTHA": {
+        "TITLE": "Direkte markeringsværktøj",
+        "DESCRIPTION": "Markerer enkelte punkter og segmenter i en kurve"
+    },
+    "DODG": {
+        "TITLE": "Gør lysere-værktøj",
+        "DESCRIPTION": "Gør områder lysere i et billede"
+    },
+    "ELPS": {
+        "TITLE": "Ellipseværktøj",
+        "DESCRIPTION": "Tegner ellipser"
+    },
+    "ELMT": {
+        "TITLE": "Elliptisk markeringsrammeværktøj",
+        "DESCRIPTION": "Laver en markering i form af en ellipse"
+    },
+    "ERAS": {
+        "TITLE": "Viskelæderværktøj",
+        "DESCRIPTION": "Ændrer pixels til baggrundsfarven eller gør dem gennemsigtige"
+    },
+    "EYED": {
+        "TITLE": "Pipetteværktøj",
+        "DESCRIPTION": "Eksempelfarver fra billede"
+    },
+    "MPEN": {
+        "TITLE": "Fritegningspenværktøj",
+        "DESCRIPTION": "Tilføjer ankerpunkter, når du tegner kurver og former"
+    },
+    "BNDT": {
+        "TITLE": "Farveforløbsværktøj",
+        "DESCRIPTION": "Skaber en gradvis blanding mellem farver"
+    },
+    "HAND": {
+        "TITLE": "Håndværktøjet",
+        "DESCRIPTION": "Panorerer hen over forskellige dele af et billede"
+    },
+    "STMM": {
+        "TITLE": "Reparationspenselværktøj",
+        "DESCRIPTION": "Reparerer urenheder med pixels fra en anden del af billedet"
+    },
+    "HSTB": {
+        "TITLE": "Oversigtspenselværktøj",
+        "DESCRIPTION": "Gendanner dele af et billede til en tidligere tilstand"
+    },
+    "TXBX": {
+        "TITLE": "Værktøj til vandret tekst",
+        "DESCRIPTION": "Tilføjer vandret tekst"
+    },
+    "TYPS": {
+        "TITLE": "Vandret tekstmaskeværktøj",
+        "DESCRIPTION": "Laver en markering i form af vandret tekst"
+    },
+    "LASO": {
+        "TITLE": "Lassoværktøj",
+        "DESCRIPTION": "Laver frihåndsmarkeringer"
+    },
+    "LINT": {
+        "TITLE": "Stregværktøj",
+        "DESCRIPTION": "Tegner linjer"
+    },
+    "MERA": {
+        "TITLE": "Magisk viskelæderværktøj",
+        "DESCRIPTION": "Sletter områder med lignende farver med et enkelt klik"
+    },
+    "WAND": {
+        "TITLE": "Tryllestavværktøj",
+        "DESCRIPTION": "Markerer områder med lignende farver"
+    },
+    "MLAS": {
+        "TITLE": "Magnetisk lassoværktøj",
+        "DESCRIPTION": "Laver en markering ved at fastgøre sig til kanter på et billede"
+    },
+    "WETB": {
+        "TITLE": "Mixerpenselværktøj",
+        "DESCRIPTION": "Simulerer ægte malerteknikker, bl.a. blanding af farver og variationer af malingens fugtighedsgrad"
+    },
+    "LMVR": {
+        "TITLE": "Flytteværktøj",
+        "DESCRIPTION": "Flytter en markering eller et lag"
+    },
+    "TXTA": {
+        "TITLE": "Noteværktøj",
+        "DESCRIPTION": "Opretter tekstnoter, som du kan vedhæfte på et billede eller en fil"
+    },
+    "BUCK": {
+        "TITLE": "Malerspandværktøj",
+        "DESCRIPTION": "Udfylder sammenhængende områder i lignende farver med forgrundsfarven."
+    },
+    "PTCH": {
+        "TITLE": "Korrektionsværktøj",
+        "DESCRIPTION": "Erstatter et markeret område med et mønster eller pixels fra en anden del af billedet"
+    },
+    "PCST": {
+        "TITLE": "Kurvemarkeringsværktøj",
+        "DESCRIPTION": "Vælger en hel kurve"
+    },
+    "STMP": {
+        "TITLE": "Mønsterstempelværktøj",
+        "DESCRIPTION": "Maler med et valgt mønster"
+    },
+    "PENT": {
+        "TITLE": "Penværktøj",
+        "DESCRIPTION": "Laver og ændrer kurver og former med ankerpunkter og håndtag"
+    },
+    "PENC": {
+        "TITLE": "Blyantværktøj",
+        "DESCRIPTION": "Maler strøg med hårde kanter"
+    },
+    "PCRP": {
+        "TITLE": "Perspektivbeskæringsværktøj",
+        "DESCRIPTION": "Beskærer et billede for at korrigere forvrængninger forårsaget af perspektiv"
+    },
+    "POLY": {
+        "TITLE": "Polygonværktøj",
+        "DESCRIPTION": "Tegner polygoner"
+    },
+    "PGON": {
+        "TITLE": "Polygonlassoværktøj",
+        "DESCRIPTION": "Opretter markeringer med lige kanter"
+    },
+    "QKSL": {
+        "TITLE": "Hurtigmarkeringsværktøj",
+        "DESCRIPTION": "Laver en markering ved at finde og følge kanterne på et billede"
+    },
+    "RECT": {
+        "TITLE": "Rektangelværktøj",
+        "DESCRIPTION": "Tegner rektangler"
+    },
+    "RGMT": {
+        "TITLE": "Rektangulært markeringsrammeværktøj",
+        "DESCRIPTION": "Laver en markering i form af en rektangel"
+    },
+    "RDEY": {
+        "TITLE": "Værktøj til røde øjne",
+        "DESCRIPTION": "Fikser røde øjne fra kameraets blitz"
+    },
+    "ROTT": {
+        "TITLE": "Værktøjet Roter visning",
+        "DESCRIPTION": "Roterer visningen af et billede"
+    },
+    "RRCT": {
+        "TITLE": "Værktøj til afrundet rektangel",
+        "DESCRIPTION": "Tegner afrundede rektangler"
+    },
+    "MEAT": {
+        "TITLE": "Linealværktøj",
+        "DESCRIPTION": "Måler afstande og vinkler i et billede"
+    },
+    "SHAR": {
+        "TITLE": "Skarphedsværktøj",
+        "DESCRIPTION": "Gør bløde kanter på et billede skarpere"
+    },
+    "SRMT": {
+        "TITLE": "Markeringsrammeværktøj til enkeltrække",
+        "DESCRIPTION": "Laver en vandret markering på en enkelt pixels højde"
+    },
+    "SCMT": {
+        "TITLE": "Markeringsrammeværktøj til enkeltkolonne",
+        "DESCRIPTION": "Laver en lodret markering på en enkelt pixels bredde"
+    },
+    "SLCT": {
+        "TITLE": "Udsnitsværktøj",
+        "DESCRIPTION": "Skærer et billede til mindre dele, der gør dem velegnede til webdesign"
+    },
+    "SLST": {
+        "TITLE": "Udsnitsmarkeringsværktøj",
+        "DESCRIPTION": "Markerer, flytter og ændrer størrelsen på udsnit af et billede"
+    },
+    "SMUD": {
+        "TITLE": "Udtværingsværktøj",
+        "DESCRIPTION": "Blødgør og udtværer farver i et billede"
+    },
+    "SATU": {
+        "TITLE": "Svampværktøj",
+        "DESCRIPTION": "Ændrer farvemætningen i et område i et billede"
+    },
+    "SPHB": {
+        "TITLE": "Pletreparationspensel",
+        "DESCRIPTION": "Fjerner mærker og pletter"
+    },
+    "TXBV": {
+        "TITLE": "Lodret tekstværktøj",
+        "DESCRIPTION": "Tilføjer lodret tekst"
+    },
+    "VTYS": {
+        "TITLE": "Lodret tekstmaskeværktøj",
+        "DESCRIPTION": "Laver en markering i form af lodret tekst"
+    },
+    "ZOOM": {
+        "TITLE": "Zoomværktøj",
+        "DESCRIPTION": "Forstørrer eller mindsker visningen af et billede"
+    },
+    "CPEN": {
+        "TITLE": "Krumningspenværktøj",
+        "DESCRIPTION": "Laver og ændrer kurver og former ved hjælp af punkter."
+    },
+    "PMHA": {
+        "TITLE": "Håndværktøj",
+        "DESCRIPTION": "Panorerer hen over forskellige dele af et billede"
+    },
+    "PMZM": {
+        "TITLE": "Zoomværktøj",
+        "DESCRIPTION": "Forstørrer eller mindsker visningen af et billede"
+    },
+    "PMDB": {
+        "TITLE": "Indsamlingspenselværktøj",
+        "DESCRIPTION": "æ_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lassoværktøj",
+        "DESCRIPTION": "Laver frihåndsmarkeringer"
+    },
+    "TRY_IT": "Lær hvordan",
+    "ADVANCED": "Avanceret:"
+}

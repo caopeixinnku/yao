@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="./jquery-ui.min.css" rel="stylesheet">
+    <title>Refine UI</title>
+
+    <style>
+      body { background-color: rgba(0,0,0,0.1);
+        width: 177px; margin: 0; }
+      .sliders { display: inline-block; }
+      /*.values { display: inline-block; }*/
+      .slider { float: left; margin: 14px;}
+      input {width: 1rem; padding: 10px;}
+    </style>
+  
+  </head>
+  <body>
+    <div id="main">
+      <div class="sliders">
+        <div class="slider" id="slider-smooth"></div>
+        <div class="slider" id="slider-feather"></div>
+        <div class="slider" id="slider-contrast"></div>
+        <div class="slider" id="slider-shiftEdge"></div>
+        <!-- <div class="slider" id="slider-vertical-5"></div> -->
+      </div>
+      <div class="values">
+        <input type="text" id="value-smooth" readonly >
+        <input type="text" id="value-feather" readonly >
+        <input type="text" id="value-contrast" readonly >
+        <input type="text" id="value-shiftEdge" readonly >
+        <!-- <input type="text" id="setting-5" readonly > -->
+      </div>
+    </div>
+    <script src="select.js"></script>
+  </body>
+</html>

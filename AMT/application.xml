@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{PHSP-19.1.5-64-ADBEADBEADBEADBEADBEA}">
+		<Data key="AMTConfigPath">C:\Program Files\Adobe\Adobe Photoshop CC 2018\AMT\application.xml</Data><Data key="APPLICATION_CUSTOMIZATION_DATA">SuppressSerialWF</Data><Data key="BridgeTalkCode">/adobe/bridgetalk/photoshop-120.064</Data><Data key="DefaultDriverPayload">{PHSP-19.1.5-64-ADBEADBEADBEADBEADBEA}</Data><Data key="InstallDate">1529918982</Data><Data key="LicensingCode">V7{}Photoshop-19-Win-GM</Data><Data key="ProductVersion">19.1.5</Data><Data key="SAPCode">PHSP</Data><Data key="defaultAdobeCode">{PHSP-19.1.5-64-ADBEADBEADBEADBEADBEA}</Data><Data key="driverAMTConfigPath">C:\Program Files\Adobe\Adobe Photoshop CC 2018\AMT\application.xml</Data><Data key="driverLEID">V7{}Photoshop-19-Win-GM</Data><Data key="installedLanguages">zh_CN</Data></Payload>
+	<Other adobeCode="V7{}Photoshop-19-Win-GM">
+		<Data key="EPIC_APP">Adobe Photoshop CC 2018</Data><Data key="EPIC_APP_330">Adobe Photoshop CC 2018</Data><Data key="EPIC_APP_45">Adobe Photoshop CC 2018</Data><Data key="ExpirationDate"></Data><Data key="NTL_WO_SN"></Data><Data key="PayloadCode">{PHSP-19.1.5-64-ADBEADBEADBEADBEADBEA}</Data><Data key="TrialSerialNumber">911987057659283838047464</Data></Other>
+	<Other adobeCode="/adobe/bridgetalk/photoshop-120.064">
+		<Data key="Specifier">photoshop-120.064</Data>
+		<Data key="ExecutableBasename">Photoshop</Data>
+		<Data key="BundleIdentifier">com.adobe.Photoshop</Data>
+		<Data key="DisplayName">Adobe Photoshop CC 2018</Data>
+		<Data key="BridgeTalkVersion">2</Data>
+		<Data key="SupportsESTK">true</Data>
+	</Other>
+	<Other adobeCode="/adobe/bridgetalk/groups">
+		<Data key="Group180">/adobe/bridgetalk/groups/cs/120/bridge-8.*</Data>
+		<Data key="Group181">/adobe/bridgetalk/groups/cs/120/photoshop-120.*</Data>
+		<Data key="Group182">/adobe/bridgetalk/groups/cs/120/estoolkit-4.0</Data>
+	</Other>
+</Configuration>

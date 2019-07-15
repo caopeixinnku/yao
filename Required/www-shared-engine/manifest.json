@@ -1,0 +1,10 @@
+{
+    "left" : 0,
+    "top" : 0,
+    "width" : 100,
+    "height" : 100,
+    "overlay_type" : "window",
+    "visible" : false,
+    "use_transparency" : true,
+    "start_url" : "./index.html"
+}

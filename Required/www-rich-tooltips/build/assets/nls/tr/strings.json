@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3B Malzeme Damlalık aracı",
+        "DESCRIPTION": "3B nesneden seçili malzemeyi yükler"
+    },
+    "3DDM": {
+        "TITLE": "3B Malzeme Bırakma aracı",
+        "DESCRIPTION": "Araca yüklenen malzemeyi 3B nesnenin hedef alanına bırakır"
+    },
+    "AKNT": {
+        "TITLE": "Bağlantı Noktası Ekle aracı",
+        "DESCRIPTION": "Yollarınıza bağlantı noktaları ekler"
+    },
+    "ARTT": {
+        "TITLE": "Çalışma Yüzeyi aracı",
+        "DESCRIPTION": "Birden çok tuval oluşturur, taşır veya yeniden boyutlandırır"
+    },
+    "AHBT": {
+        "TITLE": "Resim Geçmişe Dönme Fırçası aracı",
+        "DESCRIPTION": "Görüntünün önceki bir durumundan piksellerle şekil verilmiş konturları boyar"
+    },
+    "SERA": {
+        "TITLE": "Arka Plan Silgisi aracı",
+        "DESCRIPTION": "Örneklenmiş bir rengin piksellerini siler"
+    },
+    "BLUR": {
+        "TITLE": "Bulanıklaştırma aracı",
+        "DESCRIPTION": "Bir görüntüdeki alanları bulanıklaştırır"
+    },
+    "PNTB": {
+        "TITLE": "Fırça aracı",
+        "DESCRIPTION": "Özel fırça darbeleri boyar"
+    },
+    "BURN": {
+        "TITLE": "Yakma aracı",
+        "DESCRIPTION": "Bir görüntüdeki alanları koyulaştırır"
+    },
+    "STAM": {
+        "TITLE": "Klonlama Damga aracı",
+        "DESCRIPTION": "Görüntünün başka bir bölümünden piksellerle boyar"
+    },
+    "CRBT": {
+        "TITLE": "Renk Değiştirme aracı",
+        "DESCRIPTION": "Varolan bir rengin üzerini seçili renkle boyar"
+    },
+    "COLS": {
+        "TITLE": "Renk Örnekleyici aracı",
+        "DESCRIPTION": "Bir görüntüdeki renkler için değerler görüntüler"
+    },
+    "RCMP": {
+        "TITLE": "İçeriğe Uygun Taşıma aracı",
+        "DESCRIPTION": "Görüntüde bölüm seçip taşır ve geride kalan alanı otomatik olarak doldurur"
+    },
+    "COUN": {
+        "TITLE": "Sayma aracı",
+        "DESCRIPTION": "Bir görüntüdeki nesne sayısını sayar"
+    },
+    "CKNT": {
+        "TITLE": "Noktayı Dönüştürme aracı",
+        "DESCRIPTION": "Düz ve köşe bağlantı noktalarını dönüştürerek şekilleri ve yolları düzenler"
+    },
+    "CROP": {
+        "TITLE": "Kırpma aracı",
+        "DESCRIPTION": "Bir görüntünün kenarlarını keser veya genişletir"
+    },
+    "CUSH": {
+        "TITLE": "Özel Şekil aracı",
+        "DESCRIPTION": "Özel bir şekil listesinden şekiller çizer"
+    },
+    "DKNT": {
+        "TITLE": "Bağlantı Noktası Silme aracı",
+        "DESCRIPTION": "Bağlantı noktalarını siler ve yolları yeniden şekillendirir  "
+    },
+    "PTHA": {
+        "TITLE": "Doğrudan Seçim aracı",
+        "DESCRIPTION": "Bir yolun noktalarını ve kesimlerini tek tek seçer"
+    },
+    "DODG": {
+        "TITLE": "Soldurma aracı",
+        "DESCRIPTION": "Bir görüntüdeki alanları açıklaştırır"
+    },
+    "ELPS": {
+        "TITLE": "Elips aracı",
+        "DESCRIPTION": "Elips çizer"
+    },
+    "ELMT": {
+        "TITLE": "Oval İşaretleme aracı",
+        "DESCRIPTION": "Elips şeklinde seçim yapar"
+    },
+    "ERAS": {
+        "TITLE": "Silgi aracı",
+        "DESCRIPTION": "Pikselleri arka plan rengine dönüştürür veya saydam yapar"
+    },
+    "EYED": {
+        "TITLE": "Damlalık aracı",
+        "DESCRIPTION": "Bir görüntüden renk örnekler"
+    },
+    "MPEN": {
+        "TITLE": "Serbest Biçim Kalemi aracı",
+        "DESCRIPTION": "Yol veya şekil çizdiğinizde bağlantı noktaları ekler"
+    },
+    "BNDT": {
+        "TITLE": "Degrade aracı",
+        "DESCRIPTION": "Renkler arasında kademeli karışım oluşturur"
+    },
+    "HAND": {
+        "TITLE": "El aracı",
+        "DESCRIPTION": "Bir görüntünün farklı bölümleri üzerinde yatay kaydırır"
+    },
+    "STMM": {
+        "TITLE": "Düzeltme Fırçası aracı",
+        "DESCRIPTION": "Görüntünün başka bir bölümünden pikseller kullanarak kusurları onarır"
+    },
+    "HSTB": {
+        "TITLE": "Geçmişe Dönme Fırçası aracı",
+        "DESCRIPTION": "Bir görüntünün bölümlerini önceki bir duruma geri yükler"
+    },
+    "TXBX": {
+        "TITLE": "Yatay Yazım aracı",
+        "DESCRIPTION": "Yatay yazım ekler"
+    },
+    "TYPS": {
+        "TITLE": "Yatay Yazım Maskesi aracı",
+        "DESCRIPTION": "Yatay yazım şeklinde seçim oluşturur"
+    },
+    "LASO": {
+        "TITLE": "Kement aracı",
+        "DESCRIPTION": "Serbest seçimler yapar"
+    },
+    "LINT": {
+        "TITLE": "Çizgi aracı",
+        "DESCRIPTION": "Çizgiler çizer"
+    },
+    "MERA": {
+        "TITLE": "Sihirli Silgi aracı",
+        "DESCRIPTION": "Benzer renkteki alanları tek bir tıklamayla siler"
+    },
+    "WAND": {
+        "TITLE": "Sihirli Değnek aracı",
+        "DESCRIPTION": "Benzer renkte görüntü alanları seçer"
+    },
+    "MLAS": {
+        "TITLE": "Manyetik Kement aracı",
+        "DESCRIPTION": "Görüntü kenarlarına yaslayarak seçim yapar"
+    },
+    "WETB": {
+        "TITLE": "Karıştırıcı Fırça aracı",
+        "DESCRIPTION": "Renk karıştırma ve boya ıslaklığını değiştirme gibi gerçek boyama tekniklerini simüle eder"
+    },
+    "LMVR": {
+        "TITLE": "Taşıma aracı",
+        "DESCRIPTION": "Bir seçimi veya katmanı taşır"
+    },
+    "TXTA": {
+        "TITLE": "Not aracı",
+        "DESCRIPTION": "Bir görüntüye veya dosyaya ekleyebileceğiniz metin notları oluşturur"
+    },
+    "BUCK": {
+        "TITLE": "Boya Kovası aracı",
+        "DESCRIPTION": "Benzer renkteki bitişik alanları ön plan rengiyle doldurur"
+    },
+    "PTCH": {
+        "TITLE": "Yama aracı",
+        "DESCRIPTION": "Görüntünün başka bir bölümünden bir desen veya piksel kullanarak seçili alanı değiştirir"
+    },
+    "PCST": {
+        "TITLE": "Yol Seçim aracı",
+        "DESCRIPTION": "Bir yolun tamamını seçer"
+    },
+    "STMP": {
+        "TITLE": "Desen Damgası aracı",
+        "DESCRIPTION": "Seçili bir desen kullanarak boyar"
+    },
+    "PENT": {
+        "TITLE": "Kalem aracı",
+        "DESCRIPTION": "Yol veya şekil oluşturur ve bunları bağlantı noktaları ve tutamaçlarla değiştirir"
+    },
+    "PENC": {
+        "TITLE": "Kurşun Kalem aracı",
+        "DESCRIPTION": "Sert kenarlı fırça darbeleri boyar"
+    },
+    "PCRP": {
+        "TITLE": "Perspektif Kırpma aracı",
+        "DESCRIPTION": "Perspektif nedeniyle oluşan bozulmaları düzeltmek için görüntüyü kırpar"
+    },
+    "POLY": {
+        "TITLE": "Çokgen aracı",
+        "DESCRIPTION": "Çokgen çizer"
+    },
+    "PGON": {
+        "TITLE": "Çokgen Kement aracı",
+        "DESCRIPTION": "Düz kenarlı seçimler oluşturur"
+    },
+    "QKSL": {
+        "TITLE": "Hızlı Seçim aracı",
+        "DESCRIPTION": "Bir görüntüdeki kenarları bulup izleyerek seçim yapar"
+    },
+    "RECT": {
+        "TITLE": "Dikdörtgen aracı",
+        "DESCRIPTION": "Dikdörtgen çizer"
+    },
+    "RGMT": {
+        "TITLE": "Dörtgen İşaretleme aracı",
+        "DESCRIPTION": "Dikdörtgen şeklinde seçim yapar"
+    },
+    "RDEY": {
+        "TITLE": "Kırmızı Göz aracı",
+        "DESCRIPTION": "Kamera flaşının neden olduğu kırmızı göz efektini düzeltir"
+    },
+    "ROTT": {
+        "TITLE": "Görünümü Döndür aracı",
+        "DESCRIPTION": "Bir görüntünün görünümünü döndürür"
+    },
+    "RRCT": {
+        "TITLE": "Yuvarlak Köşeli Dikdörtgen aracı",
+        "DESCRIPTION": "Yuvarlak kenarlı dikdörtgenler çizer"
+    },
+    "MEAT": {
+        "TITLE": "Cetvel aracı",
+        "DESCRIPTION": "Bir görüntüdeki mesafeleri ve açıları ölçer"
+    },
+    "SHAR": {
+        "TITLE": "Keskinleştirme aracı",
+        "DESCRIPTION": "Bir görüntüdeki yumuşak kenarları keskinleştirir"
+    },
+    "SRMT": {
+        "TITLE": "Tek Satır İşaretleme aracı",
+        "DESCRIPTION": "Tek piksel yüksekliğinde yatay seçim yapar"
+    },
+    "SCMT": {
+        "TITLE": "Tek Sütun İşaretleme aracı",
+        "DESCRIPTION": "Tek piksel genişliğinde dikey seçim yapar"
+    },
+    "SLCT": {
+        "TITLE": "Dilim aracı",
+        "DESCRIPTION": "Bir görüntüyü web tasarımı için uygun daha küçük bölümler halinde keser"
+    },
+    "SLST": {
+        "TITLE": "Dilim Seçimi aracı",
+        "DESCRIPTION": "Bir görüntünün dilimlerini seçer, taşır ve yeniden boyutlandırır"
+    },
+    "SMUD": {
+        "TITLE": "Leke Aracı",
+        "DESCRIPTION": "Bir görüntüdeki renkleri yumuşatır veya bulaştırır"
+    },
+    "SATU": {
+        "TITLE": "Sünger aracı",
+        "DESCRIPTION": "Bir görüntüdeki alanların renk doygunluğunu değiştirir"
+    },
+    "SPHB": {
+        "TITLE": "Nokta Düzeltme Fırçası aracı",
+        "DESCRIPTION": "İşaretleri ve lekeleri kaldırır"
+    },
+    "TXBV": {
+        "TITLE": "Dikey Yazım aracı",
+        "DESCRIPTION": "Dikey yazım ekler"
+    },
+    "VTYS": {
+        "TITLE": "Dikey Yazım Maskesi aracı",
+        "DESCRIPTION": "Dikey yazım şeklinde seçim oluşturur"
+    },
+    "ZOOM": {
+        "TITLE": "Yakınlaştırma aracı",
+        "DESCRIPTION": "Bir görüntünün görünümünü büyütür veya küçültür"
+    },
+    "CPEN": {
+        "TITLE": "Kavis Kalemi Aracı",
+        "DESCRIPTION": "Noktaları kullanarak yollar veya şekiller oluşturur ya da bunları değiştirir"
+    },
+    "PMHA": {
+        "TITLE": "El Aracı",
+        "DESCRIPTION": "Bir görüntünün farklı bölümleri üzerinde yatay kaydırır"
+    },
+    "PMZM": {
+        "TITLE": "Yakınlaştırma Aracı",
+        "DESCRIPTION": "Bir görüntünün görünümünü büyütür veya küçültür"
+    },
+    "PMDB": {
+        "TITLE": "Örnekleme Fırça Aracı",
+        "DESCRIPTION": "ğ_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Kement Aracı",
+        "DESCRIPTION": "Serbest seçimler yapar"
+    },
+    "TRY_IT": "Bilgi edinin",
+    "ADVANCED": "Gelişmiş:"
+}

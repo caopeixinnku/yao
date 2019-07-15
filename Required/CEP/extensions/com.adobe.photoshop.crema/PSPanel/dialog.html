@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/lib/antiscroll.css">
+        <script src="js/lib/CSInterface.js"></script>
+        <script src="js/lib/IMSInterface.js"></script>
+        <script src="js/lib/Vulcan.js"></script>
+        <script src="js/lib/jquery.js"></script>
+        <script>
+            /* setup our globals */
+            var _ = require("underscore");
+            _.str = require('underscore.string');
+            _.mixin(_.str.exports());
+
+            // handle relative path requiring, new requirement in CEP 8
+            var loc = window.location.pathname,
+                osOffset = navigator.platform.indexOf("Mac") > -1 ? 0 : 1,
+                rootdir = decodeURI(loc.substring(osOffset, loc.lastIndexOf("/"))),
+                requireRelative = function (relpath) {
+                    return require(rootdir + "/" + relpath);
+                };
+
+            // Versions of CEP < 6.1 won't load jquery correctly from the script tag because window.module is defined.
+            // However CEP >= 6.1 won't load jquery correctly from require() because the global obeject in the require function is not the same.
+            // Therefore fallback to require if the script tag loaded didn't define jQuery correctly
+            if (!window.$) {
+                window.$ = window.jQuery = requireRelative("js/lib/jquery.js");
+            }
+            
+            var Backbone = require("backbone");
+            Backbone.$ = window.$;
+            
+            var CremaGlobal = requireRelative("js/cremaGlobal.js");
+            CremaGlobal.csInterface = new CSInterface();
+            CremaGlobal.EvalScript_ErrMessage = EvalScript_ErrMessage; //defined in global from CSInterface
+            CremaGlobal.window = window;
+            CremaGlobal.localeStrings = CremaGlobal.csInterface.initResourceBundle();
+            main = requireRelative("js/dialogMain.js");
+        </script>
+        <script type="text/javascript">
+                var color = CremaGlobal.csInterface.getHostEnvironment().appSkinInfo.panelBackgroundColor.color;
+                var colorThemeType = "lighter"; /* Set the default to Lighter */
+                
+                if (color.red == "184") {
+                    colorThemeType = "light";
+                } else if (color.red == "83") {
+                    colorThemeType = "dark";
+                } else if (color.red == "50") {
+                    colorThemeType = "darker";
+                } 
+
+                var colorTheme = document.createElement("link")
+                colorTheme.setAttribute("rel", "stylesheet")
+                colorTheme.setAttribute("type", "text/css")
+                colorTheme.setAttribute("href", "css/styles-"+colorThemeType+".css")
+                document.head.appendChild(colorTheme);
+                
+                var spectrumColorTheme = document.createElement("link")
+                spectrumColorTheme.setAttribute("rel", "stylesheet")
+                spectrumColorTheme.setAttribute("type", "text/css")
+                spectrumColorTheme.setAttribute("href", "css/spectrum/styles-"+colorThemeType+".css")
+                document.head.appendChild(spectrumColorTheme);                
+
+
+        </script>
+        <script>
+            if ((navigator.platform == "Win32") || (navigator.platform == "Windows")) {
+                var theme = document.createElement("link")
+                theme.setAttribute("rel", "stylesheet")
+                theme.setAttribute("type", "text/css")
+                theme.setAttribute("href", "css/theme.css")
+                document.head.appendChild(theme);
+            }
+        </script>
+
+        <script src="js/lib/antiscroll.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="export-alert-tip hide"></div>
+            <div class="assets-column">
+                <div class="asset-sizes"></div>
+                <div class="dialog-assets lists"></div>
+            </div>
+            <div class="preview loading"></div>
+            <div class="settings-column">
+                <div class="dialog-settings lists"></div>
+                <div class="help"></div>
+            </div>
+        </div>
+        <footer></footer>
+        <script>
+           main.init();
+        </script>
+    </body>
+</html>

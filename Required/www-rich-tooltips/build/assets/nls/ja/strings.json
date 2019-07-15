@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D マテリアルスポイトツール",
+        "DESCRIPTION": "選択したマテリアルを 3D オブジェクトから読み込み"
+    },
+    "3DDM": {
+        "TITLE": "3D マテリアルドロップツール",
+        "DESCRIPTION": "ツールに読み込まれたマテリアルを 3D オブジェクトのターゲット領域にドロップ"
+    },
+    "AKNT": {
+        "TITLE": "アンカーポイントを追加ツール",
+        "DESCRIPTION": "パスにアンカーポイントを追加"
+    },
+    "ARTT": {
+        "TITLE": "アートボードツール",
+        "DESCRIPTION": "複数のカンバスを作成、移動、サイズ変更"
+    },
+    "AHBT": {
+        "TITLE": "アートヒストリーブラシツール",
+        "DESCRIPTION": "画像の以前の状態のピクセルを使用して、スタイル化されたストロークをペイント"
+    },
+    "SERA": {
+        "TITLE": "背景消しゴムツール",
+        "DESCRIPTION": "サンプリングしたカラーのピクセルを消去"
+    },
+    "BLUR": {
+        "TITLE": "ぼかしツール",
+        "DESCRIPTION": "画像内の領域をぼかす"
+    },
+    "PNTB": {
+        "TITLE": "ブラシツール",
+        "DESCRIPTION": "カスタムブラシストロークをペイント"
+    },
+    "BURN": {
+        "TITLE": "焼き込みツール",
+        "DESCRIPTION": "画像内の領域を暗くする"
+    },
+    "STAM": {
+        "TITLE": "コピースタンプツール",
+        "DESCRIPTION": "画像の別部分のピクセルでペイント"
+    },
+    "CRBT": {
+        "TITLE": "色の置き換えツール",
+        "DESCRIPTION": "既存のカラーの上に選択したカラーをペイント"
+    },
+    "COLS": {
+        "TITLE": "カラーサンプラーツール",
+        "DESCRIPTION": "画像内のカラーの値を表示"
+    },
+    "RCMP": {
+        "TITLE": "コンテンツに応じた移動ツール",
+        "DESCRIPTION": "画像の一部を選択して移動し、跡を自動で塗りつぶす"
+    },
+    "COUN": {
+        "TITLE": "カウントツール",
+        "DESCRIPTION": "画像に含まれるオブジェクトの数をカウント"
+    },
+    "CKNT": {
+        "TITLE": "アンカーポイントの切り替えツール",
+        "DESCRIPTION": "スムーズアンカーポイントとコーナーアンカーポイントの変換によってシェイプやパスを編集"
+    },
+    "CROP": {
+        "TITLE": "切り抜きツール",
+        "DESCRIPTION": "画像のエッジをトリミングまたは拡大"
+    },
+    "CUSH": {
+        "TITLE": "カスタムシェイプツール",
+        "DESCRIPTION": "カスタムシェイプリストのシェイプを描画"
+    },
+    "DKNT": {
+        "TITLE": "アンカーポイントを削除ツール",
+        "DESCRIPTION": "アンカーポイントを削除し、パスの形状を変更"
+    },
+    "PTHA": {
+        "TITLE": "パス選択ツール",
+        "DESCRIPTION": "パスの個別のポイントやセグメントを選択"
+    },
+    "DODG": {
+        "TITLE": "覆い焼きツール",
+        "DESCRIPTION": "画像内の領域を明るくする"
+    },
+    "ELPS": {
+        "TITLE": "楕円形ツール",
+        "DESCRIPTION": "楕円を描画"
+    },
+    "ELMT": {
+        "TITLE": "楕円形選択ツール",
+        "DESCRIPTION": "楕円形の選択範囲を作成"
+    },
+    "ERAS": {
+        "TITLE": "消しゴムツール",
+        "DESCRIPTION": "ピクセルを背景色に変更するか、透明にする"
+    },
+    "EYED": {
+        "TITLE": "スポイトツール",
+        "DESCRIPTION": "画像からカラーをサンプリング"
+    },
+    "MPEN": {
+        "TITLE": "フリーフォームペンツール",
+        "DESCRIPTION": "パスやシェイプを描きながらアンカーポイントを追加"
+    },
+    "BNDT": {
+        "TITLE": "グラデーションツール",
+        "DESCRIPTION": "色と色を滑らかにブレンド"
+    },
+    "HAND": {
+        "TITLE": "手のひらツール",
+        "DESCRIPTION": "パンにより画像のさまざまな部分を表示"
+    },
+    "STMM": {
+        "TITLE": "修復ブラシツール",
+        "DESCRIPTION": "画像の別部分のピクセルを使用して欠陥を補修"
+    },
+    "HSTB": {
+        "TITLE": "ヒストリーブラシツール",
+        "DESCRIPTION": "画像の一部を以前の状態に戻す"
+    },
+    "TXBX": {
+        "TITLE": "横書き文字ツール",
+        "DESCRIPTION": "横書き文字を追加"
+    },
+    "TYPS": {
+        "TITLE": "横書き文字マスクツール",
+        "DESCRIPTION": "横書き文字の形をした選択範囲を作成"
+    },
+    "LASO": {
+        "TITLE": "なげなわツール",
+        "DESCRIPTION": "フリーハンドで選択範囲を作成"
+    },
+    "LINT": {
+        "TITLE": "ラインツール",
+        "DESCRIPTION": "線を描画"
+    },
+    "MERA": {
+        "TITLE": "マジック消しゴムツール",
+        "DESCRIPTION": "似た色の領域をワンクリックで消去"
+    },
+    "WAND": {
+        "TITLE": "自動選択ツール",
+        "DESCRIPTION": "似た色の画像領域を選択"
+    },
+    "MLAS": {
+        "TITLE": "マグネット選択ツール",
+        "DESCRIPTION": "画像のエッジにスナップして選択範囲を作成"
+    },
+    "WETB": {
+        "TITLE": "混合ブラシツール",
+        "DESCRIPTION": "色を混ぜる、絵の具のにじみを変えるなど、現実の絵画技法をシミュレーション"
+    },
+    "LMVR": {
+        "TITLE": "移動ツール",
+        "DESCRIPTION": "選択範囲またはレイヤーを移動"
+    },
+    "TXTA": {
+        "TITLE": "注釈ツール",
+        "DESCRIPTION": "画像またはファイルに添えられるテキスト注釈を作成"
+    },
+    "BUCK": {
+        "TITLE": "塗りつぶしツール",
+        "DESCRIPTION": "似た色の隣接領域を描画色で塗りつぶす"
+    },
+    "PTCH": {
+        "TITLE": "パッチツール",
+        "DESCRIPTION": "選択した領域を画像の別部分から取得したパターンやピクセルで置換"
+    },
+    "PCST": {
+        "TITLE": "パスコンポーネント選択ツール",
+        "DESCRIPTION": "パス全体を選択"
+    },
+    "STMP": {
+        "TITLE": "パターンスタンプツール",
+        "DESCRIPTION": "選択したパターンを使用してペイント"
+    },
+    "PENT": {
+        "TITLE": "ペンツール",
+        "DESCRIPTION": "アンカーポイントやハンドルを使用して、パスやシェイプを作成および変更"
+    },
+    "PENC": {
+        "TITLE": "鉛筆ツール",
+        "DESCRIPTION": "エッジの硬いブラシストロークをペイント"
+    },
+    "PCRP": {
+        "TITLE": "遠近法の切り抜きツール",
+        "DESCRIPTION": "画像を切り抜き、遠近法によるゆがみを補正"
+    },
+    "POLY": {
+        "TITLE": "多角形ツール",
+        "DESCRIPTION": "多角形を描画"
+    },
+    "PGON": {
+        "TITLE": "多角形選択ツール",
+        "DESCRIPTION": "まっすぐな輪郭の選択範囲を作成"
+    },
+    "QKSL": {
+        "TITLE": "クイック選択ツール",
+        "DESCRIPTION": "画像内のエッジを探して追従し、選択範囲を作成"
+    },
+    "RECT": {
+        "TITLE": "長方形ツール",
+        "DESCRIPTION": "長方形を描画"
+    },
+    "RGMT": {
+        "TITLE": "長方形選択ツール",
+        "DESCRIPTION": "長方形の選択範囲を作成"
+    },
+    "RDEY": {
+        "TITLE": "赤目修正ツール",
+        "DESCRIPTION": "カメラのフラッシュにより生じる赤目効果を修正"
+    },
+    "ROTT": {
+        "TITLE": "回転ビューツール",
+        "DESCRIPTION": "画像のビューを回転"
+    },
+    "RRCT": {
+        "TITLE": "角丸長方形ツール",
+        "DESCRIPTION": "角の丸い長方形を描画"
+    },
+    "MEAT": {
+        "TITLE": "ものさしツール",
+        "DESCRIPTION": "画像内の距離や角度を測定"
+    },
+    "SHAR": {
+        "TITLE": "シャープツール",
+        "DESCRIPTION": "画像のソフトなエッジを鋭くする"
+    },
+    "SRMT": {
+        "TITLE": "一行選択ツール",
+        "DESCRIPTION": "高さ 1 ピクセルの横向きの選択範囲を作成"
+    },
+    "SCMT": {
+        "TITLE": "一列選択ツール",
+        "DESCRIPTION": "幅 1 ピクセルの縦向きの選択範囲を作成"
+    },
+    "SLCT": {
+        "TITLE": "スライスツール",
+        "DESCRIPTION": "画像を Web デザイン用に適した小さな部分にカット"
+    },
+    "SLST": {
+        "TITLE": "スライス選択ツール",
+        "DESCRIPTION": "画像のスライスを選択、移動、サイズ変更"
+    },
+    "SMUD": {
+        "TITLE": "指先ツール",
+        "DESCRIPTION": "画像内の色を和らげる／ぼかす"
+    },
+    "SATU": {
+        "TITLE": "スポンジツール",
+        "DESCRIPTION": "画像内の領域のカラーの彩度を変更"
+    },
+    "SPHB": {
+        "TITLE": "スポット修復ブラシツール",
+        "DESCRIPTION": "しみや汚れを除去"
+    },
+    "TXBV": {
+        "TITLE": "縦書き文字ツール",
+        "DESCRIPTION": "縦書き文字を追加"
+    },
+    "VTYS": {
+        "TITLE": "縦書き文字マスクツール",
+        "DESCRIPTION": "縦書き文字の形をした選択範囲を作成"
+    },
+    "ZOOM": {
+        "TITLE": "ズームツール",
+        "DESCRIPTION": "画像のビューを拡大または縮小"
+    },
+    "CPEN": {
+        "TITLE": "曲線ペンツール",
+        "DESCRIPTION": "ポイントを使用してパスやシェイプを作成または変更"
+    },
+    "PMHA": {
+        "TITLE": "手のひらツール",
+        "DESCRIPTION": "パンにより画像のさまざまな部分を表示"
+    },
+    "PMZM": {
+        "TITLE": "ズームツール",
+        "DESCRIPTION": "画像のビューを拡大または縮小"
+    },
+    "PMDB": {
+        "TITLE": "サンプリングブラシツール",
+        "DESCRIPTION": "能_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "なげなわツール",
+        "DESCRIPTION": "フリーハンドで選択範囲を作成"
+    },
+    "TRY_IT": "方法を見る",
+    "ADVANCED": "詳細:"
+}

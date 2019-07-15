@@ -1,0 +1,70 @@
+layout linkAlert
+    {
+    
+    interface:
+        /* These are set by LinkAlertEve2ItemSheetPostCreate() */
+        macintosh		: false;
+        iconInfo		: false;
+        iconWarn		: false;
+        enableHeader	: false;
+        headerText		: '';
+        messageText		: '';
+        linkText		: '';
+    
+    view TLinkAlert(placement: place_column,
+					   child_horizontal: align_left,
+					   child_vertical: align_top,
+					   margin: 10,
+					   isResizable: false)
+        {
+        row(horizontal: align_center)
+            {
+			TOptional(bind: @iconInfo, value: true)
+				{
+				TIconImageView (iconRootName: 'Note',
+							height: 32,
+							width: 32,
+							enabled: false,
+							vertical: align_top);
+				}			
+			TOptional(bind: @iconWarn, value: true,
+						vertical: align_top)
+				{
+				TOptional(bind: @macintosh, value: true)
+					{
+					TIconImageView (iconRootName: 'WarningPSIcon',
+								height: 32,
+								width: 32,
+								enabled: false);
+					}
+				TOptional(bind: @macintosh, value: false)
+					{
+					TIconImageView (iconRootName: 'WarningIcon',
+								height: 48,
+								width: 48,
+								enabled: false);
+					}
+				}
+            column()
+                {
+				TOptional(bind: @enableHeader, value: true)
+					{
+					TStaticText(name: headerText,
+								font: boldFont,
+								wincontrol: false);
+					}
+				TStaticText(name: messageText,
+							wincontrol: false);
+				TStaticText(identifier: 'link',
+							name : linkText,
+							wincontrol: false);
+				TView();
+				TButton(name: "$$$/ControlsStrings/OK=OK",
+						identifier: @ok,
+						dismiss: true,
+						default: true,
+						horizontal: align_center);
+                }
+            }
+        }
+    }

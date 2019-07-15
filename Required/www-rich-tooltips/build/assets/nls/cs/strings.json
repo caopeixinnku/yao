@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Nástroj Kapátko 3D materiálu",
+        "DESCRIPTION": "Načte vybraný materiál z 3D objektu."
+    },
+    "3DDM": {
+        "TITLE": "Nástroj Umístění 3D materiálu",
+        "DESCRIPTION": "Umístí materiál načtený do nástroje do cílové oblasti 3D objektu."
+    },
+    "AKNT": {
+        "TITLE": "Nástroj Přidat kotevní bod",
+        "DESCRIPTION": "Přidá k cestám kotevní body."
+    },
+    "ARTT": {
+        "TITLE": "Nástroj Návrhová plocha",
+        "DESCRIPTION": "Vytvoří, přesune nebo změní velikost více pláten."
+    },
+    "AHBT": {
+        "TITLE": "Nástroj Umělecký štětec historie",
+        "DESCRIPTION": "Maluje stylizované tahy pomocí obrazových bodů z předchozího stavu obrazu."
+    },
+    "SERA": {
+        "TITLE": "Nástroj Mazání pozadí",
+        "DESCRIPTION": "Vymaže obrazové body vzorkované barvy."
+    },
+    "BLUR": {
+        "TITLE": "Nástroj Rozostření",
+        "DESCRIPTION": "Rozostří oblasti obrazu."
+    },
+    "PNTB": {
+        "TITLE": "Nástroj Štětec",
+        "DESCRIPTION": "Maluje vlastní tahy štětcem."
+    },
+    "BURN": {
+        "TITLE": "Nástroj Ztmavení",
+        "DESCRIPTION": "Ztmaví oblasti obrazu."
+    },
+    "STAM": {
+        "TITLE": "Nástroj Klonovací razítko",
+        "DESCRIPTION": "Maluje obrazovými body z jiné části obrazu."
+    },
+    "CRBT": {
+        "TITLE": "Nástroj Nahrazení barvy",
+        "DESCRIPTION": "Přemaluje vybranou barvou stávající barvu."
+    },
+    "COLS": {
+        "TITLE": "Nástroj pro vzorkování barev",
+        "DESCRIPTION": "Zobrazí v obrazu hodnoty barev."
+    },
+    "RCMP": {
+        "TITLE": "Nástroj Přesun podle obsahu",
+        "DESCRIPTION": "Vybere a přesune část obrazu a automaticky vyplní zbývající prázdné místo."
+    },
+    "COUN": {
+        "TITLE": "Nástroj Počítání",
+        "DESCRIPTION": "Spočítá počet objektů v obrazu."
+    },
+    "CKNT": {
+        "TITLE": "Nástroj Změnit bod",
+        "DESCRIPTION": "Upraví tvary a cesty tím, že převede hladké a rohové kotevní body."
+    },
+    "CROP": {
+        "TITLE": "Nástroj Oříznutí",
+        "DESCRIPTION": "Ořízne nebo rozšíří okraje obrazu."
+    },
+    "CUSH": {
+        "TITLE": "Nástroj Jiný tvar",
+        "DESCRIPTION": "Kreslí tvary ze seznamu jiných tvarů."
+    },
+    "DKNT": {
+        "TITLE": "Nástroj Odstranit kotevní bod",
+        "DESCRIPTION": "Odstraní kotevní body a změní tvar cest.  "
+    },
+    "PTHA": {
+        "TITLE": "Nástroj pro přímý výběr",
+        "DESCRIPTION": "Vybere jednotlivé body a segmenty cesty."
+    },
+    "DODG": {
+        "TITLE": "Nástroj Zesvětlení",
+        "DESCRIPTION": "Zesvětlí oblasti obrazu."
+    },
+    "ELPS": {
+        "TITLE": "Nástroj Elipsa",
+        "DESCRIPTION": "Kreslí elipsy."
+    },
+    "ELMT": {
+        "TITLE": "Nástroj Eliptický výběr",
+        "DESCRIPTION": "Provede výběr ve tvaru elipsy."
+    },
+    "ERAS": {
+        "TITLE": "Nástroj Guma",
+        "DESCRIPTION": "Změní obrazové body na barvu pozadí nebo je zprůhlední."
+    },
+    "EYED": {
+        "TITLE": "Nástroj Kapátko",
+        "DESCRIPTION": "Vybere z obrazu vzorek barvy."
+    },
+    "MPEN": {
+        "TITLE": "Nástroj Cesta od ruky",
+        "DESCRIPTION": "Při kreslení cest nebo tvarů přidá kotevní body."
+    },
+    "BNDT": {
+        "TITLE": "Nástroj Přechod",
+        "DESCRIPTION": "Postupně prolne barvy."
+    },
+    "HAND": {
+        "TITLE": "Nástroj Ručička",
+        "DESCRIPTION": "Posouvá různé části obrazu."
+    },
+    "STMM": {
+        "TITLE": "Nástroj Retušovací štětec",
+        "DESCRIPTION": "Opraví nedostatky pomocí obrazových bodů z jiné části obrazu."
+    },
+    "HSTB": {
+        "TITLE": "Nástroj Štětec historie",
+        "DESCRIPTION": "Obnoví části obrazu do předchozího stavu."
+    },
+    "TXBX": {
+        "TITLE": "Nástroj Vodorovný text",
+        "DESCRIPTION": "Přidá vodorovný text."
+    },
+    "TYPS": {
+        "TITLE": "Nástroj Vodorovná textová maska",
+        "DESCRIPTION": "Vytvoří výběr ve tvaru vodorovného textu."
+    },
+    "LASO": {
+        "TITLE": "Nástroj Laso",
+        "DESCRIPTION": "Používá se k volnému výběru."
+    },
+    "LINT": {
+        "TITLE": "Nástroj Čára",
+        "DESCRIPTION": "Kreslí čáry."
+    },
+    "MERA": {
+        "TITLE": "Nástroj Kouzelná guma",
+        "DESCRIPTION": "Jedním kliknutím vymaže podobně zabarvené oblasti."
+    },
+    "WAND": {
+        "TITLE": "Nástroj Kouzelná hůlka",
+        "DESCRIPTION": "Vybere podobně zbarvené oblasti obrazu."
+    },
+    "MLAS": {
+        "TITLE": "Nástroj Magnetické laso",
+        "DESCRIPTION": "Provede výběr přitažením k okrajům obrazu."
+    },
+    "WETB": {
+        "TITLE": "Nástroj Míchací štětec",
+        "DESCRIPTION": "Napodobuje skutečné techniky malby, jako je míchání barev a různá vlhkost malby."
+    },
+    "LMVR": {
+        "TITLE": "Nástroj Přesun",
+        "DESCRIPTION": "Přesune výběr nebo vrstvu."
+    },
+    "TXTA": {
+        "TITLE": "Nástroj Poznámka",
+        "DESCRIPTION": "Vytvoří textové poznámky, které můžete připojit k obrazu nebo souboru."
+    },
+    "BUCK": {
+        "TITLE": "Nástroj Plechovka barvy",
+        "DESCRIPTION": "Vyplní stejnobarevné sousední oblasti barvou popředí."
+    },
+    "PTCH": {
+        "TITLE": "Nástroj Záplata",
+        "DESCRIPTION": "Nahradí vybranou oblast vzorem nebo obrazovými body z jiné části obrazu."
+    },
+    "PCST": {
+        "TITLE": "Nástroj pro výběr cesty",
+        "DESCRIPTION": "Vybere celou cestu."
+    },
+    "STMP": {
+        "TITLE": "Nástroj Razítko se vzorkem",
+        "DESCRIPTION": "Maluje s použitím zvoleného vzorku."
+    },
+    "PENT": {
+        "TITLE": "Nástroj Pero",
+        "DESCRIPTION": "Vytváří a mění cesty nebo tvary pomocí kotevních bodů a táhel."
+    },
+    "PENC": {
+        "TITLE": "Nástroj Tužka",
+        "DESCRIPTION": "Maluje tahy štětcem s ostrým okrajem."
+    },
+    "PCRP": {
+        "TITLE": "Nástroj Perspektivní oříznutí",
+        "DESCRIPTION": "Ořízne obraz na správné zkreslení způsobené perspektivou."
+    },
+    "POLY": {
+        "TITLE": "Nástroj Mnohoúhelník",
+        "DESCRIPTION": "Kreslí mnohoúhelníky."
+    },
+    "PGON": {
+        "TITLE": "Nástroj Mnohoúhelníkové laso",
+        "DESCRIPTION": "Vytváří výběry s rovnými okraji."
+    },
+    "QKSL": {
+        "TITLE": "Nástroj pro rychlý výběr",
+        "DESCRIPTION": "Provede výběr tím, že vyhledá a sleduje obrysy obrazu."
+    },
+    "RECT": {
+        "TITLE": "Nástroj Obdélník",
+        "DESCRIPTION": "Kreslí obdélníky."
+    },
+    "RGMT": {
+        "TITLE": "Nástroj Obdélníkový výběr",
+        "DESCRIPTION": "Provede výběr ve tvaru obdélníku."
+    },
+    "RDEY": {
+        "TITLE": "Nástroj Červené oči",
+        "DESCRIPTION": "Opraví efekt červených očí způsobený bleskem fotoaparátu."
+    },
+    "ROTT": {
+        "TITLE": "Nástroj Otočení zobrazení",
+        "DESCRIPTION": "Otáčí zobrazení obrazu."
+    },
+    "RRCT": {
+        "TITLE": "Nástroj Zaoblený obdélník",
+        "DESCRIPTION": "Kreslí obdélníky se zaoblenými rohy."
+    },
+    "MEAT": {
+        "TITLE": "Nástroj Pravítko",
+        "DESCRIPTION": "Měří vzdálenosti a úhly v obrazu."
+    },
+    "SHAR": {
+        "TITLE": "Nástroj Zostření",
+        "DESCRIPTION": "Zostří měkké obrysy obrazu."
+    },
+    "SRMT": {
+        "TITLE": "Nástroj pro výběr jednoho řádku",
+        "DESCRIPTION": "Vybere vodorovný pás o šířce jednoho obrazového bodu."
+    },
+    "SCMT": {
+        "TITLE": "Nástroj pro výběr jednoho sloupce",
+        "DESCRIPTION": "Provede svislý výběr o šířce jednoho obrazového bodu."
+    },
+    "SLCT": {
+        "TITLE": "Nástroj Řez",
+        "DESCRIPTION": "Rozřízne obraz na menší části vhodné pro webový návrh."
+    },
+    "SLST": {
+        "TITLE": "Nástroj Výběr řezu",
+        "DESCRIPTION": "Vybere, přesune a změní velikost řezů obrazu."
+    },
+    "SMUD": {
+        "TITLE": "Nástroj Rozmazání",
+        "DESCRIPTION": "Zjemní nebo rozmaže barvy na obrazu."
+    },
+    "SATU": {
+        "TITLE": "Nástroj Houba",
+        "DESCRIPTION": "Změní sytost barvy v částech obrazu."
+    },
+    "SPHB": {
+        "TITLE": "Nástroj Bodový retušovací štětec",
+        "DESCRIPTION": "Odstraní znaménka a skvrny."
+    },
+    "TXBV": {
+        "TITLE": "Nástroj Svislý text",
+        "DESCRIPTION": "Přidá svislý text."
+    },
+    "VTYS": {
+        "TITLE": "Nástroj Svislá textová maska",
+        "DESCRIPTION": "Vytvoří výběr ve tvaru svislého textu."
+    },
+    "ZOOM": {
+        "TITLE": "Nástroj Lupa",
+        "DESCRIPTION": "Zvětší nebo zmenší zobrazení obrazu."
+    },
+    "CPEN": {
+        "TITLE": "Nástroj Pero se zakřivením",
+        "DESCRIPTION": "Umožňuje vytvářet nebo měnit cesty nebo tvary pomocí bodů."
+    },
+    "PMHA": {
+        "TITLE": "Nástroj ručička",
+        "DESCRIPTION": "Posouvá různé části obrazu."
+    },
+    "PMZM": {
+        "TITLE": "Nástroj lupa",
+        "DESCRIPTION": "Zvětší nebo zmenší zobrazení obrazu."
+    },
+    "PMDB": {
+        "TITLE": "Štětec vzorkování",
+        "DESCRIPTION": "ů_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Nástroj laso",
+        "DESCRIPTION": "Používá se k volnému výběru."
+    },
+    "TRY_IT": "Zjistit jak",
+    "ADVANCED": "Další volby:"
+}

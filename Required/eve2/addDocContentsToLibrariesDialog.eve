@@ -1,0 +1,127 @@
+layout addDocContentsToLibrariesDialog
+    {
+
+    view TAddDocContentToLibrariesDialog(identifier         : @addDocContentsToLibrariesDialog,
+										 placement          : place_column,
+										 qDebugDraw         : false,
+										 name               : "$$$/Dialog/AddDocContentsToLibs/Title/NewLibraryFromDocument=New Library from Document",
+										 spacing            : gLargeSpace,
+										 isResizable        : false,
+										 width				: 418)
+        {
+        column(spacing: 0, horizontal: align_fill)
+            {
+			TView(horizontal : align_fill,
+                  placement  : place_row,
+                  identifier : @blackRibbon,
+                  margin     : [ 10, 20, 10, 20 ] )
+                {
+                TIconImageView(iconRootName : "CCLogoWithLabel",
+                               vertical     : align_top,
+							   horizontal	: align_left );
+                }
+            }
+
+        column(margin           : [ gSpace, gLargeSpace, gLargeSpace, gLargeSpace ],
+               horizontal       : align_fill,
+               vertical         : align_fill,
+               child_horizontal : align_fill,
+               spacing          : [ gLargeSpace, gLargeSpace ])
+            {
+
+			column( spacing : gSpace-3,
+					margin : [ 0, 0, 0, 0 ] )
+				{
+				TStaticText(autoWrap   : false,
+							horizontal : align_center,
+							font       : boldFont,
+							name       : "$$$/Dialog/AddDocContentsToLibs/Message=Import Frequently Used Assets");
+
+/*
+	THyperLinkText
+	 Using ^r to break the line isn't working.
+	 It is not auto-wrapping.
+	 Plus it won't center correctly!
+
+	OK, fallback plan: static text for the paragraph, and another below it for the link.
+	Foster suggest using a plain static text and altering the appearance in DoPostCreate - this works.
+*/
+				TStaticText(autoWrap   : true,
+							horizontal : align_center,
+							name       : "$$$/Dialog/AddDocContentsToLibs/Paragraph=Import assets to a library so you can easily reuse them in other^rdocuments, access them from other desktop and mobile apps,^rand share them with team members.");
+
+				TStaticText(autoWrap   : true,
+							horizontal : align_center,
+							identifier : @learnMoreStaticText,
+							name       : "$$$/Dialog/AddDocContentsToLibs/Link1=Learn more about Libraries");
+				}
+
+			TControl ( margin : [ gSpace, gLargeSpace, gSpace, gLargeSpace ],
+						frame : @rectangle,
+						placement  : place_column,
+						horizontal : align_fill,
+						child_horizontal : align_fill,
+						spacing: gSpace-2  )
+				{
+
+				row ()
+					{
+					TCheckBox(identifier : @charactersCheckbox,
+						   name : "$$$/Dialog/AddDocContentsToLibs/CharacterStyles=Character Styles");
+					TStaticText(identifier : @charactersCount, horizontal: align_right,
+							   name : "$$$/Dialog/AddDocContentsToLibs/ItemWidthPlaceholder=XXXXXX items" );	// width placholder replaced by code in CCLibrariesSupport.cpp
+					}
+
+				TSeparator( height: 1, horizontal: align_fill );
+
+				row ()
+					{
+					TCheckBox(identifier : @colorsCheckbox,
+							   name : "$$$/Dialog/AddDocContentsToLibs/Colors=Colors");
+					TStaticText(identifier : @colorsCount, horizontal: align_right,
+							   name : "$$$/Dialog/AddDocContentsToLibs/ItemWidthPlaceholder=XXXXXX items");		// width placholder replaced by code in CCLibrariesSupport.cpp
+					}
+
+				TSeparator( height: 1, horizontal: align_fill );
+
+				row ()
+					{
+					TCheckBox(identifier : @stylesCheckbox, horizontal: align_left,
+							   name : "$$$/Dialog/AddDocContentsToLibs/Styles=Layer Styles");
+					TStaticText(identifier : @stylesCount, horizontal: align_right,
+							   name : "$$$/Dialog/AddDocContentsToLibs/ItemWidthPlaceholder=XXXXXX items");		// width placholder replaced by code in CCLibrariesSupport.cpp
+					}
+
+				TSeparator( height: 1, horizontal: align_fill );
+
+				row ()
+					{
+					TCheckBox(identifier : @smartObjectsCheckbox,
+							   name : "$$$/Dialog/AddDocContentsToLibs/SmartObjects=Smart Objects");
+					TStaticText(identifier : @smartObjectsCount, horizontal: align_right,
+							   name : "$$$/Dialog/AddDocContentsToLibs/ItemWidthPlaceholder=XXXXXX items");		// width placholder replaced by code in CCLibrariesSupport.cpp
+
+					}
+
+				}
+
+			TCheckBox(identifier : @relinkSmartObjectsCheckbox, horizontal: align_center,
+						name : "$$$/Dialog/AddDocContentsToLibs/RelinkSmartObjects=Move smart objects to library and replace with links");
+
+            row(horizontal     : align_fill,
+                spacing        : gSpace,
+				horizontal     : align_center,
+                child_vertical : align_center)
+                {
+                TButton (name       : "$$$/ControlsStrings/Cancel=Cancel",
+                         dismiss    : true,
+                         identifier : @cancel);
+
+                TButton (name       : "$$$/Dialog/AddDocContentsToLibs/CreateLibrary=Create New Library",
+                         identifier : @ok,
+                         default    : true,
+                         dismiss    : true);
+                }
+            }
+        }
+    }

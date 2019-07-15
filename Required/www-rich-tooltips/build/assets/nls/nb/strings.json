@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Pipetteverktøy for 3D-materiale",
+        "DESCRIPTION": "Laster valgt materiale fra at 3D-objekt"
+    },
+    "3DDM": {
+        "TITLE": "Slipp materiale i 3D-verktøy",
+        "DESCRIPTION": "Plasserer materialer som lastes inn i verktøyet, i målområdet for et 3D-objekt"
+    },
+    "AKNT": {
+        "TITLE": "Legg til ankerpunkt",
+        "DESCRIPTION": "Legger til ankerpunkter i banen"
+    },
+    "ARTT": {
+        "TITLE": "Tegnebrettverktøy",
+        "DESCRIPTION": "Oppretter, flytter eller endrer størrelsen på flere arbeidsområder"
+    },
+    "AHBT": {
+        "TITLE": "Kunsthistorikkpenselverktøy",
+        "DESCRIPTION": "Maler stiliserte strøk med bildepunkter fra en tidligere tilstand av bildet"
+    },
+    "SERA": {
+        "TITLE": "Bakgrunnsviskelær",
+        "DESCRIPTION": "Sletter bildepunktene til en fargeprøve"
+    },
+    "BLUR": {
+        "TITLE": "Gjør uskarpt-verktøy",
+        "DESCRIPTION": "Gjør områder i et bilde uskarpe"
+    },
+    "PNTB": {
+        "TITLE": "Penselverktøy",
+        "DESCRIPTION": "Maler tilpassede penselstrøk"
+    },
+    "BURN": {
+        "TITLE": "Mørkneverktøy",
+        "DESCRIPTION": "Gjør områder av et bilde mørkere"
+    },
+    "STAM": {
+        "TITLE": "Klonestempelverktøy",
+        "DESCRIPTION": "Maler med bildepunkter fra en annen del av bildet"
+    },
+    "CRBT": {
+        "TITLE": "Fargeerstatningsverktøy",
+        "DESCRIPTION": "Maler den valgte fargen over en eksisterende farge"
+    },
+    "COLS": {
+        "TITLE": "Fargeprøveverktøy",
+        "DESCRIPTION": "Viser verdier for farger i et bilde"
+    },
+    "RCMP": {
+        "TITLE": "Innholdstilpasset flytteverktøy",
+        "DESCRIPTION": "Velger og flytter deler av et bilde og fyller automatisk inn området som blir igjen"
+    },
+    "COUN": {
+        "TITLE": "Telleverktøy",
+        "DESCRIPTION": "Teller antall objekter i et bilde"
+    },
+    "CKNT": {
+        "TITLE": "Konverter punkt-verktøy",
+        "DESCRIPTION": "Redigerer former og baner ved å konvertere overgangspunkter og hjørnepunkter"
+    },
+    "CROP": {
+        "TITLE": "Beskjæringsverktøy",
+        "DESCRIPTION": "Trimmer eller utvider kantene på et bilde"
+    },
+    "CUSH": {
+        "TITLE": "Egendefinert form-verktøy",
+        "DESCRIPTION": "Tegner former fra en liste med egendefinerte former"
+    },
+    "DKNT": {
+        "TITLE": "Fjern ankerpunkt",
+        "DESCRIPTION": "Sletter ankerpunkter og gir baner ny form  "
+    },
+    "PTHA": {
+        "TITLE": "Segmentmarkørverktøy",
+        "DESCRIPTION": "Velger de individuelle punktene og segmentene til en bane"
+    },
+    "DODG": {
+        "TITLE": "Lysneverktøy",
+        "DESCRIPTION": "Gjør områder av et bilde lysere"
+    },
+    "ELPS": {
+        "TITLE": "Ellipseverktøy",
+        "DESCRIPTION": "Tegner ellipser"
+    },
+    "ELMT": {
+        "TITLE": "Elliptisk markeringsverktøy",
+        "DESCRIPTION": "Gjør et utvalg i form av en ellipse"
+    },
+    "ERAS": {
+        "TITLE": "Viskelærverktøy",
+        "DESCRIPTION": "Endrer bildepunkter til bakgrunnsfargen eller gjør dem gjennomsiktige"
+    },
+    "EYED": {
+        "TITLE": "Pipetteverktøy",
+        "DESCRIPTION": "Tar fargeprøve fra et bilde"
+    },
+    "MPEN": {
+        "TITLE": "Frihåndspennverktøy",
+        "DESCRIPTION": "Legger til ankerpunkter mens du tegner baner eller former"
+    },
+    "BNDT": {
+        "TITLE": "Graderingsverktøy",
+        "DESCRIPTION": "Oppretter en gradvis overgang mellom fargene"
+    },
+    "HAND": {
+        "TITLE": "Håndverktøy",
+        "DESCRIPTION": "Panorerer over forskjellige områder av et bilde"
+    },
+    "STMM": {
+        "TITLE": "Reparasjonspensel-verktøy",
+        "DESCRIPTION": "Reparerer småfeil ved å bruke bildepunkter fra en annen del av bildet"
+    },
+    "HSTB": {
+        "TITLE": "Historikkpenselverktøy",
+        "DESCRIPTION": "Gjenoppretter deler av et bilde til en tidligere tilstand"
+    },
+    "TXBX": {
+        "TITLE": "Vannrett type-verktøy",
+        "DESCRIPTION": "Legger til vannrett type"
+    },
+    "TYPS": {
+        "TITLE": "Vannrett typemaske-verktøy",
+        "DESCRIPTION": "Oppretter et utvalg i form av en vannrett type"
+    },
+    "LASO": {
+        "TITLE": "Lassoverktøy",
+        "DESCRIPTION": "Foretar frihåndsmarkeringer"
+    },
+    "LINT": {
+        "TITLE": "Linjeverktøy",
+        "DESCRIPTION": "Tegner linjer"
+    },
+    "MERA": {
+        "TITLE": "Magisk viskelærverktøy",
+        "DESCRIPTION": "Sletter områder med lignende farger med ett klikk"
+    },
+    "WAND": {
+        "TITLE": "Tryllestavverktøy",
+        "DESCRIPTION": "Velger fargeområder med lignende farge"
+    },
+    "MLAS": {
+        "TITLE": "Magnetisk lassoverktøy",
+        "DESCRIPTION": "Foretar et utvalg ved å feste seg til bildekanter"
+    },
+    "WETB": {
+        "TITLE": "Verktøyet Blandepensel",
+        "DESCRIPTION": "Simulerer virkelige maleteknikker, for eksempel blanding av farger og forskjellig malingsfuktighet"
+    },
+    "LMVR": {
+        "TITLE": "Flytteverktøy",
+        "DESCRIPTION": "Flytter et utvalg eller lag"
+    },
+    "TXTA": {
+        "TITLE": "Notatverktøy",
+        "DESCRIPTION": "Oppretter tekstnotater du kan knytte til et bilde eller en fil"
+    },
+    "BUCK": {
+        "TITLE": "Malingsspannverktøy",
+        "DESCRIPTION": "Fyller områder med lignende farge med forgrunnsfargen"
+    },
+    "PTCH": {
+        "TITLE": "Lappeverktøy",
+        "DESCRIPTION": "Erstatter et valgt område ved hjelp av et mønster eller bildepunkter fra en annen del av bildet"
+    },
+    "PCST": {
+        "TITLE": "Banemerkingsverktøy",
+        "DESCRIPTION": "Velger en hel bane"
+    },
+    "STMP": {
+        "TITLE": "Mønsterstempelverktøy",
+        "DESCRIPTION": "Maler med et valgt mønster"
+    },
+    "PENT": {
+        "TITLE": "Pennverktøy",
+        "DESCRIPTION": "Lager og endrer baner eller former med ankerpunkter og håndtak"
+    },
+    "PENC": {
+        "TITLE": "Blyantverktøy",
+        "DESCRIPTION": "Maler penselstrøk med hard kant"
+    },
+    "PCRP": {
+        "TITLE": "Perspektivbeskjæringsverktøy",
+        "DESCRIPTION": "Beskjærer et bilde for å korrigere forvrengninger forårsaket av perspektiv"
+    },
+    "POLY": {
+        "TITLE": "Mangekantverktøy",
+        "DESCRIPTION": "Tegner mangekanter"
+    },
+    "PGON": {
+        "TITLE": "Mangekantet lassoverktøy",
+        "DESCRIPTION": "Oppretter utvalg med rette kanter"
+    },
+    "QKSL": {
+        "TITLE": "Hurtigvalgverktøy",
+        "DESCRIPTION": "Gjør et valg ved å finne og følge kantene i et bilde"
+    },
+    "RECT": {
+        "TITLE": "Rektangelverktøy",
+        "DESCRIPTION": "Tegner rektangler"
+    },
+    "RGMT": {
+        "TITLE": "Rektangulært markeringsverktøy",
+        "DESCRIPTION": "Gjør et valg i form av et rektangel"
+    },
+    "RDEY": {
+        "TITLE": "Røde øyne-verktøy",
+        "DESCRIPTION": "Retter rødøyeeffekten som forårsaket av kamerablits"
+    },
+    "ROTT": {
+        "TITLE": "Verktøy for visningsrotering",
+        "DESCRIPTION": "Roterer visningen av et bilde"
+    },
+    "RRCT": {
+        "TITLE": "Avrundet rektangel-verktøy",
+        "DESCRIPTION": "Tegner rektangler med runde kanter"
+    },
+    "MEAT": {
+        "TITLE": "Linjalverktøy",
+        "DESCRIPTION": "Måler avstander og vinkler i et bilde"
+    },
+    "SHAR": {
+        "TITLE": "Gjør skarpere-verktøy",
+        "DESCRIPTION": "Gjør myke kanter rundt et bilde skarpere"
+    },
+    "SRMT": {
+        "TITLE": "Markeringsverktøy for én rad",
+        "DESCRIPTION": "Foretar et vannrett utvalg som er like høyt som ett bildepunkt"
+    },
+    "SCMT": {
+        "TITLE": "Markeringsverktøy for én kolonne",
+        "DESCRIPTION": "Foretar et loddrett utvalg som er like bredt som ett bildepunkt"
+    },
+    "SLCT": {
+        "TITLE": "Stykkeverktøy",
+        "DESCRIPTION": "Kutter et bilde i mindre seksjoner som er egnet for webdesign"
+    },
+    "SLST": {
+        "TITLE": "Stykkemarkeringsverktøy",
+        "DESCRIPTION": "Velger, flytter og endrer størrelsen på stykker av et bilde"
+    },
+    "SMUD": {
+        "TITLE": "Fingerverktøy",
+        "DESCRIPTION": "Gnir ut fargene i et bilde eller gjør dem mykere"
+    },
+    "SATU": {
+        "TITLE": "Svampverktøy",
+        "DESCRIPTION": "Endrer fargemetningen til områder av et bilde"
+    },
+    "SPHB": {
+        "TITLE": "Flekkreparasjonspensel-verktøy",
+        "DESCRIPTION": "Fjerner merker og feil"
+    },
+    "TXBV": {
+        "TITLE": "Loddrett type-verktøy",
+        "DESCRIPTION": "Legger til loddrett type"
+    },
+    "VTYS": {
+        "TITLE": "Loddrett typemaske-verktøy",
+        "DESCRIPTION": "Oppretter et utvalg i form av en loddrett type"
+    },
+    "ZOOM": {
+        "TITLE": "Zoomeverktøy",
+        "DESCRIPTION": "Forstørrer eller forminsker visningen av et bilde"
+    },
+    "CPEN": {
+        "TITLE": "Verktøy for Krumningspenn",
+        "DESCRIPTION": "Lager eller endrer baner eller former ved bruk av punkter"
+    },
+    "PMHA": {
+        "TITLE": "Håndverktøy",
+        "DESCRIPTION": "Panorerer over forskjellige områder av et bilde"
+    },
+    "PMZM": {
+        "TITLE": "Zoomverktøy",
+        "DESCRIPTION": "Forstørrer eller forminsker visningen av et bilde"
+    },
+    "PMDB": {
+        "TITLE": "Prøvepenselverktøy",
+        "DESCRIPTION": "ø_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lassoverktøy",
+        "DESCRIPTION": "Foretar frihåndsmarkeringer"
+    },
+    "TRY_IT": "Lær hvordan",
+    "ADVANCED": "Avansert:"
+}

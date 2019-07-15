@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Kroplomierz materiału 3D",
+        "DESCRIPTION": "Wczytywanie wybranego materiału z obiektu 3D"
+    },
+    "3DDM": {
+        "TITLE": "Upuszczanie materiału 3D",
+        "DESCRIPTION": "Upuszczanie materiału wczytanego w narzędziu na obszar docelowy obiektu 3D"
+    },
+    "AKNT": {
+        "TITLE": "Dodawanie punktów kotwiczenia",
+        "DESCRIPTION": "Dodawanie punktów kotwiczenia do ścieżek"
+    },
+    "ARTT": {
+        "TITLE": "Obszar roboczy",
+        "DESCRIPTION": "Tworzenie, przenoszenie i modyfikowanie rozmiaru wielu obszarów roboczych"
+    },
+    "AHBT": {
+        "TITLE": "Pędzel historii kompozycji",
+        "DESCRIPTION": "Malowanie stylizowanych pociągnięć pikselami z poprzedniego stanu obrazu"
+    },
+    "SERA": {
+        "TITLE": "Gumka tła",
+        "DESCRIPTION": "Wymazywanie pikseli próbkowanego koloru"
+    },
+    "BLUR": {
+        "TITLE": "Rozmycie",
+        "DESCRIPTION": "Rozmywanie obszarów obrazu"
+    },
+    "PNTB": {
+        "TITLE": "Pędzel",
+        "DESCRIPTION": "Malowanie zgodnie z pociągnięciami pędzlem"
+    },
+    "BURN": {
+        "TITLE": "Ściemnianie",
+        "DESCRIPTION": "Przyciemnianie obszaru obrazu"
+    },
+    "STAM": {
+        "TITLE": "Stempel",
+        "DESCRIPTION": "Malowanie pikselami z innej części obrazu"
+    },
+    "CRBT": {
+        "TITLE": "Zastępowanie kolorów",
+        "DESCRIPTION": "Malowanie wybranym kolorem po istniejącym kolorze"
+    },
+    "COLS": {
+        "TITLE": "Próbnik kolorów",
+        "DESCRIPTION": "Wyświetlanie wartości kolorów na obrazie"
+    },
+    "RCMP": {
+        "TITLE": "Przesuwanie z uwzględnieniem zawartości",
+        "DESCRIPTION": "Zaznaczanie i przesuwanie części obrazu, a następnie automatyczne wypełnianie pozostałego obszaru"
+    },
+    "COUN": {
+        "TITLE": "Zliczanie obiektów",
+        "DESCRIPTION": "Liczenie obiektów na obrazie"
+    },
+    "CKNT": {
+        "TITLE": "Konwertowanie punktów",
+        "DESCRIPTION": "Edytowanie kształtów i ścieżek przez konwersję gładkich i narożnych punktów kotwiczenia"
+    },
+    "CROP": {
+        "TITLE": "Kadrowanie",
+        "DESCRIPTION": "Przycinanie lub rozszerzanie krawędzi obrazu"
+    },
+    "CUSH": {
+        "TITLE": "Kształt własny",
+        "DESCRIPTION": "Rysowanie kształtów z listy własnych kształtów"
+    },
+    "DKNT": {
+        "TITLE": "Usuwanie punktów kotwiczenia",
+        "DESCRIPTION": "Usuwanie punktów kotwiczenia i modyfikowanie kształtu ścieżek  "
+    },
+    "PTHA": {
+        "TITLE": "Zaznaczanie bezpośrednie",
+        "DESCRIPTION": "Zaznaczanie punktów i segmentów ścieżki"
+    },
+    "DODG": {
+        "TITLE": "Rozjaśnianie",
+        "DESCRIPTION": "Rozjaśnianie obszarów obrazu"
+    },
+    "ELPS": {
+        "TITLE": "Elipsa",
+        "DESCRIPTION": "Rysowanie elips"
+    },
+    "ELMT": {
+        "TITLE": "Zaznaczanie eliptyczne",
+        "DESCRIPTION": "Zaznaczanie obszaru w kształcie elipsy"
+    },
+    "ERAS": {
+        "TITLE": "Gumka",
+        "DESCRIPTION": "Nadawanie pikselom koloru tła lub ustawianie ich jako przezroczystych"
+    },
+    "EYED": {
+        "TITLE": "Kroplomierz",
+        "DESCRIPTION": "Pobieranie kolorów z obrazu"
+    },
+    "MPEN": {
+        "TITLE": "Pióro dowolne",
+        "DESCRIPTION": "Dodawanie punktów kotwiczenia podczas rysowania ścieżek i kształtów"
+    },
+    "BNDT": {
+        "TITLE": "Gradient",
+        "DESCRIPTION": "Tworzenie stopniowego przejścia kolorów"
+    },
+    "HAND": {
+        "TITLE": "Rączka",
+        "DESCRIPTION": "Panoramowanie między częściami obrazu"
+    },
+    "STMM": {
+        "TITLE": "Pędzel korygujący",
+        "DESCRIPTION": "Usuwanie niedoskonałości przy użyciu pikseli z innej części obrazu"
+    },
+    "HSTB": {
+        "TITLE": "Pędzel historii",
+        "DESCRIPTION": "Przywracanie części obrazu do wcześniejszego stanu"
+    },
+    "TXBX": {
+        "TITLE": "Tekst poziomy",
+        "DESCRIPTION": "Dodawanie tekstu poziomego"
+    },
+    "TYPS": {
+        "TITLE": "Pozioma maska tekstowa",
+        "DESCRIPTION": "Tworzenie zaznaczenia w kształcie tekstu poziomego"
+    },
+    "LASO": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Zaznaczanie swobodne"
+    },
+    "LINT": {
+        "TITLE": "Linia",
+        "DESCRIPTION": "Rysowanie linii"
+    },
+    "MERA": {
+        "TITLE": "Magiczna gumka",
+        "DESCRIPTION": "Wymazywanie obszarów o podobnych kolorach jednym kliknięciem"
+    },
+    "WAND": {
+        "TITLE": "Różdżka",
+        "DESCRIPTION": "Zaznaczanie obszarów obrazu o podobnych kolorach"
+    },
+    "MLAS": {
+        "TITLE": "Lasso magnetyczne",
+        "DESCRIPTION": "Zaznaczanie przez przyciąganie do krawędzi obrazu"
+    },
+    "WETB": {
+        "TITLE": "Pędzel mieszający",
+        "DESCRIPTION": "Symulowanie rzeczywistych technik malowania, na przykład mieszania kolorów i różnej wilgotności farby"
+    },
+    "LMVR": {
+        "TITLE": "Przesuwanie",
+        "DESCRIPTION": "Przesuwanie zaznaczeń i warstw"
+    },
+    "TXTA": {
+        "TITLE": "Notatka",
+        "DESCRIPTION": "Tworzenie notatek tekstowych, które można dołączyć do obrazu lub pliku"
+    },
+    "BUCK": {
+        "TITLE": "Wiadro z farbą",
+        "DESCRIPTION": "Wypełnianie podobnie pokolorowanych, ciągłych obszarów kolorem narzędzia"
+    },
+    "PTCH": {
+        "TITLE": "Łatka",
+        "DESCRIPTION": "Zastępowanie zaznaczonego obszaru wzorkiem lub pikselami z innej części obrazu"
+    },
+    "PCST": {
+        "TITLE": "Zaznaczanie ścieżek",
+        "DESCRIPTION": "Zaznaczanie całej ścieżki"
+    },
+    "STMP": {
+        "TITLE": "Stempel ze wzorkiem",
+        "DESCRIPTION": "Malowanie przy użyciu wybranego wzorku"
+    },
+    "PENT": {
+        "TITLE": "Pióro",
+        "DESCRIPTION": "Tworzenie i modyfikowanie ścieżek oraz kształtów przy użyciu punktów kotwiczenia i uchwytów"
+    },
+    "PENC": {
+        "TITLE": "Ołówek",
+        "DESCRIPTION": "Malowanie twardymi pociągnięciami pędzla"
+    },
+    "PCRP": {
+        "TITLE": "Kadrowanie perspektywiczne",
+        "DESCRIPTION": "Kadrowanie obrazu w celu eliminacji zniekształceń perspektywicznych"
+    },
+    "POLY": {
+        "TITLE": "Wielokąt",
+        "DESCRIPTION": "Rysowanie wielokątów"
+    },
+    "PGON": {
+        "TITLE": "Lasso wielokątne",
+        "DESCRIPTION": "Tworzenie zaznaczeń o prostych krawędziach"
+    },
+    "QKSL": {
+        "TITLE": "Szybkie zaznaczanie",
+        "DESCRIPTION": "Zaznaczanie przez znajdowanie i śledzenie krawędzi na obrazie"
+    },
+    "RECT": {
+        "TITLE": "Prostokąt",
+        "DESCRIPTION": "Rysowanie prostokątów"
+    },
+    "RGMT": {
+        "TITLE": "Zaznaczanie prostokątne",
+        "DESCRIPTION": "Zaznaczanie obszaru w kształcie prostokąta"
+    },
+    "RDEY": {
+        "TITLE": "Czerwone oczy",
+        "DESCRIPTION": "Usuwanie efektu czerwonych oczu spowodowanego przez lampę błyskową"
+    },
+    "ROTT": {
+        "TITLE": "Obracanie widoku",
+        "DESCRIPTION": "Obracanie widoku obrazu"
+    },
+    "RRCT": {
+        "TITLE": "Prostokąt zaokrąglony",
+        "DESCRIPTION": "Rysowanie prostokątów z zaokrąglonymi rogami"
+    },
+    "MEAT": {
+        "TITLE": "Miarka",
+        "DESCRIPTION": "Mierzenie odległości i kątów na obrazie"
+    },
+    "SHAR": {
+        "TITLE": "Wyostrzanie",
+        "DESCRIPTION": "Wyostrzanie miękkich krawędzi na obrazie"
+    },
+    "SRMT": {
+        "TITLE": "Zaznaczanie pojedynczych wierszy",
+        "DESCRIPTION": "Zaznaczenie poziome o wysokości jednego piksela"
+    },
+    "SCMT": {
+        "TITLE": "Zaznaczanie pojedynczych kolumn",
+        "DESCRIPTION": "Zaznaczenie pionowe o szerokości jednego piksela"
+    },
+    "SLCT": {
+        "TITLE": "Cięcie na plasterki",
+        "DESCRIPTION": "Cięcie obrazu na mniejsze sekcje ułatwiające projektowanie stron internetowych"
+    },
+    "SLST": {
+        "TITLE": "Zaznaczanie plasterków",
+        "DESCRIPTION": "Zaznaczanie, przesuwanie i zmienianie rozmiaru plasterków obrazu"
+    },
+    "SMUD": {
+        "TITLE": "Smużenie",
+        "DESCRIPTION": "Zmiękczanie (rozmazywanie) kolorów obrazu"
+    },
+    "SATU": {
+        "TITLE": "Gąbka",
+        "DESCRIPTION": "Modyfikowanie nasycenia kolorami na obszarach obrazu"
+    },
+    "SPHB": {
+        "TITLE": "Punktowy pędzel korygujący",
+        "DESCRIPTION": "Usuwanie zadrapań i plamek"
+    },
+    "TXBV": {
+        "TITLE": "Tekst pionowy",
+        "DESCRIPTION": "Dodawanie tekstu pionowego"
+    },
+    "VTYS": {
+        "TITLE": "Pionowa maska tekstowa",
+        "DESCRIPTION": "Tworzenie zaznaczenia w kształcie tekstu pionowego"
+    },
+    "ZOOM": {
+        "TITLE": "Lupka",
+        "DESCRIPTION": "Powiększanie i zmniejszanie widoku obrazu"
+    },
+    "CPEN": {
+        "TITLE": "Pióro krzywizny",
+        "DESCRIPTION": "Tworzenie i modyfikowanie ścieżek oraz kształtów przy użyciu punktów"
+    },
+    "PMHA": {
+        "TITLE": "Rączka",
+        "DESCRIPTION": "Panoramowanie między częściami obrazu"
+    },
+    "PMZM": {
+        "TITLE": "Lupka",
+        "DESCRIPTION": "Powiększanie i zmniejszanie widoku obrazu"
+    },
+    "PMDB": {
+        "TITLE": "Pędzel próbkowania",
+        "DESCRIPTION": "[10346731] Ł_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Zaznaczanie swobodne"
+    },
+    "TRY_IT": "Dowiedz się, jak to zrobić",
+    "ADVANCED": "Zaawansowane:"
+}

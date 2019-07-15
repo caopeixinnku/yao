@@ -1,0 +1,37 @@
+@charset "UTF-8";
+* {
+  font-family: "Segoe UI" sans-serif !important;
+}
+
+html[lang='ja'] * {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+/* ALL: line height for select  */
+.lists select,
+.lists select * {
+  line-height: 14px;
+}
+
+/* LISTS: line height for inputs  */
+.layer .title,
+.options .title {
+  padding-top: 0px;
+  line-height: none;
+}
+.layer .title:focus,
+.options .title:focus {
+  padding-top: 0px;
+  line-height: none;
+}
+.layer input[type="text"],
+.options input[type="text"] {
+  line-height: none;
+  padding-top: 0px;
+}
+
+.asset-size {
+  padding: 5px 0 5px 12px;
+}
+
+/*# sourceMappingURL=theme.css.map */

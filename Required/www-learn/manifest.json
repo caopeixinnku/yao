@@ -1,0 +1,10 @@
+{
+    "left" : 0,
+    "top" : 0,
+    "width" : 370,
+    "height" : 370,
+    "overlay_type" : "embedded",
+    "visible" : true,
+    "use_transparency" : false,
+    "start_url" : "./build/index.html"
+}

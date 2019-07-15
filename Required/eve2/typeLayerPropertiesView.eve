@@ -1,0 +1,197 @@
+/*
+        ***************************************
+        160823 cjb This eve2 file has been disabled. Left in sources for reference only.
+        (DaveP - you may nuke this file at your discretion. 170120 -cjb)
+        ***************************************
+*/
+layout typeLayerPropertiesView
+    {
+    constant:
+        zWidthLabel        : '$$$/TypeLayerProperties/Width/Label=W:';
+        zWidthTooltip      : '$$$/TypeLayerProperties/ToolTips/TypeWidth=Set type layer width';
+        zHeightTooltip     : '$$$/TypeLayerProperties/ToolTips/TypeHeight=Set type layer height';
+        zHeightLabel       : '$$$/TypeLayerProperties/Height/Label=H:';
+        zLinkTooltip       : '$$$/TypeLayerProperties/ToolTips/TypeWidthHeightLinkTooltip=Link type layer width and height';
+        zXLabel            : '$$$/TypeLayerProperties/X/Label=X:';
+        zXTooltip          : '$$$/TypeLayerProperties/X/ToolTip=Set horizontal location';
+        zYLabel            : '$$$/TypeLayerProperties/Y/Label=Y:';
+        zYTooltip          : '$$$/TypeLayerProperties/Y/ToolTip=Set vertical location';
+        zBoundingBoxSep    : '$$$/TypeLayerProperties/BoundingBox=BoundingBox';
+
+        zTypeDetailsSep    : '$$$/TypeLayerProperties/Separator/TypeDetails=Type Details';
+        vTTFamily          : '$$$/TextCharacterPalette/ToolTips/FamilyPopup=Set the font family';
+        vTTStyle           : '$$$/TextCharacterPalette/ToolTips/StylePopup=Set the font style';
+        vTTSearchin        : '$$$/TextCharacterPalette/ToolTips/SearchinPopup=Search for and select fonts';
+        vTTSize            : '$$$/TextCharacterPalette/ToolTips/SizePopup=Set the font size';
+        vTTColor           : '$$$/TextCharacterPalette/ToolTips/Color=Set the text color';
+        vTTAlignLeft       : '$$$/TextParagraphPalette/ToolTips/LeftAlign=Left align text';
+        vTTAlignCenter     : '$$$/TextParagraphPalette/ToolTips/CenterAlign=Center text';
+        vTTAlignRight      : '$$$/TextParagraphPalette/ToolTips/RightAlign=Right align text';
+        vTTAlignTop        : '$$$/TextParagraphPalette/ToolTips/VerticalTopAlign=Top align text';
+        vTTAlignMiddle     : '$$$/TextParagraphPalette/ToolTips/VerticalCenterAlign=Center text';
+        vTTAlignBottom     : '$$$/TextParagraphPalette/ToolTips/VerticalBottomAlign=Bottom align text';
+
+        kContentWidth : gPropertiesPaletteWidth - gScrollerInset - gOptionsMarginWidth * 2;
+
+    interface:
+        boundingBox : true;
+
+    view TTypeLayerPropertiesView(identifier     : @typeLayerPropertiesPanel,
+                                  placement      : place_column,
+                                  font           : staticSmallFont,
+                                  margin         : gOptionsMarginWidth,
+                                  noGrowVertical : true,
+                                  spacing        : gGap,
+                                  qDebugDraw     : false)
+        {
+
+        overlay(name: zBoundingBoxSep, bind: @boundingBox);
+
+        TOptional(bind: @boundingBox, width: kContentWidth)
+            {
+            row(horizontal     : align_fill,
+                spacing        : gGap)
+                {
+                TUnitsFixedPoint(identifier : @typeLayerWidth,
+                                 name       : zWidthLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zWidthTooltip);
+
+                TPunchButton(width        : gToolOptionsIconWidth,
+                             height       : 20,
+                             horizontal   : align_left,
+                             identifier   : @typeLayerBBoxLink,
+                             tooltip      : zLinkTooltip,
+                             iconRootName : 'CellLinkIndicator');
+
+                TUnitsFixedPoint(identifier : @typeLayerHeight,
+                                 name       : zHeightLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zHeightTooltip);
+                }
+
+            row(horizontal     : align_fill,
+                spacing        : gGap)
+                {
+                TUnitsFixedPoint(identifier : @typeLayerLeft,
+                                 name       : zXLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zXTooltip);
+
+                TView(width: gToolOptionsIconWidth, height: 2, horizontal: align_left);
+
+                TUnitsFixedPoint(identifier : @typeLayerTop,
+                                 name       : zYLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zYTooltip);
+                }
+            }
+
+/*
+        ***************************************
+        160823 cjb This eve2 file has been disabled.
+        ***************************************
+
+        Obviously, he following is just a stale copy of the legacy syntax found in UTypeLayerProperties.r
+        In order for the following to work, it needs to be recoded using eve2 syntax.
+        See the current incarnation in UTypeLayerProperties.r
+
+        Also see the #define qTypeLayerPropertiesUsingEve (currently set to 0) for locations
+        that will need to be updated if we decide to re-enable this eve2 file.
+
+        UPDATE 170120 - qTypeLayerPropertiesUsingEve has been removed from the code base, starting in the
+        CYAN branch. This will migrate to Main in the next few months. After that happens, this file will
+        just be stale bits in the code base. Left here for reference only. (DaveP - you may nuke this file
+        at your discretion. -cjb)
+
+
+		"		view (class_name: 'TGroupSeparator', height: 2);"
+		""
+		"		group (horizontal: align_fill, resize_size_horizontal: sizeRelSuperView, child_horizontal: align_left,"
+		"			   placement: place_row, spacing: gGap, margin_width: gGap)"
+		"			{"
+		"			flyout_popup ( view_id: kTextSearchinKey, edit_id: 'schE', flyout_id: 'schF',"
+		"						edit_display_format: vFlyoutPopupString);"
+		"			}"
+		""
+		"		group (horizontal: align_fill, resize_size_horizontal: sizeRelSuperView, child_horizontal: align_left,"
+		"			   placement: place_row, spacing: gGap, margin_width: gGap)"
+		"			{"
+		"			typein_popup ( view_id: kTextStyleKey, class_name: 'TTypeinPopupCluster', "
+		"						edit_display_format: gCharacterStyleFormat, "
+		"						tooltip: vTTStyle,"
+		"						resource_id: mTextStylePopup, horizontal: align_left );"
+		"			}"
+		""
+		"		group (horizontal: align_fill, resize_size_horizontal: sizeRelSuperView, child_horizontal: align_left,"
+		"			   placement: place_row, spacing: gGap, margin_width: gGap)"
+		"			{"
+		"			popup_edit_shortcut (view_id: kTextSizeKey,"
+		"						edit_view_id: 'cell',"
+		"						edit_class_name: 'TUnitsShortcutSlave',"
+		"						edit_display_format: gCharacterTypeFormat,"
+		"						popup_resource_id: mTextSizePopup,"
+		"						popup_view_id: 'arrw', vertical: align_left);"
+		"			view(width: gToolOptionsIconWidth, height: 2, horizontal: align_left);"
+		"			control ( view_id: kTextColorKey,"
+		"						frame: gIconButtonBevelFrame, "
+		"						class_name: 'TTextColorPatch',"
+		"						width: gColorPatchWidth, height: gColorPatchHeight );"
+		"			}"
+		""
+		"		view ( frame: frame_none, view_id: kTextAlignmentKey, spacing: vHSpacing, "
+		"			  class_name: 'TAlignmentCluster', placement: place_offscreen )"
+		"			{"
+		"		 view ( frame: frame_none, view_id: kTextHorizontalCluster, "
+		"				class_name: 'TIconButtonCluster_PSTextAlignment', placement: place_row, "
+		"				horizontal: align_left, vertical: align_center ) "
+		"		   {"
+		"		   group ( horizontal: align_left, placement: place_row, "
+		"				   spacing: gIconButtonSpacing, margin: 1, "
+		"				   frame: gIconButtonOtherButtonFrame )"
+		"			 {"
+		"			 icon_button (data_type: 'PSTextAlignment', "
+		"						  width: gToolOptionsIconWidth, height: gToolOptionsIconHeight, "
+		"						  tooltip: vLeftAlignToolTip, "
+		"						  initial_value: kTopLeft, icon_root_name: 'TextAlignLeft');"
+		"			 icon_button (data_type: 'PSTextAlignment', "
+		"						  width: gToolOptionsIconWidth, height: gToolOptionsIconHeight, "
+		"						  tooltip: vCenterAlignToolTip, "
+		"						  initial_value: kCenter, icon_root_name: 'TextAlignCenter');"
+		"			 icon_button (data_type: 'PSTextAlignment', "
+		"						  width: gToolOptionsIconWidth, height: gToolOptionsIconHeight, "
+		"						  tooltip: vRightAlignToolTip, "
+		"						  initial_value: kBottomRight, icon_root_name: 'TextAlignRight');"
+		"			 }"
+		"		   }"
+		"		 view ( frame: frame_none, view_id: kTextVerticalCluster, "
+		"				class_name: 'TIconButtonCluster_PSTextAlignment', placement: place_row )"
+		"		   {"
+		"		   group ( horizontal: align_left, placement: place_row, "
+		"				   spacing: gIconButtonSpacing, margin: 1, "
+		"				   frame: gIconButtonOtherButtonFrame )"
+		"			 {"
+		"			 icon_button (data_type: 'PSTextAlignment', "
+		"						  width: gToolOptionsIconWidth, height: gToolOptionsIconHeight, "
+		"						  tooltip: vTopAlignToolTip,"
+		"						  initial_value: kTopLeft, icon_root_name: 'TextAlignVTop');"
+		"			 icon_button (data_type: 'PSTextAlignment', "
+		"						  width: gToolOptionsIconWidth, height: gToolOptionsIconHeight, "
+		"						  tooltip: vVerticalCenterAlignToolTip,"
+		"						  initial_value: kCenter, icon_root_name: 'TextAlignVCenter');"
+		"			 icon_button (data_type: 'PSTextAlignment', "
+		"						  width: gToolOptionsIconWidth, height: gToolOptionsIconHeight, "
+		"						  tooltip: vBottomAlignToolTip, "
+		"						  initial_value: kBottomRight, "
+		"						  icon_root_name: 'TextAlignVBottom');"
+		"			 }"
+		"		   }"
+		"			}" // kTextAlignmentKey
+*/
+
+        }
+    }

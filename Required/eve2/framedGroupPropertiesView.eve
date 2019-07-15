@@ -1,0 +1,172 @@
+layout framedGroupPropertiesView
+    {
+    constant:
+        zWidthLabel       : '$$$/VectorLayerOptionsBar/Width/Label=W:';
+        zWidthTooltip     : '$$$/VectorLayerOptionsBar/ToolTips/ShapeWidth=Set shape width';
+        zHeightTooltip    : '$$$/VectorLayerOptionsBar/ToolTips/ShapeHeight=Set shape height';
+        zHeightLabel      : '$$$/VectorLayerOptionsBar/Height/Label=H:';
+        zLinkTooltip      : '$$$/VectorLayerOptionsBar/ToolTips/ShapeWidthHeightLinkTooltip=Link shape width and height';
+        zXLabel           : '$$$/VectorLayerOptionsBar/X/Label=X:';
+        zXTooltip         : '$$$/VectorLayerOptionsBar/X/ToolTip=Set horizontal location';
+        zYLabel           : '$$$/VectorLayerOptionsBar/Y/Label=Y:';
+        zYTooltip         : '$$$/VectorLayerOptionsBar/Y/ToolTip=Set vertical location';
+
+        zBoundingBoxSep   : '$$$/FramedGroupProperties/Separator/BoundingBox=Bounding Box';
+        zInsetImageSep    : '$$$/FramedGroupProperties/Separator/InsetImage=Inset Image';
+        zImageMetadataSep : '$$$/FramedGroupProperties/Separator/ImageMetadata=Image Metadata';
+        zLayerCompSep     : '$$$/FramedGroupProperties/Separator/LayerComp=Layer Comp';
+        zCommandSep       : '$$$/FramedGroupProperties/Separator/Command=Command';
+
+        kContentWidth     : gPropertiesPaletteWidth - gScrollerInset - gOptionsMarginWidth * 2;
+
+    interface:
+        discloseBoundingBox    : true;
+        discloseInsetImage     : true;
+        discloseImageMetadata  : true;
+        discloseLayerComp      : true;
+        discloseCommand        : true;
+
+    view TFramedGroupPropertiesView(identifier     : @framedGroupPropertiesPanel,
+                                    placement      : place_column,
+                                    font           : staticSmallFont,
+                                    margin         : gOptionsMarginWidth,
+                                    noGrowVertical : true,
+                                    spacing        : gGap,
+                                    horizontal     : align_fill,
+                                    qDebugDraw     : false)
+        {
+        TDisclosureSeparator(name: zBoundingBoxSep, bind: @discloseBoundingBox);
+
+        TOptional(bind: @discloseBoundingBox, width: kContentWidth)
+            {
+            row(horizontal     : align_fill,
+                child_vertical : align_center,
+                spacing        : gGap)
+                {
+                TUnitsFixedPoint(identifier : @framedGroupWidth,
+                                 name       : zWidthLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zWidthTooltip,
+                                 isLabel    : false);
+
+                TPunchButton(width        : gToolOptionsIconWidth,
+                             height       : gToolOptionsIconHeight,
+                             identifier   : @framedGroupBBoxLink,
+                             tooltip      : zLinkTooltip,
+                             iconRootName : 'CellLinkIndicator');
+
+                TUnitsFixedPoint(identifier : @framedGroupHeight,
+                                 name       : zHeightLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zHeightTooltip);
+                }
+
+            row(horizontal     : align_fill,
+                child_vertical : align_center,
+                spacing        : gGap)
+                {
+                TUnitsFixedPoint(identifier : @framedGroupLeft,
+                                 name       : zXLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zXTooltip,
+                                 isLabel    : false);
+
+                TView(width: gToolOptionsIconWidth, height: gSpace);
+
+                TUnitsFixedPoint(identifier : @framedGroupTop,
+                                 name       : zYLabel,
+                                 horizontal : align_fill,
+                                 width      : gFixedEditTextWidth,
+                                 tooltip    : zYTooltip);
+                }
+            }
+
+        TDisclosureSeparator(name: zInsetImageSep, bind: @discloseInsetImage);
+
+        TOptional(bind: @discloseInsetImage, width: kContentWidth)
+            {
+            row(horizontal : align_center,
+                spacing    : gGap)
+                {
+                ZMenuPopup(identifier         : @framedGroupInsetImagePopup,
+                           width              : 200,
+                           horizontal         : align_center,
+                           vertical           : align_center,
+                           resourceIdentifier : 4592);
+                }
+            }
+
+        TDisclosureSeparator(name: zImageMetadataSep, bind: @discloseImageMetadata);
+
+        TOptional(bind: @discloseImageMetadata, width: kContentWidth, spacing: gSmallGap)
+            {
+            row(horizontal     : align_fill,
+                spacing        : gSmallGap)
+                {
+                TStaticText(name    : "$$$/FramedGroupProperties/StockFileNum=Adobe Stock File #",
+                            isLabel : false);
+
+                TStaticText(identifier : @framedGroupStockFileNumber,
+                            horizontal : align_fill);
+                }
+            row(horizontal     : align_center,
+                spacing        : gSmallGap)
+                {
+                TButton(name       : "$$$/FramedGroupProperties/StockLicense=License Asset",
+                        width      : 160,
+                        identifier : @framedGroupLicense);
+                }
+            row(horizontal     : align_center,
+                spacing        : gSmallGap)
+                {
+                TButton(name       : "$$$/FramedGroupProperties/FindSimilar=Find Similar",
+                        width      : 160,
+                        identifier : @framedGroupFindSimilar);
+                }
+            }
+
+        TDisclosureSeparator(name: zLayerCompSep, bind: @discloseLayerComp);
+
+        TOptional(bind: @discloseLayerComp, width: kContentWidth, spacing: gSmallGap)
+            {
+            row(horizontal     : align_fill,
+                spacing        : gSmallGap)
+                {
+                    TFilePathView(identifier : @framedGroupPathText,
+                                  horizontal : align_fill);
+                }
+            row(horizontal     : align_fill,
+                spacing        : gSmallGap)
+                {
+                ZMenuPopup(identifier         : @framedGroupLayerCompPopup,
+                           width              : 200,
+                           horizontal         : align_center,
+                           vertical           : align_center,
+                           resourceIdentifier : 4593);
+                }
+            }
+
+        TDisclosureSeparator(name: zCommandSep, bind: @discloseCommand);
+
+        TOptional(bind: @discloseCommand, width: kContentWidth, spacing: gSmallGap)
+            {
+            row(horizontal     : align_center,
+                spacing        : gSmallGap)
+                {
+                TButton(name       : "$$$/FramedGroupProperties/EditContents=Edit Contents",
+                        width      : 160,
+                        identifier : @framedGroupEdit);
+                }
+            row(horizontal     : align_center,
+                spacing        : gSmallGap)
+                {
+                TButton(name       : "$$$/FramedGroupProperties/Embed=Embed",
+                        width      : 160,
+                        identifier : @framedGroupEmbed);
+                }
+            }
+        }
+    }

@@ -1,0 +1,291 @@
+.color-stop__light,
+.color-stop__original {
+  --tooltip-background-color: #FFFFFF;
+  --tooltip-border-color: #E1E1E1;
+  --tooltip-header-color: #000000;
+  --tooltip-text-color: #000000;
+  --option-separator-color: #C2C2C2;
+  --option-hover-color: #1473E6;
+  --button-text-color: #0064DC;
+}
+.color-stop__medium,
+.color-stop__dark {
+  --tooltip-background-color: #FFFFFF;
+  --tooltip-border-color: #323232;
+  --tooltip-header-color: #000000;
+  --tooltip-text-color: #000000;
+  --option-separator-color: #777777;
+  --option-hover-color: #2D8CEB;
+  --button-text-color: #0064DC;
+}
+:root {
+  --base-8: 50%;
+  --base-10: 62.5%;
+  --base-12: 75%;
+  --base-14: 87.5%;
+  --base-16: 100%;
+}
+:root {
+  --tooltip-video-width: 256px;
+  --tooltip-video-height: 144px;
+  --padding-size: 10px;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  font-size: 1.5rem;
+}
+.tooltipHeader_3ceZg {
+  display: flex;
+  align-items: center;
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  font-size: 1.5rem;
+  font-family: "Adobe Clean Bold", sans-serif;
+  font-weight: bold;
+  color: var(--tooltip-header-color);
+}
+.tooltipAdvanced_1VL7B {
+  font-family: "Adobe Clean Regular", sans-serif;
+  line-height: 20px;
+  flex-grow: 0;
+  padding-right: 3px;
+}
+.tooltipTitle_2CkoD {
+  line-height: 20px;
+  flex-grow: 1;
+}
+.shortcut_1DDqE {
+  color: var(--tooltip-header-color);
+  border: 1px solid var(--tooltip-header-color);
+  background: transparent;
+  border-radius: 3px;
+  padding: 1px;
+  width: 30px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+.separator_1fLgK {
+  float: right;
+  padding: 0 .5rem;
+  color: var(--option-separator-color);
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.videoContainer_1CWCu {
+  height: var(--tooltip-video-height);
+}
+.videoContainer_1CWCu video {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  max-width: 100%;
+  width: var(--tooltip-video-width);
+  height: var(--tooltip-video-height);
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  font-size: 1.5rem;
+}
+.tooltip_4Rqw6 {
+  width: var(--tooltip-video-width);
+  height: auto;
+  border-radius: .5rem;
+  margin: 0 10px;
+  font-family: "Adobe Clean Regular", sans-serif;
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  font-size: 1.5rem;
+  overflow: visible;
+  background-color: var(--tooltip-background-color);
+  border: 1px solid var(--tooltip-border-color);
+}
+.tooltipSmall_3CbEu {
+  width: auto;
+  float: left;
+  max-width: var(--tooltip-video-width);
+  padding: 8px var(--padding-size);
+}
+.tooltipSmallRight_2r_Dc {
+  float: right;
+}
+.loadingContent_1ZxaG {
+  text-align: center;
+  height: var(--tooltip-video-height);
+  line-height: var(--tooltip-video-height);
+  width: 100%;
+  font-family: "Adobe Clean Regular", sans-serif;
+  color: var(--tooltip-text-color);
+}
+.tooltipBody_iXfqJ {
+  position: relative;
+  padding: var(--padding-size);
+  overflow: visible;
+  color: var(--tooltip-text-color);
+}
+.tooltipTryItDiv_HzZPX {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 6px;
+}
+.tooltipTryIt_32qHM {
+  font-family: "Adobe Clean Bold", sans-serif;
+  font-size: 14px;
+  padding: 0;
+  border: none;
+  background-color: var(--tooltip-background-color);
+  color: var(--button-text-color);
+}
+.tooltipTryIt_32qHM:hover {
+  cursor: pointer;
+}
+.tooltipDescription_1sSyL {
+  margin: 6px 0 0;
+  width: 100%;
+  font-family: "Adobe Clean Regular", sans-serif;
+  white-space: pre-wrap;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  font-size: 1.5rem;
+}
+@font-face {
+  font-family: 'Adobe Clean Regular';
+  src: url(04226b0d583ae8509119a29f52a04826.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adobe Clean Bold';
+  src: url(f11d6aba1e030d3c62440404171169c2.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  height: 100%;
+  width: 100%;
+  font-size: var(--base-8);
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  overflow: visible;
+  -webkit-font-feature-settings: "calt", "liga", "clig", "kern", "tnum";
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  font-size: 1.5rem;
+}

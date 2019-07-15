@@ -1,0 +1,2715 @@
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/**
+ * This file is adapted from the CC Libraries panel
+ * https://git.corp.adobe.com/ProjectCentral/cc-libraries-panel/
+ * blob/e0705e8d60fa726aa07a41e71f1563b39576adf3/app/applications/DRWV/css/_scrollbars.scss
+ */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+.color-stop__light ::-webkit-scrollbar:vertical {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #ABABAB;
+}
+.color-stop__original ::-webkit-scrollbar:vertical {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #E3E3E3;
+}
+.color-stop__medium ::-webkit-scrollbar:vertical {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #4A4A4A;
+}
+.color-stop__dark ::-webkit-scrollbar:vertical {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #292929;
+}
+::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+}
+.color-stop__light ::-webkit-scrollbar-thumb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #858585;
+}
+.color-stop__original ::-webkit-scrollbar-thumb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #BDBDBD;
+}
+.color-stop__medium ::-webkit-scrollbar-thumb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #696969;
+}
+.color-stop__dark ::-webkit-scrollbar-thumb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #474747;
+}
+.color-stop__light ::-webkit-scrollbar-corner {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background: #B8B8B8;
+}
+.color-stop__original ::-webkit-scrollbar-corner {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background: #F0F0F0;
+}
+.color-stop__medium ::-webkit-scrollbar-corner {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background: #535353;
+}
+.color-stop__dark ::-webkit-scrollbar-corner {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background: #323232;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+.windows ::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+.windows ::-webkit-scrollbar-button:start:decrement,
+.windows ::-webkit-scrollbar-button:end:increment {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+::-webkit-scrollbar-button:vertical:increment,
+::-webkit-scrollbar-button:vertical:decrement {
+  background-size: 7px 4px;
+  background-repeat: no-repeat;
+}
+.color-stop__light ::-webkit-scrollbar-button:vertical:increment:hover:active,
+.color-stop__light ::-webkit-scrollbar-button:vertical:decrement:hover:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #9D9D9D;
+}
+.color-stop__original ::-webkit-scrollbar-button:vertical:increment:hover:active,
+.color-stop__original ::-webkit-scrollbar-button:vertical:decrement:hover:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #BDBDBD;
+}
+.color-stop__medium ::-webkit-scrollbar-button:vertical:increment:hover:active,
+.color-stop__medium ::-webkit-scrollbar-button:vertical:decrement:hover:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #383838;
+}
+.color-stop__dark ::-webkit-scrollbar-button:vertical:increment:hover:active,
+.color-stop__dark ::-webkit-scrollbar-button:vertical:decrement:hover:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #3E3E3E;
+}
+::-webkit-scrollbar-button:vertical:increment:disabled,
+::-webkit-scrollbar-button:vertical:decrement:disabled {
+  background: transparent;
+  border: none;
+}
+.color-stop__light ::-webkit-scrollbar-button:vertical:increment {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_down_light-2SHhQze.svg);
+  background-position: 5px 4px;
+}
+.color-stop__original ::-webkit-scrollbar-button:vertical:increment {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_down_lighter-1XSpQYG.svg);
+  background-position: 5px 4px;
+}
+.color-stop__medium ::-webkit-scrollbar-button:vertical:increment {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_down_dark-1XSpQYG.svg);
+  background-position: 5px 4px;
+}
+.color-stop__dark ::-webkit-scrollbar-button:vertical:increment {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_down_darker-ZF9XUSn.svg);
+  background-position: 5px 4px;
+}
+.color-stop__light ::-webkit-scrollbar-button:vertical:decrement {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_up_light-Ox-8dKT.svg);
+  background-position: 5px 8px;
+}
+.color-stop__original ::-webkit-scrollbar-button:vertical:decrement {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_up_lighter-24N9sQt.svg);
+  background-position: 5px 8px;
+}
+.color-stop__medium ::-webkit-scrollbar-button:vertical:decrement {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_up_dark-24N9sQt.svg);
+  background-position: 5px 8px;
+}
+.color-stop__dark ::-webkit-scrollbar-button:vertical:decrement {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-image: url(assets/scroll_up_darker-K5KyA9h.svg);
+  background-position: 5px 8px;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.checkMark::after {
+  content: "";
+  display: block;
+  width: .5rem;
+  height: .25rem;
+  transform: rotate(-45deg);
+}
+.color-stop__light .checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #5B5B5B;
+  border-left: 2px solid #5B5B5B;
+}
+.color-stop__original .checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #777777;
+  border-left: 2px solid #777777;
+}
+.color-stop__medium .checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #A9A9A9;
+  border-left: 2px solid #A9A9A9;
+}
+.color-stop__dark .checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #959595;
+  border-left: 2px solid #959595;
+}
+.dot::after {
+  content: "";
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  transform: translateX(50%);
+  border-radius: 50%;
+}
+.color-stop__light .dot::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #000000;
+}
+.color-stop__original .dot::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #000000;
+}
+.color-stop__medium .dot::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #FFFFFF;
+}
+.color-stop__dark .dot::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #FFFFFF;
+}
+/* -> */
+.taskArrow::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 9px;
+  height: 3px;
+}
+.color-stop__light .taskArrow::before {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #000000;
+}
+.color-stop__original .taskArrow::before {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #000000;
+}
+.color-stop__medium .taskArrow::before {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #FFFFFF;
+}
+.color-stop__dark .taskArrow::before {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #FFFFFF;
+}
+.taskArrow::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin-left: 2px;
+  transform: rotate(-45deg);
+}
+.color-stop__light .taskArrow::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+}
+.color-stop__original .taskArrow::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+}
+.color-stop__medium .taskArrow::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
+}
+.color-stop__dark .taskArrow::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
+}
+@font-face {
+  font-family: 'Adobe Clean Regular';
+  src: url(04226b0d583ae8509119a29f52a04826.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adobe Clean Bold';
+  src: url(f11d6aba1e030d3c62440404171169c2.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+img {
+  pointer-events: none;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.learnPanel_2JmiQ {
+  opacity: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%;
+  font-family: "Adobe Clean Regular", sans-serif;
+}
+.learnPanel_2JmiQ.modalState {
+  pointer-events: none;
+}
+.activeTutorial_3J03f {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.color-stop__light .activeTutorial_3J03f {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #B8B8B8;
+}
+.color-stop__original .activeTutorial_3J03f {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #F0F0F0;
+}
+.color-stop__medium .activeTutorial_3J03f {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #535353;
+}
+.color-stop__dark .activeTutorial_3J03f {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #323232;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.navigationBar_6_9SW {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  font-family: "Adobe Clean Bold", sans-serif;
+  position: relative;
+  width: 100%;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.navigationLeft_3fE6v {
+  float: left;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+.navigationRight_OFtJt {
+  float: right;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  flex: 1;
+}
+.progress_3LjeH {
+  text-align: center;
+  font-family: "Adobe Clean Regular", sans-serif;
+  margin: 0 .5rem;
+}
+.color-stop__light .progress_3LjeH {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+}
+.color-stop__original .progress_3LjeH {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+}
+.color-stop__medium .progress_3LjeH {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+}
+.color-stop__dark .progress_3LjeH {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+}
+.color-stop__light  {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+}
+@keyframes successHighlight {
+  0% {
+    background-color: #1473E6;
+  }
+  50% {
+    background-color: #0F66D0;
+  }
+  100% {
+    background-color: #1473E6;
+  }
+}
+.color-stop__original  {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+}
+@keyframes successHighlight {
+  0% {
+    background-color: #1884EC;
+  }
+  50% {
+    background-color: #1473E6;
+  }
+  100% {
+    background-color: #1884EC;
+  }
+}
+.color-stop__medium  {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+}
+@keyframes successHighlight {
+  0% {
+    background-color: #1D94F3;
+  }
+  50% {
+    background-color: #21A5F9;
+  }
+  100% {
+    background-color: #1D94F3;
+  }
+}
+.color-stop__dark  {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+}
+@keyframes successHighlight {
+  0% {
+    background-color: #1884EC;
+  }
+  50% {
+    background-color: #1D94F3;
+  }
+  100% {
+    background-color: #1884EC;
+  }
+}
+.navOption_2VwU7 {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 2rem;
+  line-height: 1rem;
+  max-height: 32px;
+  font-family: "Adobe Clean Bold", sans-serif;
+}
+.color-stop__light .navOption_2VwU7 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+}
+.color-stop__original .navOption_2VwU7 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+}
+.color-stop__medium .navOption_2VwU7 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+}
+.color-stop__dark .navOption_2VwU7 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+}
+.color-stop__light .navOption_2VwU7:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .navOption_2VwU7:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .navOption_2VwU7:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .navOption_2VwU7:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__light .navOption_2VwU7:hover .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+}
+.color-stop__original .navOption_2VwU7:hover .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+}
+.color-stop__medium .navOption_2VwU7:hover .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+}
+.color-stop__dark .navOption_2VwU7:hover .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+}
+.color-stop__light .navOption_2VwU7:hover.disabled {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+}
+.color-stop__original .navOption_2VwU7:hover.disabled {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+}
+.color-stop__medium .navOption_2VwU7:hover.disabled {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+}
+.color-stop__dark .navOption_2VwU7:hover.disabled {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+}
+.color-stop__light .navOption_2VwU7:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #707070;
+}
+.color-stop__original .navOption_2VwU7:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #707070;
+}
+.color-stop__medium .navOption_2VwU7:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #B9B9B9;
+}
+.color-stop__dark .navOption_2VwU7:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #B9B9B9;
+}
+.color-stop__light .navOption_2VwU7:active .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #707070;
+  border-left: 2px solid #707070;
+}
+.color-stop__original .navOption_2VwU7:active .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #707070;
+  border-left: 2px solid #707070;
+}
+.color-stop__medium .navOption_2VwU7:active .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #B9B9B9;
+  border-left: 2px solid #B9B9B9;
+}
+.color-stop__dark .navOption_2VwU7:active .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #B9B9B9;
+  border-left: 2px solid #B9B9B9;
+}
+.navOption_2VwU7.hilit {
+  animation-name: successHighlight;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+}
+.color-stop__light .navOption_2VwU7.hilit {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__original .navOption_2VwU7.hilit {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__medium .navOption_2VwU7.hilit {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .navOption_2VwU7.hilit {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.navOption_2VwU7.hilit:hover {
+  animation: 0;
+}
+.color-stop__light .navOption_2VwU7.hilit:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #0F66D0;
+}
+.color-stop__original .navOption_2VwU7.hilit:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1473E6;
+}
+.color-stop__medium .navOption_2VwU7.hilit:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #21A5F9;
+}
+.color-stop__dark .navOption_2VwU7.hilit:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+}
+.navOption_2VwU7.hilit:active {
+  animation: 0;
+}
+.color-stop__light .navOption_2VwU7.hilit:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #0E59B9;
+}
+.color-stop__original .navOption_2VwU7.hilit:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #0F66D0;
+}
+.color-stop__medium .navOption_2VwU7.hilit:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #26B5FF;
+}
+.color-stop__dark .navOption_2VwU7.hilit:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #21A5F9;
+}
+.navBack_AKSpV,
+.navNext_30y41 {
+  text-align: center;
+  padding: .5rem .75rem;
+}
+.navBack_AKSpV {
+  padding-left: 0;
+  /* "Back" is one word in all languages except Japanese, which is where we want to prevent wrapping */
+  white-space: nowrap;
+}
+.navArrow_1Rk5V {
+  width: 6px;
+  margin-right: 6px;
+  height: 5px;
+}
+.navArrow_1Rk5V::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  transform: rotate(-45deg);
+}
+.color-stop__light .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #4B4B4B;
+  border-left: 2px solid #4B4B4B;
+}
+.color-stop__original .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #4B4B4B;
+  border-left: 2px solid #4B4B4B;
+}
+.color-stop__medium .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #BABABA;
+  border-left: 2px solid #BABABA;
+}
+.color-stop__dark .navArrow_1Rk5V::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-top: 2px solid #BABABA;
+  border-left: 2px solid #BABABA;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.step_3NJ8h {
+  flex: 8;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.stepImage_1EpWV {
+  object-fit: cover;
+  width: 100%;
+  max-height: 148px;
+  display: block;
+  transition: opacity 150ms ease-in-out;
+  opacity: 1;
+}
+.stepImage_1EpWV.hidden {
+  opacity: 0;
+}
+.stepBottom_PahVM {
+  margin: 20px;
+}
+.stepBottomHeader_2Y_LP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
+.stepTitle_p-fjb {
+  flex: 2;
+  font-family: "Adobe Clean Bold", sans-serif;
+  width: 250px;
+  display: flex;
+}
+.color-stop__light .stepTitle_p-fjb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .stepTitle_p-fjb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .stepTitle_p-fjb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .stepTitle_p-fjb {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.stepNumber_3jjaH {
+  margin-right: 13px;
+}
+.tutorialButtons_1e8k7 {
+  display: flex;
+  height: 1rem;
+  position: relative;
+}
+.tutorialButton_3L_ei {
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  margin-left: -1px;
+  margin-top: -4px;
+  border-radius: 4px;
+}
+.color-stop__light .tutorialButton_3L_ei {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #4B4B4B;
+}
+.color-stop__original .tutorialButton_3L_ei {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #4B4B4B;
+}
+.color-stop__medium .tutorialButton_3L_ei {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #BABABA;
+}
+.color-stop__dark .tutorialButton_3L_ei {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #BABABA;
+}
+.color-stop__light .tutorialButton_3L_ei:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #2C2C2C;
+}
+.color-stop__original .tutorialButton_3L_ei:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #323232;
+}
+.color-stop__medium .tutorialButton_3L_ei:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #FFFFFF;
+}
+.color-stop__dark .tutorialButton_3L_ei:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #E8E8E8;
+}
+.color-stop__light .tutorialButton_3L_ei:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #2C2C2C;
+  color: #2C2C2C;
+  background-color: #E1E1E1;
+}
+.color-stop__original .tutorialButton_3L_ei:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #323232;
+  color: #323232;
+  background-color: #EAEAEA;
+}
+.color-stop__medium .tutorialButton_3L_ei:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #3E3E3E;
+}
+.color-stop__dark .tutorialButton_3L_ei:active {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #E8E8E8;
+  color: #E8E8E8;
+  background-color: #313131;
+}
+.coachmarkDebug_1wuKF {
+  margin-top: 2rem;
+  font-size: 14px;
+}
+.color-stop__light .coachmarkDebug_1wuKF {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: blue;
+}
+.color-stop__original .coachmarkDebug_1wuKF {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: blue;
+}
+.color-stop__medium .coachmarkDebug_1wuKF {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: blue;
+}
+.color-stop__dark .coachmarkDebug_1wuKF {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: blue;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.endHeader_7-Pgt {
+  margin: 1rem 1rem 0;
+  font-size: 112.5%;
+}
+.color-stop__light .endHeader_7-Pgt {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .endHeader_7-Pgt {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .endHeader_7-Pgt {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .endHeader_7-Pgt {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.endQuote_32iS2 {
+  margin: 1rem 1rem 0;
+}
+.color-stop__light .endQuote_32iS2 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .endQuote_32iS2 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .endQuote_32iS2 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .endQuote_32iS2 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.nextTutorialHeader_1pNd- {
+  margin-bottom: .5rem;
+  font-family: "Adobe Clean Bold", sans-serif;
+}
+.nextTutorial_2kuuY {
+  margin: 1rem 1rem 0;
+}
+.color-stop__light .nextTutorial_2kuuY {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .nextTutorial_2kuuY {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .nextTutorial_2kuuY {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .nextTutorial_2kuuY {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.restart_rYxdn {
+  font-family: "Adobe Clean Bold", sans-serif;
+  margin: 0.5rem 1rem 1rem;
+  display: flex;
+}
+.color-stop__light .restart_rYxdn {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+  fill: #4B4B4B;
+}
+.color-stop__original .restart_rYxdn {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #4B4B4B;
+  fill: #4B4B4B;
+}
+.color-stop__medium .restart_rYxdn {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+  fill: #BABABA;
+}
+.color-stop__dark .restart_rYxdn {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #BABABA;
+  fill: #BABABA;
+}
+.color-stop__light .restart_rYxdn:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #2C2C2C;
+  fill: #2C2C2C;
+}
+.color-stop__original .restart_rYxdn:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #323232;
+  fill: #323232;
+}
+.color-stop__medium .restart_rYxdn:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+  fill: #FFFFFF;
+}
+.color-stop__dark .restart_rYxdn:hover {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #E8E8E8;
+  fill: #E8E8E8;
+}
+.restartButton_170ef {
+  height: 20px;
+  width: 20px;
+  margin: .1rem;
+}
+.restartLabel_UmT7P {
+  height: 20px;
+  line-height: 20px;
+  margin-left: .25rem;
+}
+.credit_2Sbpg {
+  margin: 0 1rem;
+  font-size: .75rem;
+}
+.color-stop__light .credit_2Sbpg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .credit_2Sbpg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .credit_2Sbpg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .credit_2Sbpg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.group_2TPy3 {
+  text-align: left;
+  margin: 10px 8px 20px 10px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.color-stop__light .group_2TPy3 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+  background-color: #A3A3A3;
+}
+.color-stop__original .group_2TPy3 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+  background-color: #DBDBDB;
+}
+.color-stop__medium .group_2TPy3 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+  background-color: #484848;
+}
+.color-stop__dark .group_2TPy3 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+  background-color: #2B2B2B;
+}
+.group_2TPy3.closed {
+  margin: 10px 8px 10px 10px;
+}
+.groupHeader_3FE1q {
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+}
+.color-stop__light .groupHeader_3FE1q {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #E1E1E1;
+}
+.color-stop__original .groupHeader_3FE1q {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #FFFFFF;
+}
+.color-stop__medium .groupHeader_3FE1q {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #2D2D2D;
+}
+.color-stop__dark .groupHeader_3FE1q {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D1D1D;
+}
+.groupHeaderText_3eyDU {
+  max-width: 180px;
+  height: 100%;
+  overflow: hidden;
+  display: inline-block;
+}
+.groupBottom_32s9a {
+  padding: 15px 15px 0;
+}
+.color-stop__light .groupBottom_32s9a {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #A3A3A3;
+}
+.color-stop__original .groupBottom_32s9a {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #DBDBDB;
+}
+.color-stop__medium .groupBottom_32s9a {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #484848;
+}
+.color-stop__dark .groupBottom_32s9a {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #2B2B2B;
+}
+.groupArrow_3dHZ7 {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.closed .groupArrow_3dHZ7 {
+  margin-top: 2px;
+}
+.groupArrow_3dHZ7::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-45deg);
+  margin-bottom: 3px;
+}
+.color-stop__light .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 0px;
+}
+.color-stop__original .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 0px;
+}
+.color-stop__medium .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-right: 0px;
+}
+.color-stop__dark .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-right: 0px;
+}
+.color-stop__light .closed .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #000000;
+  border-left: 0px;
+  border-right: 1px solid #000000;
+}
+.color-stop__original .closed .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #000000;
+  border-left: 0px;
+  border-right: 1px solid #000000;
+}
+.color-stop__medium .closed .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 0px;
+  border-right: 1px solid #FFFFFF;
+}
+.color-stop__dark .closed .groupArrow_3dHZ7::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 0px;
+  border-right: 1px solid #FFFFFF;
+}
+.groupImage_33kkY {
+  max-height: 60px;
+  max-width: 100px;
+  float: left;
+  padding-right: 15px;
+  object-fit: cover;
+  transition: opacity 150ms ease-in-out;
+  opacity: 1;
+}
+.groupImage_33kkY.hidden {
+  opacity: 0;
+}
+.landing_1Tpsp {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.color-stop__light .landing_1Tpsp {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #E1E1E1;
+}
+.color-stop__original .landing_1Tpsp {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #FFFFFF;
+}
+.color-stop__medium .landing_1Tpsp {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #2D2D2D;
+}
+.color-stop__dark .landing_1Tpsp {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D1D1D;
+}
+.landingTitle_TjP1G {
+  display: flex;
+  justify-content: space-between;
+  min-height: 25px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.color-stop__light .landingTitle_TjP1G {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .landingTitle_TjP1G {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .landingTitle_TjP1G {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .landingTitle_TjP1G {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.landingTitleText_2pl9j {
+  font-size: 14px;
+}
+.landingTitleText_2pl9j.completed {
+  max-width: 260px;
+}
+.landingImage_1ZV8Z {
+  object-fit: cover;
+  width: 100%;
+  max-height: 85px;
+  border-radius: 4px 4px 0 0;
+  display: block;
+  transition: opacity 150ms ease-in-out;
+  opacity: 1;
+}
+.landingImage_1ZV8Z.hidden {
+  opacity: 0;
+}
+.completeIcon_34Mbc {
+  margin-right: 0.75rem;
+  align-self: center;
+  height: 10px;
+}
+.color-stop__light .completeIcon_34Mbc.checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom-color: #0F66D0;
+  border-left-color: #0F66D0;
+}
+.color-stop__original .completeIcon_34Mbc.checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom-color: #1473E6;
+  border-left-color: #1473E6;
+}
+.color-stop__medium .completeIcon_34Mbc.checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom-color: #26B5FF;
+  border-left-color: #26B5FF;
+}
+.color-stop__dark .completeIcon_34Mbc.checkMark::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  border-bottom-color: #26B5FF;
+  border-left-color: #26B5FF;
+}
+.sourceLabel_1NW_L {
+  font-size: 10px;
+  margin-right: 0.75rem;
+  align-self: center;
+  visibility: hidden;
+}
+:hover .sourceLabel_1NW_L {
+  visibility: visible;
+}
+.sourceLabelTrack_24HF_ {
+  font-size: 10px;
+  display: inline-block;
+  height: 100%;
+  float: right;
+  margin-left: 15px;
+  position: absolute;
+  visibility: hidden;
+}
+:hover .sourceLabelTrack_24HF_ {
+  visibility: visible;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2017 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-90%, -50%) scale(0.94);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-100%, -50%) scale(1);
+  }
+}
+.tooltip_2hsjr {
+  animation: fadeInLeft 125ms ease-in 0ms 1;
+  position: absolute;
+  z-index: 15;
+  white-space: nowrap;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  padding: 4px;
+  pointer-events: none;
+}
+.toolTipText_1CjJN {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Adobe Clean Bold", sans-serif;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 8px;
+  line-height: 16px;
+}
+.color-stop__light .toolTipText_1CjJN {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+  color: #FFFFFF;
+}
+.color-stop__original .toolTipText_1CjJN {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+  color: #FFFFFF;
+}
+.color-stop__medium .toolTipText_1CjJN {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+  color: #FFFFFF;
+}
+.color-stop__dark .toolTipText_1CjJN {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+  color: #FFFFFF;
+}
+.toolTipArrow_gQoe_ {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.toolTipArrow_gQoe_::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  bottom: 1px;
+  left: 1px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.color-stop__light .toolTipArrow_gQoe_::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+}
+.color-stop__original .toolTipArrow_gQoe_::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+}
+.color-stop__medium .toolTipArrow_gQoe_::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+}
+.color-stop__dark .toolTipArrow_gQoe_::after {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #1D94F3;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.stepDescription_2XXbq {
+  margin-top: .5rem;
+  white-space: pre-wrap;
+}
+.color-stop__light .stepDescription_2XXbq {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .stepDescription_2XXbq {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .stepDescription_2XXbq {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .stepDescription_2XXbq {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.task_2x2o6 {
+  margin-top: .25rem;
+}
+.color-stop__light .task_2x2o6 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .task_2x2o6 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .task_2x2o6 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .task_2x2o6 {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__light .task_2x2o6.done {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #5B5B5B;
+}
+.color-stop__original .task_2x2o6.done {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #777777;
+}
+.color-stop__medium .task_2x2o6.done {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #A9A9A9;
+}
+.color-stop__dark .task_2x2o6.done {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #959595;
+}
+.taskText_1h2hv {
+  line-height: 24px;
+  margin-left: 1.5rem;
+}
+.taskIcon_2Q7i1 {
+  display: block;
+  position: relative;
+  float: left;
+  width: 1rem;
+  height: 24px;
+  padding-top: 9px;
+  box-sizing: border-box;
+}
+.taskArrow_3F76F {
+  width: 1rem;
+  height: 1rem;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.inlineIcon_1EPvX {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 0 .2rem;
+}
+.color-stop__light .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #000000;
+}
+.color-stop__original .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #000000;
+}
+.color-stop__medium .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #FFFFFF;
+}
+.color-stop__dark .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #FFFFFF;
+}
+.inlineIcon_1EPvX svg {
+  width: 100%;
+  height: 100%;
+}
+.color-stop__light .done .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #5B5B5B;
+}
+.color-stop__original .done .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #777777;
+}
+.color-stop__medium .done .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #A9A9A9;
+}
+.color-stop__dark .done .inlineIcon_1EPvX {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  fill: #959595;
+}
+.inlineLabel_2z41X {
+  display: inline;
+  font-family: "Adobe Clean Bold", sans-serif;
+}
+.color-stop__light .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #0F66D0;
+}
+.color-stop__original .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #1473E6;
+}
+.color-stop__medium .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #26B5FF;
+}
+.color-stop__dark .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #26B5FF;
+}
+.color-stop__light .done .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #5B5B5B;
+}
+.color-stop__original .done .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #777777;
+}
+.color-stop__medium .done .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #A9A9A9;
+}
+.color-stop__dark .done .inlineLabel_2z41X {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #959595;
+}
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ */
+.text-properties {
+  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility !important;
+  cursor: default;
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+.browser_1Xw7v {
+  opacity: 1;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.color-stop__light .browser_1Xw7v {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #B8B8B8;
+}
+.color-stop__original .browser_1Xw7v {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #F0F0F0;
+}
+.color-stop__medium .browser_1Xw7v {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #535353;
+}
+.color-stop__dark .browser_1Xw7v {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  background-color: #323232;
+}
+.browserHeader_34WBg {
+  margin: 20px;
+  margin-bottom: .5rem;
+  font-size: 112.5%;
+}
+.color-stop__light .browserHeader_34WBg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .browserHeader_34WBg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .browserHeader_34WBg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .browserHeader_34WBg {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.browserSubheader_3zEDx {
+  font-size: 100%;
+  margin: 20px;
+  margin-top: 0;
+  white-space: pre-wrap;
+}
+.color-stop__light .browserSubheader_3zEDx {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__original .browserSubheader_3zEDx {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #000000;
+}
+.color-stop__medium .browserSubheader_3zEDx {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}
+.color-stop__dark .browserSubheader_3zEDx {
+  /* Backgrounds */
+  /* Titles */
+  /* Step Text */
+  /* Nav bar */
+  /* Scroll */
+  color: #FFFFFF;
+}

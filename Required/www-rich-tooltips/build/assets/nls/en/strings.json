@@ -1,0 +1,359 @@
+{
+    "3DSM": {
+        "TITLE": "3D Material Eyedropper tool",
+        "DESCRIPTION": "Loads the selected material from a 3D object"
+    },
+
+    "3DDM": {
+        "TITLE": "3D Material Drop tool",
+        "DESCRIPTION": "Drops material loaded in the tool onto the target area of a 3D object"
+    },
+
+    "AKNT": {
+        "TITLE": "Add Anchor Point tool",
+        "DESCRIPTION": "Adds anchor points to your paths"
+    },
+
+    "ARTT": {
+        "TITLE": "Artboard tool",
+        "DESCRIPTION": "Creates, moves, or resizes multiple canvases"
+    },
+
+    "AHBT": {
+        "TITLE": "Art History Brush tool",
+        "DESCRIPTION": "Paints stylized strokes with pixels from an earlier state of the image"
+    },
+
+    "SERA": {
+        "TITLE": "Background Eraser tool",
+        "DESCRIPTION": "Erases the pixels of a sampled color"
+    },
+
+    "BLUR": {
+        "TITLE": "Blur tool",
+        "DESCRIPTION": "Blurs areas in an image"
+    },
+
+    "PNTB": {
+        "TITLE": "Brush tool",
+        "DESCRIPTION": "Paints custom brush strokes"
+    },
+
+    "BURN": {
+        "TITLE": "Burn tool",
+        "DESCRIPTION": "Darkens areas in an image"
+    },
+
+    "STAM": {
+        "TITLE": "Clone Stamp tool",
+        "DESCRIPTION": "Paints with pixels from another part of the image"
+    },
+
+    "CRBT" : {
+        "TITLE": "Color Replacement tool",
+        "DESCRIPTION": "Paints the selected color over an existing color"
+    },
+
+    "COLS" : {
+        "TITLE": "Color Sampler tool",
+        "DESCRIPTION": "Displays values for colors in an image"
+    },
+
+    "RCMP": {
+        "TITLE": "Content Aware Move tool",
+        "DESCRIPTION": "Selects and moves part of an image and automatically fills the area left behind"
+    },
+
+    "COUN": {
+        "TITLE": "Count tool",
+        "DESCRIPTION": "Counts the number of objects in an image"
+    },
+
+    "CKNT": {
+        "TITLE": "Convert Point tool",
+        "DESCRIPTION": "Edits shapes and paths by converting smooth and corner anchor points"
+    },
+
+    "CROP": {
+        "TITLE": "Crop tool",
+        "DESCRIPTION": "Trims or expands the edges of an image"
+    },
+
+    "CUSH": {
+        "TITLE": "Custom Shape tool",
+        "DESCRIPTION": "Draws shapes from a custom shape list"
+    },
+
+    "DKNT": {
+        "TITLE": "Delete Anchor Point tool",
+        "DESCRIPTION": "Deletes anchor points and reshapes paths  "
+    },
+
+    "PTHA" : {
+        "TITLE": "Direct Selection tool",
+        "DESCRIPTION": "Selects the individual points and segments of a path"
+    },
+
+    "DODG" : {
+        "TITLE": "Dodge tool",
+        "DESCRIPTION": "Lightens areas in an image"
+    },
+
+    "ELPS" : {
+        "TITLE": "Ellipse tool",
+        "DESCRIPTION": "Draws ellipses"
+    },
+
+    "ELMT" : {
+        "TITLE": "Elliptical Marquee tool",
+        "DESCRIPTION": "Makes a selection in the shape of an ellipse"
+    },
+
+    "ERAS" : {
+        "TITLE": "Eraser tool",
+        "DESCRIPTION": "Changes pixels to the background color or makes them transparent"
+    },
+
+    "EYED" : {
+        "TITLE": "Eyedropper tool",
+        "DESCRIPTION": "Samples colors from an image"
+    },
+
+    "MPEN" : {
+        "TITLE": "Freeform Pen tool",
+        "DESCRIPTION": "Adds anchor points as you draw paths or shapes"
+    },
+
+    "BNDT": {
+        "TITLE": "Gradient tool",
+        "DESCRIPTION": "Creates a gradual blend between colors"
+    },
+
+    "HAND": {
+        "TITLE": "Hand tool",
+        "DESCRIPTION": "Pans over different parts of an image"
+    },
+
+    "STMM": {
+        "TITLE": "Healing Brush tool",
+        "DESCRIPTION": "Repairs imperfections using pixels from another part of the image"
+    },
+
+    "HSTB": {
+        "TITLE": "History Brush tool",
+        "DESCRIPTION": "Restores parts of an image to an earlier state"
+    },
+
+    "TXBX" : {
+        "TITLE": "Horizontal Type tool",
+        "DESCRIPTION": "Adds horizontal type"
+    },
+
+    "TYPS" : {
+        "TITLE": "Horizontal Type Mask tool",
+        "DESCRIPTION": "Creates a selection in the shape of horizontal type"
+    },
+
+    "LASO" : {
+        "TITLE": "Lasso tool",
+        "DESCRIPTION": "Makes freehand selections"
+    },
+
+    "LINT" : {
+        "TITLE": "Line tool",
+        "DESCRIPTION": "Draws lines"
+    },
+
+    "MERA" : {
+        "TITLE": "Magic Eraser tool",
+        "DESCRIPTION": "Erases similarly colored areas with a single click"
+    },
+
+    "WAND" : {
+        "TITLE": "Magic Wand tool",
+        "DESCRIPTION": "Selects similarly colored image areas"
+    },
+
+    "MLAS" : {
+        "TITLE": "Magnetic Lasso tool",
+        "DESCRIPTION": "Makes a selection by snapping to image edges"
+    },
+
+    "WETB" : {
+        "TITLE": "Mixer Brush tool",
+        "DESCRIPTION": "Simulates real painting techniques, such as blending colors and varying paint wetness"
+    },
+
+    "LMVR" : {
+        "TITLE": "Move tool",
+        "DESCRIPTION": "Moves a selection or layer"
+    },
+
+    "TXTA" : {
+        "TITLE": "Note tool",
+        "DESCRIPTION": "Creates text notes that you can attach to an image or file"
+    },
+
+    "BUCK" : {
+        "TITLE": "Paint Bucket tool",
+        "DESCRIPTION": "Fills similarly colored contiguous areas with the foreground color"
+    },
+
+    "PTCH" : {
+        "TITLE": "Patch tool",
+        "DESCRIPTION": "Replaces a selected area using a pattern or pixels from another part of the image"
+    },
+
+    "PCST" : {
+        "TITLE": "Path Selection tool",
+        "DESCRIPTION": "Selects a whole path"
+    },
+
+    "STMP" : {
+        "TITLE": "Pattern Stamp tool",
+        "DESCRIPTION": "Paints using a chosen pattern"
+    },
+
+    "PENT" : {
+        "TITLE": "Pen tool",
+        "DESCRIPTION": "Makes and changes paths or shapes with anchor points and handles"
+    },
+
+    "PENC" : {
+        "TITLE": "Pencil tool",
+        "DESCRIPTION": "Paints hard-edged brush strokes"
+    },
+
+    "PCRP" : {
+        "TITLE": "Perspective Crop tool",
+        "DESCRIPTION": "Crops an image to correct distortions caused by perspective"
+    },
+
+    "POLY" : {
+        "TITLE": "Polygon tool",
+        "DESCRIPTION": "Draws polygons"
+    },
+
+    "PGON" : {
+        "TITLE": "Polygonal Lasso tool",
+        "DESCRIPTION": "Creates straight-edged selections"
+    },
+
+    "QKSL" : {
+        "TITLE": "Quick Selection tool",
+        "DESCRIPTION": "Makes a selection by finding and following the edges in an image"
+    },
+
+    "RECT" : {
+        "TITLE": "Rectangle tool",
+        "DESCRIPTION": "Draws rectangles"
+    },
+
+    "RGMT" : {
+        "TITLE": "Rectangular Marquee tool",
+        "DESCRIPTION": "Makes a selection in the shape of a rectangle"
+    },
+
+    "RDEY" : {
+        "TITLE": "Red Eye tool",
+        "DESCRIPTION": "Fixes the red-eye effect caused by a camera flash"
+    },
+
+    "ROTT": {
+        "TITLE": "Rotate View tool",
+        "DESCRIPTION": "Rotates the view of an image"
+    },
+
+    "RRCT" : {
+        "TITLE": "Rounded Rectangle tool",
+        "DESCRIPTION": "Draws round-edged rectangles"
+    },
+
+    "MEAT": {
+        "TITLE": "Ruler tool",
+        "DESCRIPTION": "Measures distances and angles in an image"
+    },
+
+    "SHAR" : {
+        "TITLE": "Sharpen tool",
+        "DESCRIPTION": "Sharpens the soft edges in an image"
+    },
+
+    "SRMT" : {
+        "TITLE": "Single Row Marquee tool",
+        "DESCRIPTION": "Makes a horizontal selection that’s a single pixel high"
+    },
+
+    "SCMT" : {
+        "TITLE": "Single Column Marquee tool",
+        "DESCRIPTION": "Makes a vertical selection that’s a single pixel wide"
+    },
+
+    "SLCT" : {
+        "TITLE": "Slice tool",
+        "DESCRIPTION": "Cuts an image into smaller sections suitable for web design"
+    },
+
+    "SLST" : {
+        "TITLE": "Slice Select tool",
+        "DESCRIPTION": "Selects, moves, and resizes slices of an image"
+    },
+
+    "SMUD": {
+        "TITLE": "Smudge tool",
+        "DESCRIPTION": "Softens or smudges colors in an image"
+    },
+
+    "SATU": {
+        "TITLE": "Sponge tool",
+        "DESCRIPTION": "Changes the color saturation of areas in an image"
+    },
+
+    "SPHB": {
+        "TITLE": "Spot Healing Brush tool",
+        "DESCRIPTION": "Removes marks and blemishes"
+    },
+
+    "TXBV" : {
+        "TITLE": "Verticle Type tool",
+        "DESCRIPTION": "Adds vertical type"
+    },
+
+    "VTYS" : {
+        "TITLE": "Verticle Type Mask tool",
+        "DESCRIPTION": "Creates a selection in the shape of vertical type"
+    },
+
+    "ZOOM" : {
+        "TITLE": "Zoom tool",
+        "DESCRIPTION": "Magnifies or reduces the view of an image"
+    },
+
+    "CPEN" : {
+        "TITLE": "Curvature Pen Tool",
+        "DESCRIPTION": "Makes or changes paths or shapes using points"
+    },
+
+    "PMHA": {
+        "TITLE": "Hand Tool",
+        "DESCRIPTION": "Pans over different parts of an image"
+    },
+
+    "PMZM": {
+        "TITLE": "Zoom Tool",
+        "DESCRIPTION": "Magnifies or reduces the view of an image"
+    },
+
+    "PMDB": {
+        "TITLE": "Sampling Brush Tool",
+        "DESCRIPTION": "Edits overlay area"
+    },
+
+    "PMLS": {
+        "TITLE": "Lasso Tool",
+        "DESCRIPTION": "Makes freehand selections"
+    },
+
+    "TRY_IT" : "Learn how",
+    "ADVANCED" : "Advanced:"
+}

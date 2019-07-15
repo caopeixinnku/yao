@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D-materialpipett",
+        "DESCRIPTION": "Läs in det valda materialet från ett 3D-objekt"
+    },
+    "3DDM": {
+        "TITLE": "Släpp 3D-material",
+        "DESCRIPTION": "Släpp material som du har läst in i verktyget på målområdet för ett 3D-objekt"
+    },
+    "AKNT": {
+        "TITLE": "Lägg till ankarpunkt",
+        "DESCRIPTION": "Lägg till ankarpunkter på dina banor"
+    },
+    "ARTT": {
+        "TITLE": "Rityta",
+        "DESCRIPTION": "Skapa, flytta eller ändra storlek på flera arbetsytor"
+    },
+    "AHBT": {
+        "TITLE": "Konsthändelsepensel",
+        "DESCRIPTION": "Måla stiliserade drag med pixlar från ett tidigare läge av bilden"
+    },
+    "SERA": {
+        "TITLE": "Bakgrundssuddgummi",
+        "DESCRIPTION": "Ta bort pixlar från ett färgprov"
+    },
+    "BLUR": {
+        "TITLE": "Oskärpa",
+        "DESCRIPTION": "Gör områden i en bild oskarpa"
+    },
+    "PNTB": {
+        "TITLE": "Pensel",
+        "DESCRIPTION": "Måla anpassade penseldrag"
+    },
+    "BURN": {
+        "TITLE": "Efterbelys",
+        "DESCRIPTION": "Gör områden i en bild mörkare"
+    },
+    "STAM": {
+        "TITLE": "Klonstämpel",
+        "DESCRIPTION": "Måla med pixlar från ett tidigare läge av bilden"
+    },
+    "CRBT": {
+        "TITLE": "Färgersättning",
+        "DESCRIPTION": "Måla den valda färgen över en befintlig färg"
+    },
+    "COLS": {
+        "TITLE": "Färgprov",
+        "DESCRIPTION": "Visa värden för färger i en bild"
+    },
+    "RCMP": {
+        "TITLE": "Innehållsmedveten flyttning",
+        "DESCRIPTION": "Markera och flytta delar av en bild och fyll automatiskt i det område som är kvar"
+    },
+    "COUN": {
+        "TITLE": "Räkning",
+        "DESCRIPTION": "Räkna antal objekt i en bild"
+    },
+    "CKNT": {
+        "TITLE": "Konvertera punkt",
+        "DESCRIPTION": "Redigera former och banor genom att konvertera jämna ankarpunkter och hörnankarpunkter"
+    },
+    "CROP": {
+        "TITLE": "Beskärning",
+        "DESCRIPTION": "Beskär eller expandera kanterna av en bild"
+    },
+    "CUSH": {
+        "TITLE": "Anpassad form",
+        "DESCRIPTION": "Rita former från en lista med anpassade former"
+    },
+    "DKNT": {
+        "TITLE": "Ta bort ankarpunkt",
+        "DESCRIPTION": "Ta bort ankarpunkter och omforma banor  "
+    },
+    "PTHA": {
+        "TITLE": "Direktmarkering",
+        "DESCRIPTION": "Markera de enskilda punkterna och segmenten på en bana"
+    },
+    "DODG": {
+        "TITLE": "Skugga",
+        "DESCRIPTION": "Gör områden i en bild ljusare"
+    },
+    "ELPS": {
+        "TITLE": "Oval",
+        "DESCRIPTION": "Rita ovaler"
+    },
+    "ELMT": {
+        "TITLE": "Oval markeringsram",
+        "DESCRIPTION": "Skapa en ovalformad markering"
+    },
+    "ERAS": {
+        "TITLE": "Suddgummi",
+        "DESCRIPTION": "Ändra pixlar till bakgrundsfärgen eller gör dem genomskinliga"
+    },
+    "EYED": {
+        "TITLE": "Pipett",
+        "DESCRIPTION": "Ta färgprov från en bild"
+    },
+    "MPEN": {
+        "TITLE": "Frihandsritstift",
+        "DESCRIPTION": "Lägg till ankarpunkter när du ritar banor eller former"
+    },
+    "BNDT": {
+        "TITLE": "Övertoning",
+        "DESCRIPTION": "Skapa en gradvis blandning mellan färger"
+    },
+    "HAND": {
+        "TITLE": "Hand",
+        "DESCRIPTION": "Panorera över olika delar av en bild."
+    },
+    "STMM": {
+        "TITLE": "Lagningspensel",
+        "DESCRIPTION": "Reparera defekter med hjälp av pixlar från en annan del av bilden"
+    },
+    "HSTB": {
+        "TITLE": "Händelsepensel",
+        "DESCRIPTION": "Återställ delar av en bild till ett tidigare läge"
+    },
+    "TXBX": {
+        "TITLE": "Vågrät text",
+        "DESCRIPTION": "Lägg till vågrät text"
+    },
+    "TYPS": {
+        "TITLE": "Vågrät textmask",
+        "DESCRIPTION": "Skapa en markering i form av vågrät text"
+    },
+    "LASO": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Gör frihandsmarkeringar"
+    },
+    "LINT": {
+        "TITLE": "Linje",
+        "DESCRIPTION": "Rita linjer"
+    },
+    "MERA": {
+        "TITLE": "Magiskt suddgummi",
+        "DESCRIPTION": "Ta bort områden med liknande färger med ett enda klick"
+    },
+    "WAND": {
+        "TITLE": "Trollstav",
+        "DESCRIPTION": "Markera bildområden med liknande färger"
+    },
+    "MLAS": {
+        "TITLE": "Magnetlasso",
+        "DESCRIPTION": "Skapa en markering genom att fästa vid kanterna av bilden"
+    },
+    "WETB": {
+        "TITLE": "Blandpensel",
+        "DESCRIPTION": "Simulera målningstekniker, som att blanda färger och variera färgernas fuktighet"
+    },
+    "LMVR": {
+        "TITLE": "Flytta",
+        "DESCRIPTION": "Flytta en markering eller ett lager"
+    },
+    "TXTA": {
+        "TITLE": "Anteckningar",
+        "DESCRIPTION": "Skapa textanteckningar som du kan bifoga till en bild eller fil"
+    },
+    "BUCK": {
+        "TITLE": "Färgpyts",
+        "DESCRIPTION": "Fyll angränsande områden med liknande färger med förgrundsfärgen"
+    },
+    "PTCH": {
+        "TITLE": "Lappa",
+        "DESCRIPTION": "Ersätt ett markerat område med ett mönster eller pixlar från en annan del av bilden"
+    },
+    "PCST": {
+        "TITLE": "Banmarkering",
+        "DESCRIPTION": "Markera en hel bana"
+    },
+    "STMP": {
+        "TITLE": "Mönsterstämpel",
+        "DESCRIPTION": "Måla med ett valt mönster"
+    },
+    "PENT": {
+        "TITLE": "Ritstift",
+        "DESCRIPTION": "Skapa och ändra banor eller former med ankarpunkter och handtag"
+    },
+    "PENC": {
+        "TITLE": "Penna",
+        "DESCRIPTION": "Måla penseldrag med hårda kanter"
+    },
+    "PCRP": {
+        "TITLE": "Perspektivbeskärning",
+        "DESCRIPTION": "Beskär en bild för att korrigera förvrängningar som har orsakats av perspektivet"
+    },
+    "POLY": {
+        "TITLE": "Polygon",
+        "DESCRIPTION": "Rita polygoner"
+    },
+    "PGON": {
+        "TITLE": "Polygonlasso",
+        "DESCRIPTION": "Skapa markeringar med raka kanter"
+    },
+    "QKSL": {
+        "TITLE": "Snabbmarkering",
+        "DESCRIPTION": "Skapa en markering genom att hitta och följa kanterna i en bild"
+    },
+    "RECT": {
+        "TITLE": "Rektangel",
+        "DESCRIPTION": "Rita rektanglar"
+    },
+    "RGMT": {
+        "TITLE": "Rektangulär markeringsram",
+        "DESCRIPTION": "Skapa en rektangelformad markering"
+    },
+    "RDEY": {
+        "TITLE": "Röda ögon",
+        "DESCRIPTION": "Korrigera röda ögon som har orsakats av en kamerablixt"
+    },
+    "ROTT": {
+        "TITLE": "Rotera vy",
+        "DESCRIPTION": "Rotera vyn för bilden"
+    },
+    "RRCT": {
+        "TITLE": "Rundad rektangel",
+        "DESCRIPTION": "Rita rektanglar med runda kanter"
+    },
+    "MEAT": {
+        "TITLE": "Linjal",
+        "DESCRIPTION": "Mät avstånd och vinklar i en bild"
+    },
+    "SHAR": {
+        "TITLE": "Skärpa",
+        "DESCRIPTION": "Gör de mjuka kanterna i bilden skarpare."
+    },
+    "SRMT": {
+        "TITLE": "Markeringsram för en rad",
+        "DESCRIPTION": "Skapa en vågrät markering som är en enda pixel hög"
+    },
+    "SCMT": {
+        "TITLE": "Markeringsram för en kolumn",
+        "DESCRIPTION": "Skapa en lodrät markering som är en enda pixel bred"
+    },
+    "SLCT": {
+        "TITLE": "Segment",
+        "DESCRIPTION": "Dela in en bild i mindre avsnitt, vilket är lämpligt för webbdesign"
+    },
+    "SLST": {
+        "TITLE": "Markera segment",
+        "DESCRIPTION": "Markera, flytta och ändra storlek segment i en bild"
+    },
+    "SMUD": {
+        "TITLE": "Smeta ut",
+        "DESCRIPTION": "Mjuka upp eller smeta ut färgerna i en bild"
+    },
+    "SATU": {
+        "TITLE": "Svamp",
+        "DESCRIPTION": "Ändra färgmättnaden för ett område i en bild"
+    },
+    "SPHB": {
+        "TITLE": "Smart lagningspensel",
+        "DESCRIPTION": "Ta bort märken och fläckar"
+    },
+    "TXBV": {
+        "TITLE": "Lodrät text",
+        "DESCRIPTION": "Lägg till lodrät text"
+    },
+    "VTYS": {
+        "TITLE": "Lodrät textmask",
+        "DESCRIPTION": "Skapa en markering i form av lodrät text"
+    },
+    "ZOOM": {
+        "TITLE": "Zooma",
+        "DESCRIPTION": "Förstora eller förminska en bildvy"
+    },
+    "CPEN": {
+        "TITLE": "Krökningsritstift",
+        "DESCRIPTION": "Skapa eller ändra banor och former med hjälp av punkter"
+    },
+    "PMHA": {
+        "TITLE": "Hand",
+        "DESCRIPTION": "Panorera över olika delar av en bild."
+    },
+    "PMZM": {
+        "TITLE": "Zooma",
+        "DESCRIPTION": "Förstora eller förminska en bildvy"
+    },
+    "PMDB": {
+        "TITLE": "Färgprovspensel",
+        "DESCRIPTION": "[10346731] å_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Gör frihandsmarkeringar"
+    },
+    "TRY_IT": "Lär dig hur du gör",
+    "ADVANCED": "Avancerat:"
+}

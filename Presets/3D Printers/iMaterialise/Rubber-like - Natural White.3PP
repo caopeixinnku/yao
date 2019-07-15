@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Printer>
+  <Version value="1" />
+  <PrintLocation value="i.materialise.com" />
+  <PrintVolume X="320.00" Y="270.00" Z="300.00" />
+  <MeshRepairResolution value="8" />
+  <PrinterHeads value="1" />
+  <PrinterSupportsUSB flag="0" />
+  <PreferredFileFormat value="stl" />
+  <NeedsZip flag="1" />
+  <FullColor flag="0" />
+  <UploadURL value="http://i.materialise.com/3dprintlab/03d3b119-7e58-415f-b167-f20d9cbe16bd/6d65e2e0-6eee-4df4-951d-e5db38bd1660/2f01fc24-f2df-4e3e-abd3-a5408fe6f836" />
+  <PrinterResolution X="2" Y="2" Z="10" />
+  <Quality value="high">
+    <MeshRepairResolution value="9" />
+   </Quality>
+  <Quality value="medium">
+    <MeshRepairResolution value="8" />
+  </Quality>
+  <Quality value="low">
+    <MeshRepairResolution value="7" />
+  </Quality>
+</Printer>
+<Materials>
+  <Material name="Rubber-like Natural White">
+    <NeedsRaft flag="0" />
+    <NeedsSupports flag="0" />
+    <NeedsEscapeHoles flag="0" />
+    <MinimumWallThickness value="1.00" />
+    <PricePerCubicCM value="2.3" />
+    <Handling value="5.6" />
+    <Diffuse R="0.92" G="0.92" B="0.92" />
+    <Specular R="0.1" G="0.1" B="0.1" />
+    <Illumination R="0" G="0" B="0" />
+    <Ambient R="0" G="0" B="0" />
+    <Shine value="0.9" />
+    <Reflection value="0.9" />
+    <Roughness value="0" />
+    <Bump value="0" />
+    <Opacity value="1" />
+    <Refraction value="1" />
+  </Material>
+</Materials>

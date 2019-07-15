@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Outil Pipette de matière 3D",
+        "DESCRIPTION": "Charge la matière choisie à partir d'un objet 3D."
+    },
+    "3DDM": {
+        "TITLE": "Outil Dépôt de matière 3D",
+        "DESCRIPTION": "Dépôt de matière chargé dans l'outil, sur la zone cible d'un objet 3D"
+    },
+    "AKNT": {
+        "TITLE": "Outil Ajout de point d’ancrage",
+        "DESCRIPTION": "Ajoute des points d'ancrage à vos tracés"
+    },
+    "ARTT": {
+        "TITLE": "Outil Plan de travail",
+        "DESCRIPTION": "Crée, déplace ou redimensionne plusieurs zones de travail"
+    },
+    "AHBT": {
+        "TITLE": "Outil Forme d'historique artistique",
+        "DESCRIPTION": "Peint des contours stylisés avec des pixels, à partir d'un état antérieur de l'image"
+    },
+    "SERA": {
+        "TITLE": "Outil Gomme d’arrière-plan",
+        "DESCRIPTION": "Efface les pixels d'une couleur d'échantillon."
+    },
+    "BLUR": {
+        "TITLE": "Outil Goutte d’eau",
+        "DESCRIPTION": "Floute des zones d'une image"
+    },
+    "PNTB": {
+        "TITLE": "outil Pinceau",
+        "DESCRIPTION": "Peint des contours personnalisés."
+    },
+    "BURN": {
+        "TITLE": "Outil Densité +",
+        "DESCRIPTION": "Fonce des zones d'une image"
+    },
+    "STAM": {
+        "TITLE": "Outil Tampon de duplication",
+        "DESCRIPTION": "Peint avec des pixels d'une autre partie de l'image."
+    },
+    "CRBT": {
+        "TITLE": "Outil Remplacement de couleur",
+        "DESCRIPTION": "Peint la couleur sélectionnée sur une couleur existante."
+    },
+    "COLS": {
+        "TITLE": "Outil Echantillonnage de couleur",
+        "DESCRIPTION": "Affiche des valeurs pour les couleurs d'une image."
+    },
+    "RCMP": {
+        "TITLE": "Outil de déplacement basé sur le contenu",
+        "DESCRIPTION": "Sélectionne et déplace une partie d'une image, et remplit automatiquement la zone à l'arrière."
+    },
+    "COUN": {
+        "TITLE": "Outil Comptage",
+        "DESCRIPTION": "Compte le nombre d'objets dans une image."
+    },
+    "CKNT": {
+        "TITLE": "Outil Conversion de point",
+        "DESCRIPTION": "Modifie des formes et des tracés en convertissant les points d'ancrage d'inflexion en sommets, et inversement."
+    },
+    "CROP": {
+        "TITLE": "outil Recadrage",
+        "DESCRIPTION": "Rogne ou agrandit les bords d'une image."
+    },
+    "CUSH": {
+        "TITLE": "Outil Forme personnalisée",
+        "DESCRIPTION": "Dessine des formes à partir d'une liste de formes personnalisée."
+    },
+    "DKNT": {
+        "TITLE": "Outil Suppression de point d’ancrage",
+        "DESCRIPTION": "Supprime les points d'ancrage et remodèle les tracés.  "
+    },
+    "PTHA": {
+        "TITLE": "Outil Sélection directe",
+        "DESCRIPTION": "Sélectionne différents points et segments d'un tracé."
+    },
+    "DODG": {
+        "TITLE": "Outil Densité",
+        "DESCRIPTION": "Eclaircit des zones d'une image."
+    },
+    "ELPS": {
+        "TITLE": "outil Ellipse",
+        "DESCRIPTION": "Dessine des ellipses."
+    },
+    "ELMT": {
+        "TITLE": "Outil Ellipse de sélection",
+        "DESCRIPTION": "Sélectionne des éléments en forme d'ellipse."
+    },
+    "ERAS": {
+        "TITLE": "Outil Gomme",
+        "DESCRIPTION": "Remplace la couleur des pixels par la couleur d'arrière-plan ou les rend transparent."
+    },
+    "EYED": {
+        "TITLE": "Outil Pipette",
+        "DESCRIPTION": "Prélève les couleurs depuis une image."
+    },
+    "MPEN": {
+        "TITLE": "Outil Plume libre",
+        "DESCRIPTION": "Ajoute des points d'ancrage à mesure que vous dessinez des formes ou des tracés."
+    },
+    "BNDT": {
+        "TITLE": "Outil Dégradé",
+        "DESCRIPTION": "Crée un dégradé entre les couleurs"
+    },
+    "HAND": {
+        "TITLE": "Outil Main",
+        "DESCRIPTION": "Déplace différentes parties d'une image."
+    },
+    "STMM": {
+        "TITLE": "Outil Correcteur",
+        "DESCRIPTION": "Corrige les imperfections avec des pixels d'une autre partie de l'image."
+    },
+    "HSTB": {
+        "TITLE": "Outil Forme d’historique",
+        "DESCRIPTION": "Restaure l'état antérieur des parties d'une image."
+    },
+    "TXBX": {
+        "TITLE": "Outil Texte horizontal",
+        "DESCRIPTION": "Ajoute du texte horizontal."
+    },
+    "TYPS": {
+        "TITLE": "Outil Masque de texte horizontal",
+        "DESCRIPTION": "Sélectionne des éléments en forme de texte horizontal."
+    },
+    "LASO": {
+        "TITLE": "Outil Lasso",
+        "DESCRIPTION": "Effectue des sélections à main levée."
+    },
+    "LINT": {
+        "TITLE": "Outil Trait",
+        "DESCRIPTION": "Trace des lignes."
+    },
+    "MERA": {
+        "TITLE": "Outil Gomme magique",
+        "DESCRIPTION": "Efface des zones de même couleur en un seul clic."
+    },
+    "WAND": {
+        "TITLE": "Outil Baguette magique",
+        "DESCRIPTION": "Sélectionne des zones de l'image de même couleur."
+    },
+    "MLAS": {
+        "TITLE": "Outil Lasso magnétique",
+        "DESCRIPTION": "Effectue une sélection par magnétisme sur les bords d'image."
+    },
+    "WETB": {
+        "TITLE": "Outil Pinceau mélangeur",
+        "DESCRIPTION": "Simule des techniques de peinture réelles, telles que le mélange des couleurs et les variations d'humidité de la peinture."
+    },
+    "LMVR": {
+        "TITLE": "Outil Déplacement",
+        "DESCRIPTION": "Déplace une sélection ou un calque."
+    },
+    "TXTA": {
+        "TITLE": "Outil Note",
+        "DESCRIPTION": "Crée des notes de texte que vous pouvez joindre à une image ou un fichier."
+    },
+    "BUCK": {
+        "TITLE": "Outil Pot de peinture",
+        "DESCRIPTION": "Remplit les zones contiguës de couleur avec la couleur de premier plan"
+    },
+    "PTCH": {
+        "TITLE": "Outil Pièce",
+        "DESCRIPTION": "Remplace une zone sélectionnée à l'aide d'un motif ou de pixels d'une autre partie de l'image."
+    },
+    "PCST": {
+        "TITLE": "Outil Sélection de tracé",
+        "DESCRIPTION": "Sélectionne un tracé complet."
+    },
+    "STMP": {
+        "TITLE": "Outil Tampon de motif",
+        "DESCRIPTION": "Peint à l'aide d'un modèle choisi."
+    },
+    "PENT": {
+        "TITLE": "Outil Plume",
+        "DESCRIPTION": "Effectue et modifie des tracés ou des formes avec des points d'ancrage et des poignées."
+    },
+    "PENC": {
+        "TITLE": "Outil Crayon",
+        "DESCRIPTION": "Peint des contours nets."
+    },
+    "PCRP": {
+        "TITLE": "Outil Correction de perspective par recadrage",
+        "DESCRIPTION": "Recadre une image afin de corriger les distorsions causées par la perspective."
+    },
+    "POLY": {
+        "TITLE": "Outil Polygone",
+        "DESCRIPTION": "Dessine des polygones."
+    },
+    "PGON": {
+        "TITLE": "Outil Lasso polygonal",
+        "DESCRIPTION": "Crée des sélections rectilignes."
+    },
+    "QKSL": {
+        "TITLE": "outil Sélection rapide",
+        "DESCRIPTION": "Effectue une sélection en détectant et en suivant les bords d'une image."
+    },
+    "RECT": {
+        "TITLE": "outil Rectangle",
+        "DESCRIPTION": "Dessine des rectangles."
+    },
+    "RGMT": {
+        "TITLE": "Outil Rectangle de sélection",
+        "DESCRIPTION": "Sélectionne des éléments en forme de rectangle."
+    },
+    "RDEY": {
+        "TITLE": "Outil Œil rouge",
+        "DESCRIPTION": "Corrige l'effet yeux rouges provoqué par un flash d'appareil photo."
+    },
+    "ROTT": {
+        "TITLE": "Outil Rotation de l’affichage",
+        "DESCRIPTION": "Effectue une rotation de l'affichage d'une image."
+    },
+    "RRCT": {
+        "TITLE": "Outil Rectangle arrondi",
+        "DESCRIPTION": "Dessine des rectangles aux bords arrondis."
+    },
+    "MEAT": {
+        "TITLE": "Outil Règle",
+        "DESCRIPTION": "Mesure des distances et des angles dans une image."
+    },
+    "SHAR": {
+        "TITLE": "Outil Netteté",
+        "DESCRIPTION": "Accentue la netteté des contours d'une image."
+    },
+    "SRMT": {
+        "TITLE": "Outil Rectangle de sélection 1 rangée",
+        "DESCRIPTION": "Effectue une sélection horizontale d'un pixel de haut."
+    },
+    "SCMT": {
+        "TITLE": "Outil Rectangle de sélection 1 colonne",
+        "DESCRIPTION": "Effectue une sélection verticale d'un pixel de large."
+    },
+    "SLCT": {
+        "TITLE": "Outil Tranche",
+        "DESCRIPTION": "Coupe une image en sections plus petites adaptées à la conception web."
+    },
+    "SLST": {
+        "TITLE": "Outil Sélection de tranche",
+        "DESCRIPTION": "Sélectionne, déplace et redimensionne les tranches d'une image."
+    },
+    "SMUD": {
+        "TITLE": "Outil Doigt",
+        "DESCRIPTION": "Adoucit ou étale des couleurs dans une image."
+    },
+    "SATU": {
+        "TITLE": "Outil Eponge",
+        "DESCRIPTION": "Modifie la saturation des couleurs des zones d'une image."
+    },
+    "SPHB": {
+        "TITLE": "outil Correcteur localisé",
+        "DESCRIPTION": "Supprime les marques et les défauts."
+    },
+    "TXBV": {
+        "TITLE": "Outil Texte vertical",
+        "DESCRIPTION": "Ajoute du texte vertical."
+    },
+    "VTYS": {
+        "TITLE": "Outil Masque de texte vertical",
+        "DESCRIPTION": "Sélectionne des éléments en forme de texte vertical."
+    },
+    "ZOOM": {
+        "TITLE": "Outil Zoom",
+        "DESCRIPTION": "Agrandit ou réduit l'affichage d'une image."
+    },
+    "CPEN": {
+        "TITLE": "Outil Plume de courbure",
+        "DESCRIPTION": "Crée ou modifie des tracés ou des formes à l'aide de points."
+    },
+    "PMHA": {
+        "TITLE": "Outil Main",
+        "DESCRIPTION": "Déplace différentes parties d'une image."
+    },
+    "PMZM": {
+        "TITLE": "Outil Zoom",
+        "DESCRIPTION": "Agrandit ou réduit l'affichage d'une image."
+    },
+    "PMDB": {
+        "TITLE": "Outil Pinceau d'échantillonnage",
+        "DESCRIPTION": "é_[10346731] Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Outil Lasso",
+        "DESCRIPTION": "Effectue des sélections à main levée."
+    },
+    "TRY_IT": "En savoir plus",
+    "ADVANCED": "Avancé :"
+}

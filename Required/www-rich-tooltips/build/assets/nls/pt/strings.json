@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "Ferramenta conta-gotas de material 3D",
+        "DESCRIPTION": "Carrega o material selecionado a partir de um objeto 3D"
+    },
+    "3DDM": {
+        "TITLE": "Ferramenta de projeção de material 3D",
+        "DESCRIPTION": "Projeta o material carregado na ferramenta para a área de destino de um objeto 3D"
+    },
+    "AKNT": {
+        "TITLE": "Ferramenta 'Adicionar ponto âncora'",
+        "DESCRIPTION": "Adiciona pontos de ancoragem aos seus caminhos"
+    },
+    "ARTT": {
+        "TITLE": "Ferramenta Prancheta",
+        "DESCRIPTION": "Cria, move ou redimensiona múltiplas telas"
+    },
+    "AHBT": {
+        "TITLE": "Ferramenta Pincel História da Arte",
+        "DESCRIPTION": "Pinta traçados estilizados com pixels de um estado anterior da imagem"
+    },
+    "SERA": {
+        "TITLE": "Ferramenta Borracha de Plano de Fundo",
+        "DESCRIPTION": "Apaga os pixels de uma cor amostrada"
+    },
+    "BLUR": {
+        "TITLE": "Ferramenta Desfoque",
+        "DESCRIPTION": "Desfoca áreas em uma imagem"
+    },
+    "PNTB": {
+        "TITLE": "Ferramenta Pincel",
+        "DESCRIPTION": "Desenha traços de pincel personalizados"
+    },
+    "BURN": {
+        "TITLE": "Ferramenta Superexposição",
+        "DESCRIPTION": "Escurece áreas em uma imagem"
+    },
+    "STAM": {
+        "TITLE": "Ferramenta Carimbo",
+        "DESCRIPTION": "Pinta com pixels de outra parte da imagem"
+    },
+    "CRBT": {
+        "TITLE": "Ferramenta Substituição de Cor",
+        "DESCRIPTION": "Pinta a cor selecionada sobre uma cor existente"
+    },
+    "COLS": {
+        "TITLE": "Ferramenta Classificador de Cores",
+        "DESCRIPTION": "Exibe os valores para as cores de uma imagem"
+    },
+    "RCMP": {
+        "TITLE": "Ferramenta Mover sensível a conteúdo",
+        "DESCRIPTION": "Seleciona e move parte de uma imagem e preenche automaticamente a área deixada para trás."
+    },
+    "COUN": {
+        "TITLE": "Ferramenta Contagem",
+        "DESCRIPTION": "Conta o número de objetos em uma imagem"
+    },
+    "CKNT": {
+        "TITLE": "Ferramenta Converter Pontos",
+        "DESCRIPTION": "Edita formas e caminhos convertendo ponto de ancoragem suaves e de vértice"
+    },
+    "CROP": {
+        "TITLE": "Ferramenta Corte",
+        "DESCRIPTION": "Apara ou expande as bordas de uma imagem"
+    },
+    "CUSH": {
+        "TITLE": "Ferramenta Forma Personalizada",
+        "DESCRIPTION": "Desenha formas a partir de uma lista de formas personalizadas"
+    },
+    "DKNT": {
+        "TITLE": "Ferramenta Excluir ponto de ancoragem",
+        "DESCRIPTION": "Exclui pontos de ancoragem e remodela caminhos  "
+    },
+    "PTHA": {
+        "TITLE": "Ferramenta Seleção Direta",
+        "DESCRIPTION": "Seleciona os segmentos e pontos individuais de um caminho"
+    },
+    "DODG": {
+        "TITLE": "Ferramenta Subexposição",
+        "DESCRIPTION": "Clareia áreas em uma imagem"
+    },
+    "ELPS": {
+        "TITLE": "Ferramenta Elipse",
+        "DESCRIPTION": "Desenha elipses"
+    },
+    "ELMT": {
+        "TITLE": "Ferramenta Letreiro Elíptico",
+        "DESCRIPTION": "Faz uma seleção na forma de uma elipse"
+    },
+    "ERAS": {
+        "TITLE": "Ferramenta Borracha",
+        "DESCRIPTION": "Altera pixels na cor do fundo ou os torna transparentes"
+    },
+    "EYED": {
+        "TITLE": "Ferramenta Conta-gotas",
+        "DESCRIPTION": "Obtém amostras de cores a partir de imagem"
+    },
+    "MPEN": {
+        "TITLE": "Ferramenta Caneta de Forma Livre",
+        "DESCRIPTION": "Adiciona pontos de ancoragem conforme você desenha caminhos ou formas"
+    },
+    "BNDT": {
+        "TITLE": "Ferramenta Degradê",
+        "DESCRIPTION": "Cria uma mistura gradual entre as cores"
+    },
+    "HAND": {
+        "TITLE": "Ferramenta Mão",
+        "DESCRIPTION": "Focaliza em diferentes partes de uma imagem"
+    },
+    "STMM": {
+        "TITLE": "Ferramenta Pincel de Recuperação",
+        "DESCRIPTION": "Repara imperfeições usando pixels de outra parte da imagem"
+    },
+    "HSTB": {
+        "TITLE": "Ferramenta Pincel do Histórico",
+        "DESCRIPTION": "Restaura partes de uma imagem para o estado anterior"
+    },
+    "TXBX": {
+        "TITLE": "Ferramenta Texto Horizontal",
+        "DESCRIPTION": "Adiciona texto horizontal"
+    },
+    "TYPS": {
+        "TITLE": "Ferramenta Máscara de texto horizontal",
+        "DESCRIPTION": "Cria uma seleção na forma de um texto horizontal"
+    },
+    "LASO": {
+        "TITLE": "Ferramenta Laço",
+        "DESCRIPTION": "Faz seleções à mão livre."
+    },
+    "LINT": {
+        "TITLE": "Ferramenta Linha",
+        "DESCRIPTION": "Desenha linhas"
+    },
+    "MERA": {
+        "TITLE": "Ferramenta Borracha Mágica",
+        "DESCRIPTION": "Apaga áreas com cores similares com um único clique"
+    },
+    "WAND": {
+        "TITLE": "Ferramenta Varinha Mágica",
+        "DESCRIPTION": "Seleciona áreas da imagem com cores similares"
+    },
+    "MLAS": {
+        "TITLE": "Ferramenta Laço Magnético",
+        "DESCRIPTION": "Faz uma seleção ajustando as bordas da imagem"
+    },
+    "WETB": {
+        "TITLE": "Ferramenta Pincel de mistura",
+        "DESCRIPTION": "Simula técnicas de pintura reais, tais como a mesclagem de cores e variação na umidade da pintura"
+    },
+    "LMVR": {
+        "TITLE": "Ferramenta Mover",
+        "DESCRIPTION": "Move uma seleção ou camada"
+    },
+    "TXTA": {
+        "TITLE": "Ferramenta Nota",
+        "DESCRIPTION": "Cria notas de texto que podem ser anexadas a uma imagem ou arquivo"
+    },
+    "BUCK": {
+        "TITLE": "Ferramenta Lata de Tinta",
+        "DESCRIPTION": "Preenche áreas adjacentes de cores similares com a cor do primeiro plano"
+    },
+    "PTCH": {
+        "TITLE": "Ferramenta Correção",
+        "DESCRIPTION": "Substitui uma área selecionada usando um padrão ou pixels de outra parte da imagem"
+    },
+    "PCST": {
+        "TITLE": "Ferramenta Seleção de Demarcador",
+        "DESCRIPTION": "Seleciona um caminho completo"
+    },
+    "STMP": {
+        "TITLE": "Ferramenta Carimbo de Padrão",
+        "DESCRIPTION": "Pinta usando um padrão escolhido"
+    },
+    "PENT": {
+        "TITLE": "Ferramenta Caneta",
+        "DESCRIPTION": "Cria e altera caminhos ou formas com ponto de ancoragem e alças"
+    },
+    "PENC": {
+        "TITLE": "Ferramenta Lápis",
+        "DESCRIPTION": "Desenha traços de pincel com arestas sólidas"
+    },
+    "PCRP": {
+        "TITLE": "Ferramenta Cortar perspectiva",
+        "DESCRIPTION": "Corta uma imagem para corrigir distorções causadas pela perspectiva"
+    },
+    "POLY": {
+        "TITLE": "Ferramenta Polígono",
+        "DESCRIPTION": "Desenha polígonos"
+    },
+    "PGON": {
+        "TITLE": "Ferramenta Laço Poligonal",
+        "DESCRIPTION": "Cria seleções de aresta resta"
+    },
+    "QKSL": {
+        "TITLE": "Ferramenta Seleção Rápida",
+        "DESCRIPTION": "Faz uma seleção encontrando e seguindo as bordas em uma imagem"
+    },
+    "RECT": {
+        "TITLE": "Ferramenta Retângulo",
+        "DESCRIPTION": "Desenha retângulos"
+    },
+    "RGMT": {
+        "TITLE": "Ferramenta Letreiro Retangular",
+        "DESCRIPTION": "Faz uma seleção na forma de um retângulo"
+    },
+    "RDEY": {
+        "TITLE": "Ferramenta Olhos Vermelhos",
+        "DESCRIPTION": "Corrige o efeito de olhos vermelhos causado por um flash de câmera"
+    },
+    "ROTT": {
+        "TITLE": "Ferramenta Girar Visualização",
+        "DESCRIPTION": "Gira a visualização de uma imagem"
+    },
+    "RRCT": {
+        "TITLE": "Ferramenta Retângulo Arredondado",
+        "DESCRIPTION": "Desenha retângulos com as bordas arredondadas"
+    },
+    "MEAT": {
+        "TITLE": "Ferramenta Régua",
+        "DESCRIPTION": "Mede as distâncias e ângulos de uma imagem"
+    },
+    "SHAR": {
+        "TITLE": "Ferramenta Tornar Nítido",
+        "DESCRIPTION": "Torna as margens suaves de uma imagem nítidas"
+    },
+    "SRMT": {
+        "TITLE": "Ferramenta Letreiro de Linha Única",
+        "DESCRIPTION": "Faz uma seleção horizontal com o tamanho de um único pixel"
+    },
+    "SCMT": {
+        "TITLE": "Ferramenta Letreiro de Coluna Única",
+        "DESCRIPTION": "Faz uma seleção vertical com o tamanho de um único pixel"
+    },
+    "SLCT": {
+        "TITLE": "Ferramenta Fatia",
+        "DESCRIPTION": "Corta uma imagem em seções menores adequadas para o design da Web"
+    },
+    "SLST": {
+        "TITLE": "Ferramenta Seleção de Fatia",
+        "DESCRIPTION": "Seleciona, move e redimensiona fatias de uma imagem"
+    },
+    "SMUD": {
+        "TITLE": "Ferramenta Borrar",
+        "DESCRIPTION": "Suaviza ou borra as cores em uma imagem"
+    },
+    "SATU": {
+        "TITLE": "Ferramenta Esponja",
+        "DESCRIPTION": "Altera a saturação da cor nas áreas de uma imagem"
+    },
+    "SPHB": {
+        "TITLE": "Ferramenta Pincel de Recuperação para Manchas",
+        "DESCRIPTION": "Remove marcas e manchas"
+    },
+    "TXBV": {
+        "TITLE": "Ferramenta Texto vertical",
+        "DESCRIPTION": "Adiciona texto vertical"
+    },
+    "VTYS": {
+        "TITLE": "Ferramenta Máscara de texto vertical",
+        "DESCRIPTION": "Cria uma seleção na forma de um texto vertical"
+    },
+    "ZOOM": {
+        "TITLE": "Ferramenta Zoom",
+        "DESCRIPTION": "Amplia ou diminui a visualização de uma imagem"
+    },
+    "CPEN": {
+        "TITLE": "Ferramenta Caneta de curvatura",
+        "DESCRIPTION": "Cria ou altera caminhos ou formas usando pontos"
+    },
+    "PMHA": {
+        "TITLE": "Ferramenta Mão",
+        "DESCRIPTION": "Focaliza em diferentes partes de uma imagem"
+    },
+    "PMZM": {
+        "TITLE": "Ferramenta Zoom",
+        "DESCRIPTION": "Amplia ou diminui a visualização de uma imagem"
+    },
+    "PMDB": {
+        "TITLE": "Ferramenta Pincel de amostragem",
+        "DESCRIPTION": "[10346731] ã_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Ferramenta Laço",
+        "DESCRIPTION": "Faz seleções à mão livre."
+    },
+    "TRY_IT": "Saiba como",
+    "ADVANCED": "Avançado:"
+}

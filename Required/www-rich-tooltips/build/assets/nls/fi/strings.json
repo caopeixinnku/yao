@@ -1,0 +1,288 @@
+{
+    "3DSM": {
+        "TITLE": "3D-materiaalipipetti",
+        "DESCRIPTION": "Lataa 3D-objektista valitun materiaalin"
+    },
+    "3DDM": {
+        "TITLE": "3D-materiaalin pudotustyökalu",
+        "DESCRIPTION": "Pudottaa työkaluun ladatun materiaalin 3D-objektin kohdealueelle"
+    },
+    "AKNT": {
+        "TITLE": "Tukipisteen lisäystyökalu",
+        "DESCRIPTION": "Lisää tukipisteitä reitteihin"
+    },
+    "ARTT": {
+        "TITLE": "Piirtoalustatyökalu",
+        "DESCRIPTION": "Luo tai siirtää useita piirtoalueita tai muuttaa niiden kokoa"
+    },
+    "AHBT": {
+        "TITLE": "Taidehistoriasivellin-työkalu",
+        "DESCRIPTION": "Maalaa tyylitellyin vedoin käyttämällä kuvan aiemman tilan pikseleitä"
+    },
+    "SERA": {
+        "TITLE": "Taustan pyyhintä -työkalu",
+        "DESCRIPTION": "Poistaa värinäytteessä käytetyn värin pikselit"
+    },
+    "BLUR": {
+        "TITLE": "Sumennustyökalu",
+        "DESCRIPTION": "Sumentaa kuvan alueita"
+    },
+    "PNTB": {
+        "TITLE": "Sivellintyökalu",
+        "DESCRIPTION": "Maalaa mukautettuja siveltimen vetoja"
+    },
+    "BURN": {
+        "TITLE": "Lisävalotustyökalu",
+        "DESCRIPTION": "Tummentaa kuvan alueita"
+    },
+    "STAM": {
+        "TITLE": "Kloonaava leimasin",
+        "DESCRIPTION": "Maalaa käyttämällä kuvan toisen osan pikseleitä"
+    },
+    "CRBT": {
+        "TITLE": "Värin korvaustyökalu",
+        "DESCRIPTION": "Maalaa valitulla värillä aiemman värin päälle"
+    },
+    "COLS": {
+        "TITLE": "Värinäyte",
+        "DESCRIPTION": "Näyttää kuvan värien arvot"
+    },
+    "RCMP": {
+        "TITLE": "Sisältötietoinen siirtotyökalu",
+        "DESCRIPTION": "Valitsee ja siirtää kuvan osan ja täyttää taakse jäävän alueen automaattisesti"
+    },
+    "COUN": {
+        "TITLE": "Laskentatyökalu",
+        "DESCRIPTION": "Laskee kuvan objektien määrän"
+    },
+    "CKNT": {
+        "TITLE": "Muunna tukipiste",
+        "DESCRIPTION": "Muokkaa muotoja ja reittejä muuntamalla tasaisten kohtien ja kulmien tukipisteitä"
+    },
+    "CROP": {
+        "TITLE": "Rajaus",
+        "DESCRIPTION": "Rajaa tai laajentaa kuvan reunoja"
+    },
+    "CUSH": {
+        "TITLE": "Mukautettu muoto -työkalu",
+        "DESCRIPTION": "Käyttää mukautetun muotoluettelon muotoja"
+    },
+    "DKNT": {
+        "TITLE": "Tukipisteen poistotyökalu",
+        "DESCRIPTION": "Poistaa tukipisteitä ja muotoilee reittejä uudelleen  "
+    },
+    "PTHA": {
+        "TITLE": "Suoravalintatyökalu",
+        "DESCRIPTION": "Valitsee reitin yksittäisiä pisteitä ja segmenttejä"
+    },
+    "DODG": {
+        "TITLE": "Varjostustyökalu",
+        "DESCRIPTION": "Vaalentaa kuvan alueita"
+    },
+    "ELPS": {
+        "TITLE": "Soikiotyökalu",
+        "DESCRIPTION": "Piirtää soikioita"
+    },
+    "ELMT": {
+        "TITLE": "Soikiovalitsin",
+        "DESCRIPTION": "Valitsee soikion muotoisen alueen"
+    },
+    "ERAS": {
+        "TITLE": "Pyyhekumityökalu",
+        "DESCRIPTION": "Korvaa pikselien värin taustavärillä tai muuttaa pikselit läpinäkyviksi"
+    },
+    "EYED": {
+        "TITLE": "Pipettityökalu",
+        "DESCRIPTION": "Ottaa värinäytteitä kuvasta"
+    },
+    "MPEN": {
+        "TITLE": "Vapaasti piirtävä kynä",
+        "DESCRIPTION": "Lisää tukipisteitä piirrettäessä reittejä tai muotoja"
+    },
+    "BNDT": {
+        "TITLE": "Liukuvärityökalu",
+        "DESCRIPTION": "Luo liukuvärejä"
+    },
+    "HAND": {
+        "TITLE": "Käsityökalu",
+        "DESCRIPTION": "Panoroi kuvan osia"
+    },
+    "STMM": {
+        "TITLE": "Korjaussivellin",
+        "DESCRIPTION": "Korjaa virheitä käyttämällä kuvan toisen osan pikseleitä"
+    },
+    "HSTB": {
+        "TITLE": "Historiasivellintyökalu",
+        "DESCRIPTION": "Palauttaa kuvan osat aiempaan tilaan"
+    },
+    "TXBX": {
+        "TITLE": "Vaakateksti",
+        "DESCRIPTION": "Lisää vaakasuuntaista tekstiä"
+    },
+    "TYPS": {
+        "TITLE": "Vaakatekstimaski",
+        "DESCRIPTION": "Valitsee vaakasuuntaisen tekstin muotoisen alueen"
+    },
+    "LASO": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Tekee vapaamuotoisia valintoja"
+    },
+    "LINT": {
+        "TITLE": "Viivatyökalu",
+        "DESCRIPTION": "Piirtää viivoja"
+    },
+    "MERA": {
+        "TITLE": "Taikakumityökalu",
+        "DESCRIPTION": "Poistaa samanväriset alueet yhdellä napsautuksella"
+    },
+    "WAND": {
+        "TITLE": "Taikasauvatyökalu",
+        "DESCRIPTION": "Valitsee kuvan samanvärisiä alueita"
+    },
+    "MLAS": {
+        "TITLE": "Magneettinen lassovalitsin",
+        "DESCRIPTION": "Tekee valinnan tarttumalla kuvan reunoihin"
+    },
+    "WETB": {
+        "TITLE": "Sekoitussivellin-työkalu",
+        "DESCRIPTION": "Simuloi realistisia maalaustekniikoita, kuten värien sekoitusta ja vaihtelevaa maalin kosteutta"
+    },
+    "LMVR": {
+        "TITLE": "Siirtotyökalu",
+        "DESCRIPTION": "Siirtää valinnan tai tason"
+    },
+    "TXTA": {
+        "TITLE": "Muistiinpanotyökalu",
+        "DESCRIPTION": "Luo tekstimuistiinpanoja, joita voi liittää kuvaan tai tiedostoon"
+    },
+    "BUCK": {
+        "TITLE": "Maalipurkkityökalu",
+        "DESCRIPTION": "Täyttää samanväriset vierekkäiset alueet piirtovärillä"
+    },
+    "PTCH": {
+        "TITLE": "Paikkaustyökalu",
+        "DESCRIPTION": "Korvaa valitun alueen kuvan toisen osan kuviolla tai pikseleillä"
+    },
+    "PCST": {
+        "TITLE": "Reitin valinta -työkalu",
+        "DESCRIPTION": "Valitsee koko reitin"
+    },
+    "STMP": {
+        "TITLE": "Kuvioleimasin",
+        "DESCRIPTION": "Maalaa käyttämällä valittua kuviota"
+    },
+    "PENT": {
+        "TITLE": "Reittikynä",
+        "DESCRIPTION": "Luo ja muuttaa reittejä tai muotoja tukipisteillä ja kahvoilla"
+    },
+    "PENC": {
+        "TITLE": "Kynä",
+        "DESCRIPTION": "Maalaa teräväreunaisia siveltimen vetoja"
+    },
+    "PCRP": {
+        "TITLE": "Perspektiivirajaustyökalu",
+        "DESCRIPTION": "Korjaa perspektiivin aiheuttamia vääristymiä rajaamalla kuvaa"
+    },
+    "POLY": {
+        "TITLE": "Monikulmiotyökalu",
+        "DESCRIPTION": "Piirtää monikulmioita"
+    },
+    "PGON": {
+        "TITLE": "Monikulmiolasso",
+        "DESCRIPTION": "Luo suorareunaisia valintoja"
+    },
+    "QKSL": {
+        "TITLE": "Pikavalintatyökalu",
+        "DESCRIPTION": "Tekee valinnan etsimällä kuvan reunat ja seuraamalla niitä"
+    },
+    "RECT": {
+        "TITLE": "Suorakulmiotyökalu",
+        "DESCRIPTION": "Piirtää suorakulmioita"
+    },
+    "RGMT": {
+        "TITLE": "Suorakulmainen valintatyökalu",
+        "DESCRIPTION": "Valitsee suorakulmion muotoisen alueen"
+    },
+    "RDEY": {
+        "TITLE": "Punasilmäisyystyökalu",
+        "DESCRIPTION": "Korjaa kameran salaman aiheuttaman punasilmäisyyden"
+    },
+    "ROTT": {
+        "TITLE": "Kierrä näkymää -työkalu",
+        "DESCRIPTION": "Kiertää kuvan näkymää"
+    },
+    "RRCT": {
+        "TITLE": "Pyöreäkulmainen suorakulmio -työkalu",
+        "DESCRIPTION": "Piirtää pyöreäkulmaisia suorakulmioita"
+    },
+    "MEAT": {
+        "TITLE": "Viivaintyökalu",
+        "DESCRIPTION": "Mittaa kuvan etäisyyksiä ja kulmia"
+    },
+    "SHAR": {
+        "TITLE": "Terävöintityökalu",
+        "DESCRIPTION": "Terävöittää kuvan pehmeitä reunoja"
+    },
+    "SRMT": {
+        "TITLE": "Yhden vaakarivin valintatyökalu",
+        "DESCRIPTION": "Valitsee yhden pikselin korkuisen vaakasuuntaisen alueen"
+    },
+    "SCMT": {
+        "TITLE": "Yhden pystyrivin valintatyökalu",
+        "DESCRIPTION": "Valitsee yhden pikselin levyisen pystysuuntaisen alueen"
+    },
+    "SLCT": {
+        "TITLE": "Ositus",
+        "DESCRIPTION": "Osittaa kuvan verkkosuunnittelua varten"
+    },
+    "SLST": {
+        "TITLE": "Osan valinta",
+        "DESCRIPTION": "Valitsee ja siirtää kuvan osia ja muuttaa niiden kokoa"
+    },
+    "SMUD": {
+        "TITLE": "Hankaustyökalu",
+        "DESCRIPTION": "Pehmentää tai hankaa kuvan värejä"
+    },
+    "SATU": {
+        "TITLE": "Pesusienityökalu",
+        "DESCRIPTION": "Muuttaa kuvan alueiden värien kylläisyyttä"
+    },
+    "SPHB": {
+        "TITLE": "Spottikorjaussivellin",
+        "DESCRIPTION": "Poistaa jälkiä ja tahroja"
+    },
+    "TXBV": {
+        "TITLE": "Pystytekstityökalu",
+        "DESCRIPTION": "Lisää pystysuuntaista tekstiä"
+    },
+    "VTYS": {
+        "TITLE": "Pystytekstimaski",
+        "DESCRIPTION": "Valitsee pystysuuntaisen tekstin muotoisen alueen"
+    },
+    "ZOOM": {
+        "TITLE": "Suurennuslasityökalu",
+        "DESCRIPTION": "Suurentaa tai pienentää kuvan näkymää"
+    },
+    "CPEN": {
+        "TITLE": "Kaarevuuskynätyökalu",
+        "DESCRIPTION": "Tee tai muokkaa reittejä ja muotoja pisteiden avulla"
+    },
+    "PMHA": {
+        "TITLE": "Käsi",
+        "DESCRIPTION": "Panoroi kuvan osia"
+    },
+    "PMZM": {
+        "TITLE": "Suurennuslasityökalu",
+        "DESCRIPTION": "Suurentaa tai pienentää kuvan näkymää"
+    },
+    "PMDB": {
+        "TITLE": "Näytesivellintyökalu",
+        "DESCRIPTION": "[10346731] Î_Edits overlay area"
+    },
+    "PMLS": {
+        "TITLE": "Lasso",
+        "DESCRIPTION": "Tekee vapaamuotoisia valintoja"
+    },
+    "TRY_IT": "Katso miten",
+    "ADVANCED": "Lisäasetukset:"
+}

@@ -1,0 +1,13 @@
+{
+	"use_osr": false,
+	"osr_frame_rate": 30,
+	"copy_compositor_frame_rate": 5,
+	"CefTimerFrequency": 60,
+	"debuggingPort": 9234,
+	"enableDeveloperContextMenu": false,
+	"cef_command_line_arguments_disabled": [ "show-fps-counter" ],
+	"allow_open_gl_canvas": true,
+	"serialize_use_legacy_keywords": false,
+	"serialize_use_legacy_encoding": false,
+    "enable_debug_mode": false
+}

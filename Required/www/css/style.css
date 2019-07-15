@@ -1,0 +1,106 @@
+
+@-webkit-keyframes fader-permitted {
+  0% {background-color: rgba(27,139,233, 0.8); opacity: 0.8}
+  75% {background-color: rgba(27,139,233, 0.8); opacity: 0.8}
+  100% {background-color: rgba(27,139,233, 0.0); opacity: 0.0}
+}
+
+@-webkit-keyframes resetter-permitted {
+  0% {background-color: rgba(27,139,233, 0.8); opacity: 0.6}
+  25% {background-color: rgba(27,139,233, 0.8); opacity: 0.8}
+  75% {background-color: rgba(27,139,233, 0.8); opacity: 0.8}
+  100% {background-color: rgba(27,139,233, 0.0); opacity: 0.0}
+}
+
+@-webkit-keyframes fader-prohibited {
+  0% {background-color: rgba(0, 0, 0, 0.8); opacity: 0.6}
+  75% {background-color: rgba(0, 0, 0, 0.8); opacity: 0.6}
+  100% {background-color: rgba(0, 0, 0, 0.0); opacity: 0.0}
+}
+
+@-webkit-keyframes resetter-prohibited {
+  0% {background-color: rgba(0, 0, 0, 0.8); opacity: 0.5}
+  25% {background-color: rgba(0, 0, 0, 0.8); opacity: 0.6}
+  75% {background-color: rgba(0, 0, 0, 0.8); opacity: 0.6}
+  100% {background-color: rgba(0, 0, 0, 0.0); opacity: 0.0}
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+/*  background-color: rgba(255, 0, 0, 1.0); */
+}
+
+
+/* Undo/Redo Styles------------------------- */
+
+.toastClass{        
+  background-size: 40px 40px;
+  border-radius: 6px;
+  height: 40px;
+  width : 40px;
+  background-color: rgba(0,0,0, 0.0);
+  display: block;
+}
+
+#toastUndo{
+  background-color: rgba(0,0,0, 0.0);
+  opacity: 0.0;
+  background-image: url(../svg/undo.svg);
+}
+
+#toastRedo{
+  background-color: rgba(0,0,0, 0.0);
+  opacity: 0.0;
+  background-image: url(../svg/redo.svg);
+}
+
+
+/* History Scrub Styles------------------------- */
+
+#container{
+  background-color:rgba(255,255,255, 1.0);
+  border-radius: 10px;
+/*  height:14px;*/
+  width: 98%;
+  padding:4px 6px;
+  -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.20);
+  border-collapse: collapse;
+
+}
+
+#history_icon{
+  width:14px;
+  height:14px;
+  display: block;
+  float: left;
+  padding-right: 5px;
+  padding-bottom: 7px;
+  opacity: 1.0;
+}
+
+#history_track{
+  border-radius: 3px;
+  height:4px;
+  width: 100%;
+  top: 0px;
+  border: 1px solid rgba(27,139,233, 0.8);
+  opacity: 1.0;
+
+}
+
+#bar{
+      background-color:rgba(27,139,233, 0.8);
+      border-radius: 3px;
+      height:2px;
+/*    border-collapse: collapse;*/
+/*      vertical-align: middle;*/
+      opacity:1.0;
+}

@@ -1,0 +1,90 @@
+layout newBrushPreset
+    {
+    constant:
+        vBrushThumbSize : 64;
+
+    interface:
+        /* These are set by NewBrushDialogEve2ItemSheetPostCreate() */
+        titleText			: '';
+        showOptions			: false;
+        showToolOptions		: false;
+        
+        showIncludeColor	: false;
+        showIncludePattern	: false;
+        
+        /* We factor in all the tool sub option checkboxes because otherwise hiding/showing
+           the empty enclosing optional would make the dialog height change slightly in the
+           case where we are not showing any of the tool sub options. */
+        showToolSubOptions	: false <== captureTool && (showIncludeColor || showIncludePattern);
+        
+        /* These are used to set/get the values */
+        unlink captureSize		: false <== captureSize;        
+        unlink captureTool		: false <== captureTool;        
+        unlink captureColor		: false <== captureColor;        
+        unlink capturePattern	: false <== capturePattern;
+        
+    view TBrushNameDialog(name: titleText,
+                          targetIdentifier: 'name',
+                          placement: place_row,
+                          margin: 15,
+                          isResizable: false)
+        {
+		TBrushPreview(identifier: 'ptch',
+					  height: vBrushThumbSize,
+					  width: vBrushThumbSize);
+
+        column()
+            {
+            TEditText (identifier: 'name',
+                       name: '$$$/Dialog/BrushName/Name=&Name:',
+                       width: 16 * 20,
+                       maxChars: 240);
+
+			TOptional(bind: @showOptions, value: true)
+				{
+				TCheckBox(name: '$$$/Dialog/BrushHasSize/SaveBrushSizeWithPreset=Capture Brush Size in Preset',
+						  bind: @captureSize,
+						  tooltip: '$$$/Dialog/BrushName/NoSizeTooltip=Remember the brush size');
+	
+
+				TOptional(bind: @showToolOptions, value: true)
+					{
+					TCheckBox(name: '$$$/Dialog/BrushOptions/IncludeTool=Include Tool Settings',
+						 	  bind: @captureTool,
+							  tooltip: '$$$/Dialog/BrushOptions/ToolTip/IncludeTool=Remember the current tool and tool settings in the new brush');
+            		
+					TOptional(bind: @showToolSubOptions,
+							  value: true,
+							  margin: [0, 20, 0, 0])
+						{
+						TOptional(bind: @showIncludeColor, value: true)
+							{
+							TCheckBox(name: '$$$/Dialog/BrushOptions/IncludeColor=Include Color',
+									  bind: @captureColor,
+									  tooltip: '$$$/Dialog/BrushOptions/ToolTip/IncludeColor=Remember the brush color');
+							}
+							
+						TOptional(bind: @showIncludePattern, value: true)
+							{
+							TCheckBox(name: '$$$/Dialog/BrushOptions/IncludePattern=Include Pattern',
+									  bind: @capturePattern,
+									  tooltip: '$$$/Dialog/BrushOptions/ToolTip/IncludePattern=Remember the brush pattern');
+							}
+						}
+            		}
+            	}
+            }
+
+        column(child_horizontal: align_fill)
+            {
+            TButton(name: "$$$/ControlsStrings/OK=OK",
+                    identifier: @ok,
+                    dismiss: true,
+                    default: true);
+
+            TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+                    identifier: @cancel,
+                    dismiss: true);
+            }
+        }
+    }

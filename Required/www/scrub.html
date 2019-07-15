@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <!--      <img id="history_icon" src="svg/history.svg" />-->
+      <div id="history_track"><div id="bar"/></div>
+    </div>    
+  </body>
+     <script>
+        var argPair;
+        var visible = false;	// HTML engine should be launched in hidden state
+
+        var updateHandler = function(err, eventID, action) {
+
+            if (eventID === undefined)
+                return;
+
+            var bar = document.getElementById("bar");
+            var widthSpec = 100 * action.index / action.count + '%';
+            bar.style.webkitTransitionProperty = 'width';
+            bar.style.webkitTransitionDuration = '0.2s';
+            bar.style.width = widthSpec;
+
+            var container = document.getElementById("container");
+
+            if (eventID === 'update') {
+                container.style.webkitTransitionProperty = 'opacity';
+                container.style.webkitTransitionDuration = '0s';
+                if (action.permitted)
+                    container.style.opacity = '1.0';
+                else
+                    container.style.opacity = '1.0';
+
+	        if (visible === false) {
+                    _spaces.window.setVisibility(true, {}, function(err) {});
+                    visible = true;
+                }
+            }
+            if (eventID === 'end') {
+                container.style.webkitTransitionProperty = 'opacity';
+                container.style.webkitTransitionDuration = '2.0s';
+                if (action.permitted)
+                    container.style.opacity = '0.0';
+                else
+                    container.style.opacity ='0.0';
+
+            }
+        }
+
+        _spaces.setNotifier(_spaces.notifierGroup.DIRECT, {}, updateHandler);
+
+    </script>
+
+</html>

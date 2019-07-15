@@ -1,0 +1,56 @@
+layout convertToolPresets
+    {
+	interface:
+		removeToolPreset	: false;        
+		macintosh			: true;
+		windows				: false <== !macintosh;
+	
+    view TConvertToolPresetsDialog(name: '$$$/Dialog/ConvertToolPresetsDialog/Title=Convert Tool Presets',
+                           placement: place_column,
+                           margin: 15,
+                           isResizable: false)
+        {					
+		TStaticText(horizontal : align_fill,
+					autoWrap   : true,
+					name       : "$$$/Dialog/ConvertToolPresetsDialog/Prompt=Convert compatible tool presets to brush presets?^r^rWe recommend converting compatible tool presets to brush presets. Brush presets^rnow contain all the functionality of tool presets, but with additional benefits such as^rstroke previews and the ability to organize into folders."			
+			);								
+		
+		TStaticText(identifier: @learnMoreLink,
+					horizontal : align_left,
+					name: '$$$/Dialog/ConvertToolPresetsDialog/BrushPresetsLearnMore=Learn more about Brush Presets', 
+					wincontrol: false);
+			
+		column(margin : [12, 0, 40, 0])
+			{
+			TCheckBox(horizontal : align_left,
+					  identifier : @removeBox,
+					  bind       : @removeToolPreset,
+					  name       : "$$$/Dialog/ConvertToolPresetsDialog/RemoveToolPreset=Remove Tool Presets After Conversion");
+			}
+																   										
+		TOptional(bind: @macintosh, placement: place_row, horizontal: align_right)
+			{	
+			TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+					identifier: @cancel,
+					dismiss: true);
+				
+			TButton(name: "$$$/ControlsStrings/OK=OK",
+					identifier: @ok,
+					dismiss: true,
+					default: true);	
+			}	
+																   
+		/* Flip button order for Windows */											
+		TOptional(bind: @windows, placement: place_row, horizontal: align_right)
+			{	
+			TButton(name: "$$$/ControlsStrings/OK=OK",
+					identifier: @ok,
+					dismiss: true,
+					default: true);
+			
+			TButton(name: "$$$/ControlsStrings/Cancel=Cancel",
+					identifier: @cancel,
+					dismiss: true);			
+			}															
+        }
+    }

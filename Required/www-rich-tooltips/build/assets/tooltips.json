@@ -1,0 +1,299 @@
+{
+  "client": "RichToolTips",
+  "name": "rich_tooltips_metadata",
+  "dictionary": "https://psbutler.adobe.com/rich-tooltips/nls",
+  "tooltips": {
+    "3DSM": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "3DDM": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "AKNT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "ARTT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "AHBT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SERA": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "BLUR": {
+      "contents": "/videos/blur-tool-2302d8a7.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/blur-tool-2302d8a7.webm"
+    },
+    "PNTB": {
+      "contents": "/videos/paint-brush-tool-dff465e1.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/paint-brush-tool-dff465e1.webm"
+    },
+    "BURN": {
+      "contents": "/videos/burn-tool-28577161.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/burn-tool-28577161.webm"
+    },
+    "STAM": {
+      "contents": "/videos/clone-stamp-tool-b5635a99.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/clone-stamp-tool-b5635a99.webm",
+      "tutorial": "clone-stamp"
+    },
+    "CRBT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "COLS": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "RCMP": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "COUN": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "CKNT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "CROP": {
+      "contents": "/videos/crop-tool-620e3a13.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/crop-tool-620e3a13.webm",
+      "tutorial": "crop-a-photo"
+    },
+    "CUSH": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "DKNT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "PTHA": {
+      "contents": "/videos/direct-select-tool-c0722ed5.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/direct-select-tool-c0722ed5.webm"
+    },
+    "DODG": {
+      "contents": "/videos/dodge-tool-d6e4fb0f.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/dodge-tool-d6e4fb0f.webm"
+    },
+    "ELPS": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "ELMT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "ERAS": {
+      "contents": "/videos/eraser-tool-34accffb.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/eraser-tool-34accffb.webm"
+    },
+    "EYED": {
+      "contents": "/videos/color-dropper-tool-ac6b2ee8.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/color-dropper-tool-ac6b2ee8.webm"
+    },
+    "MPEN": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "BNDT": {
+      "contents": "/videos/gradient-tool-841d01e9.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/gradient-tool-841d01e9.webm"
+    },
+    "HAND": {
+      "contents": "/videos/hand-tool-d95c76b7.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/hand-tool-d95c76b7.webm"
+    },
+    "STMM": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "HSTB": {
+      "contents": "/videos/history-brush-tool-a30492c9.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/history-brush-tool-a30492c9.webm"
+    },
+    "TXBX": {
+      "contents": "/videos/text-tool-d13d9380.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/text-tool-d13d9380.webm",
+      "tutorial": "add-text"
+    },
+    "TYPS": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "LASO": {
+      "contents": "/videos/lasso-tool-83c8f342.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/lasso-tool-83c8f342.webm",
+      "tutorial": "change-colors-of-an-object"
+    },
+    "LINT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "MERA": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "WAND": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "MLAS": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "WETB": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "LMVR": {
+      "contents": "/videos/move-tool-238e5efa.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/move-tool-238e5efa.webm",
+      "tutorial": "add-multiple-images-compositing"
+    },
+    "TXTA": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "BUCK": {
+      "contents": "/videos/paint-bucket-tool-378892d3.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/paint-bucket-tool-378892d3.webm"
+    },
+    "PTCH": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "PCST": {
+      "contents": "/videos/path-selection-1506dbf4.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/path-selection-1506dbf4.webm"
+    },
+    "STMP": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "PENT": {
+      "contents": "/videos/pen-tool-51df74d7.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/pen-tool-51df74d7.webm"
+    },
+    "PENC": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "PCRP": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "POLY": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "PGON": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "QKSL": {
+      "contents": "/videos/quick-select-tool-3b2c2737.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/quick-select-tool-3b2c2737.webm",
+      "tutorial": "change-background"
+    },
+    "RECT": {
+      "contents": "/videos/rectangle-tool-925ed4c4.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/rectangle-tool-925ed4c4.webm",
+      "tutorial": "add-shapes"
+    },
+    "RGMT": {
+      "contents": "/videos/rectangle-marquee-tool-697c1de4.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/rectangle-marquee-tool-697c1de4.webm"
+    },
+    "RDEY": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "ROTT": {
+      "contents": "/videos/rotate-view-tool-3769c91c.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/rotate-view-tool-3769c91c.webm"
+    },
+    "RRCT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "MEAT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SHAR": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SRMT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SCMT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SLCT": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SLST": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SMUD": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SATU": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "SPHB": {
+      "contents": "/videos/spot-healing-tool-fa33845a.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/spot-healing-tool-fa33845a.webm",
+      "tutorial": "remove-small-imperfections"
+    },
+    "TXBV": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "VTYS": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "ZOOM": {
+      "contents": "/videos/zoom-tool-16649304.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/zoom-tool-16649304.webm"
+    },
+    "CPEN": {
+      "contents": null,
+      "contentsPath": null
+    },
+    "PMZM": {
+      "contents": "/videos/zoom-tool-16649304.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/zoom-tool-16649304.webm"
+    },
+    "PMHA": {
+      "contents": "/videos/hand-tool-d95c76b7.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/hand-tool-d95c76b7.webm"
+    },
+    "PMDB": {
+      "contents": "/videos/caf-brush-tool-0c919752.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/caf-brush-tool-0c919752.webm"
+    },
+    "PMLS": {
+      "contents": "/videos/caf-lasso-tool-dc2c5cae.webm",
+      "contentsPath": "https://psbutler.adobe.com/rich-tooltips/videos/caf-lasso-tool-dc2c5cae.webm"
+    }
+  }
+}

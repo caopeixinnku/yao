@@ -1,0 +1,32 @@
+/*fonts*/
+
+/* Adobe Clean Regular */
+@font-face {
+    font-family: 'AdobeClean';
+    src: url('../../fonts/AdobeClean-Regular.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+/* Adobe Clean Bold */
+@font-face {
+    font-family: 'AdobeClean-Bold';
+    src: url('../../fonts/AdobeClean-Bold.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Adobe Clean Bold Italic */
+@font-face {
+    font-family: 'AdobeClean-BoldItalic';
+    src: url('../../fonts/AdobeClean-BoldIt.otf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Adobe Clean Italic */
+@font-face {
+    font-family: 'AdobeClean-Italic';
+    src: url('../../fonts/AdobeClean-It.otf');
+    font-weight: normal;
+    font-style: italic;
+}

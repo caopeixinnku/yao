@@ -1,0 +1,9 @@
+layout stuntPanelBusyBox
+    {
+    view TStuntPanelBusyBox(
+        identifier  : @stuntPanelBusyBox,
+        qDebugDraw  : true)
+        {
+        TStaticText(name: '$$$/private/StuntPanelBusyBox=Hello, world!');
+        }
+    }
